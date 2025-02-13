@@ -12,11 +12,19 @@ export const About = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2  items-center">
                     <div className="">
                         <h2 className="md:text-lg lg:text-2xl text-xl font-bold text-gray-800 mb-4">Ahmed Paint Traders</h2>
-                        <h3 className="md:text-sm lg:text-2xl text-xl font-bold text-gray-800 mb-4"> Exporter / Supplier / Retailer Of Paint</h3>
-                        <p className="text-gray-600 leading-relaxed max-md:text-sm">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, totam itaque ullam nihil deserunt, ad iusto vel dolor eos dolorum,
-                         aliquid non. Natus hic laboriosam ipsa voluptates ipsam ullam expedita!
-                        </p>
+                        <h3 className="md:text-sm lg:text-xl text-xl font-bold text-gray-500 mb-4"> Exporter / Supplier / Retailer Of Paint</h3>
+                        <p className="text-gray-400 leading-relaxed max-md:text-sm">
+                     Ahmed Paint Traders is a trusted Asian Paints Dealer in Karaikudi,Tamil Nadu,
+                     offering a wide range of premium paints,coatings,and related products. 
+                     They specialize in interior and exterior paints,wood finishes,waterproofing 
+                     solutions, and painting accessories from leading brands,with a focus on Asian Paints products.
+                              </p>
+                              <p className="text-gray-400 leading-relaxed max-md:text-sm mt-4">
+                     As a trusted paint trader,they cater to both retail and wholesale customers,
+                     including homeowners,contractors,and businesses.With a commitment to quality
+                    and customer satisfaction,Ahmed Paint Traders provides expert advice,ensuring 
+                    you get the best products for your painting needs.
+                              </p>
                     </div>
                      <div className="flex justify-center h-[60%]">
                         <img

@@ -3,7 +3,7 @@ import { BsArrowRight} from "react-icons/bs";
 const area =[
     {
     Name:"Interiors",
-    img:"public/ahmed/interiors.png"
+    img:"/ahmed/interiors.png"
     },
      {
     Name:"Exteriors",
