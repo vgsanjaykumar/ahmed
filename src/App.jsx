@@ -17,7 +17,7 @@ function App() {
     <div >
     <div className="h-[400px] md:h-[600px] lg:h-[800px] relative">
       <div className="bg-black\">
-        <img src="public/ahmed/ahmed hero 1.jpg " alt="bg"
+        <img src="/ahmed/ahmed hero 1.jpg " alt="bg"
           className="absolute right-0 top-0 h-[400px] md:h-[600px] lg:h-[800px] w-full    opacity-50 z-[-1]"
         /></div>
         <Navbar />
