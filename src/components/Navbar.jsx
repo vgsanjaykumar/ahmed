@@ -22,16 +22,17 @@ const Navbar = () => {
         <section className="">
             <nav
                 data-aos="fade-down"
-                className={`${isScrolled ? "md:bg-[rgb(255,242,0)]" : "bg-[rgba(255,242,0,0.0)]"
+                className={`${isScrolled ? "md:bg-[#0A3981]" : "bg-[rgba(255,242,0,0.0)]"
                     } p-2 fixed w-full z-50 transition-all duration-300`}
             >
-                <div className={` h-10 xl:h-12  px ${isScrolled ? "text-[#1f1d1dec]" : "text-white"}  hidden  md:block`}>
+                <div className={` h-10 xl:h-12  px ${isScrolled ? "text-[white]" : "text-white"}  hidden  md:block`}>
                     <ul className=" flex gap-10 justify-center py-2 font-bold text-lg xl:text-2xl  ">
-                        <li><a href="/" className={` ${isScrolled ? "hover:text-[#f5f7f6]" : "hover:text-[#FFF200]"} our-font `}>Home</a></li>
-                        <li><a href="#about" className={` ${isScrolled ? "hover:text-[#f5f7f6]" : "hover:text-[#FFF200]"} our-font `}>About </a></li>
-                        <li><a href="#Products" className={` ${isScrolled ? "hover:text-[#f5f7f6]" : "hover:text-[#FFF200]"} our-font`}>Products</a></li>
-                        <li><a href="#Dealership" className={` ${isScrolled ? "hover:text-[#f5f7f6]" : "hover:text-[#FFF200] "} our-font `}>Dealership</a></li>
-                        <li><a href="#contact" className={` ${isScrolled ? "hover:text-[#f5f7f6]" : "hover:text-[#FFF200]"} our-font`}>Contacts</a></li>
+                        <li><a href="/" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Home</a></li>
+                        <li><a href="/" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Whats New</a></li>
+                        <li><a href="/" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>About</a></li>
+                        <li><a href="/" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Products</a></li>
+                        <li><a href="/" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Dealership</a></li>
+                        <li><a href="/" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Contacts</a></li>
                     </ul>
                 </div>
                 <span
@@ -44,12 +45,13 @@ const Navbar = () => {
                 {showMenu && (
                     <div 
                     className="
-                    z-50 w-[60%] md:w-[45%] md:hidden h-screen overflow-scroll absolute top-0 left-0 p-4 scrollbar-hide bg-[#FFF200]"
+                    z-50 w-[60%] md:w-[45%] md:hidden h-screen overflow-scroll absolute top-0 left-0 p-4 scrollbar-hide bg-[#009990]"
                     >
                         <div className="flex flex-col gap-8 py-12 relative">
                             <ul className="flex flex-col text- gap-4 pl-2 py-4">
                             <li><a href="/" onClick={() => setShowMenu(!showMenu)} className= "text-gray-800 hover:text-white our-font">Home</a></li>
-                            <li><a href="#about" onClick={() => setShowMenu(!showMenu)} className= "text-gray-800 hover:text-white our-font">About </a></li>
+                            <li><a href="#about" onClick={() => setShowMenu(!showMenu)} className= "text-gray-800 hover:text-white our-font">whats New </a></li>
+                            <li><a href="#Products" onClick={() => setShowMenu(!showMenu)} className= "text-gray-800 hover:text-white our-font">About</a></li>
                             <li><a href="#Products" onClick={() => setShowMenu(!showMenu)} className= "text-gray-800 hover:text-white our-font">Products</a></li>
                             <li><a href="#Dealership" onClick={() => setShowMenu(!showMenu)} className= "text-gray-800 hover:text-white our-font">Dealership</a></li>
                             <li><a href="#contact" onClick={() => setShowMenu(!showMenu)} className= "text-gray-800 hover:text-white our-font">Contacts</a></li>

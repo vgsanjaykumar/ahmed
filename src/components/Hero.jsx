@@ -3,21 +3,21 @@ import { BsWhatsapp } from "react-icons/bs";
 
 const Hero = () => {
     return (
-        <div className=" bg-[#000000a5] h-screen ">
-            <div className="h-screen flex justify-center items-center ">
+        <div className=" bg-[#080808ac]  ">
+            <div className=" h-[400px] md:h-[600px] lg:h-[800px] flex justify-center items-center ">
                 <div className="gap-4  bg-[#00000028] rounded-2xl w-full h-50  ">
                     <div className="text-white  text-center mt-7 ">
                         <h1 className="xl:text-5xl md:text-2xl text-xl font-bold ">
-                            UltraTech Building <br /><span className="text-[#FFF200]"> Solutions...</span>
+                            Ahmed paint<span className="text-[#009990]"> traders...</span>
                         </h1>
                         <p className="mt-5 px-8 xl:text-lg md:text-base text-xs text-slate-300">
-                            14 PARUPPOORANI SOUTH, V.O.C ROAD,SRI MUTHUMARIAMMAN KOVIL STREET,KARAIKUDI
+                           Sekkalai Rd, near FIVE LAMPS, Karaikudi, Tamil Nadu 630001
                         </p>
                         <button
                             className="button-all text-gray-700 mt-5 mb-5  xl:text-xl md:text-base text-xs"
                         >
 
-                            <a href="https://wa.me/91+9842611032?text=hello I need buliding products and cement !" target="_blank"><BsWhatsapp className="inline-block max-md:text-base mr-1 mt-[-2px] "/></a> Reach us
+                            <a href="https://wa.me/91+9600417117?text=hello I need buliding products and cement !" target="_blank"><BsWhatsapp className="inline-block max-md:text-base mr-1 mt-[-2px] "/></a> Reach us
                         </button>
                     </div>
                     <div></div>

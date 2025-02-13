@@ -15,10 +15,10 @@ function App() {
   return (
     <>
     <div >
-    <div className="h-screen relative">
-      <div className="bg-black">
-        <img src="assets/natarajan and co mrng.jpg" alt="bg"
-          className="absolute right-0 top-0 h-screen w-full object-cover opacity-50 z-[-1]"
+    <div className="h-[400px] md:h-[600px] lg:h-[800px] relative">
+      <div className="bg-black\">
+        <img src="public/ahmed/ahmed hero 1.jpg " alt="bg"
+          className="absolute right-0 top-0 h-[400px] md:h-[600px] lg:h-[800px] w-full    opacity-50 z-[-1]"
         /></div>
         <Navbar />
         <Hero />
