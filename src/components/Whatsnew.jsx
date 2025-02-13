@@ -3,7 +3,7 @@ import React from "react";
 export const Whatsnew = () => {
     return (
         <section className="top-container-1">
-                    <div id="about" className=" bg-gray-50">
+                    <div id="about" className=" ">
                         <div className=" Title-div mb-10 ">
                     <h2 className="title-text">Whats New</h2>
                 </div>
