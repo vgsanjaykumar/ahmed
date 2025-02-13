@@ -49,12 +49,12 @@ const Navbar = () => {
                     >
                         <div className="flex flex-col gap-8 py-12 relative">
                             <ul className="flex flex-col text- gap-4 pl-2 py-4">
-                            <li><a href="/" onClick={() => setShowMenu(!showMenu)} className= "text-gray-800 hover:text-white our-font">Home</a></li>
-                            <li><a href="#about" onClick={() => setShowMenu(!showMenu)} className= "text-gray-800 hover:text-white our-font">whats New </a></li>
-                            <li><a href="#Products" onClick={() => setShowMenu(!showMenu)} className= "text-gray-800 hover:text-white our-font">About</a></li>
-                            <li><a href="#Products" onClick={() => setShowMenu(!showMenu)} className= "text-gray-800 hover:text-white our-font">Products</a></li>
-                            <li><a href="#Dealership" onClick={() => setShowMenu(!showMenu)} className= "text-gray-800 hover:text-white our-font">Dealership</a></li>
-                            <li><a href="#contact" onClick={() => setShowMenu(!showMenu)} className= "text-gray-800 hover:text-white our-font">Contacts</a></li>
+                            <li><a href="/" onClick={() => setShowMenu(!showMenu)} className= "text-white hover:text-gray-800 our-font">Home</a></li>
+                            <li><a href="#about" onClick={() => setShowMenu(!showMenu)} className= "text-white hover:text-gray-800 our-font">whats New </a></li>
+                            <li><a href="#Products" onClick={() => setShowMenu(!showMenu)} className= "text-white hover:text-gray-800 our-font">About</a></li>
+                            <li><a href="#Products" onClick={() => setShowMenu(!showMenu)} className= "text-white hover:text-gray-800 our-font">Products</a></li>
+                            <li><a href="#Dealership" onClick={() => setShowMenu(!showMenu)} className= "text-white hover:text-gray-800 our-font">Dealership</a></li>
+                            <li><a href="#contact" onClick={() => setShowMenu(!showMenu)} className= "text-white hover:text-gray-800 our-font">Contacts</a></li>
                             </ul>
                             
                             <span
