@@ -9,6 +9,7 @@ import Dealership from "./components/Dealarship"
 import Awards from "./components/Awards"
 import Whatsnew from "./components/Whatsnew"
 import Areas from "./components/Areas"
+import Interiors from "./components/Interiors"
 
 
 
@@ -27,6 +28,7 @@ function App() {
       </div>
            <Whatsnew />
           <About />
+          <Interiors/>
           <Areas />
             {/* <Product data={JsonData.Products}/>
             <Dealership/>

@@ -2,12 +2,12 @@ import React from "react";
 
 export const About = () => {
     return (
-        <section className="top-container-1">
-          <div id="about" className="py-2 bg-gray-50">
+        <section className="top-container-1 ">
+          <div id="about" className="py-2 ">
                 <div className="">
                     <h2 className="title-text">About us</h2>
                 </div>
-            <div className="flex justify-center md:justify-between items-center  px-0 lg:px-4 ">
+            <div className="flex justify-center md:justify-between items-center  px-2 lg:px-4 ">
                 
                 <div className="grid grid-cols-1 md:grid-cols-2  items-center">
                     <div className="">

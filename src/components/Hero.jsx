@@ -8,7 +8,7 @@ const Hero = () => {
                 <div className="gap-4  bg-[#00000028] rounded-2xl w-full h-50  ">
                     <div className="text-white  text-center mt-7 ">
                         <h1 className="xl:text-5xl md:text-2xl text-xl font-bold ">
-                            Ahmed paint<span className="text-[#009990]"> traders...</span>
+                            Ahmed paint<span className="text-[#074799]"> traders...</span>
                         </h1>
                         <p className="mt-5 px-8 xl:text-lg md:text-base text-xs text-slate-300">
                            Sekkalai Rd, near FIVE LAMPS, Karaikudi, Tamil Nadu 630001

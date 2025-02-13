@@ -16,13 +16,21 @@ const area =[
      {
     Name:"WoodFinishes",
     img:"/ahmed/wood-finishes.png"
+    },
+     {
+    Name:"Waterproofing",
+    img:"/ahmed/waterproofing.png"
+    },
+     {
+    Name:"Emulsions",
+    img:"/ahmed/emulsions.png"
     }
     
 ]
 export const Areas = () => {
     return (
-        <section className="top-container-1">
-          <div id="about" className="py-2 bg-gray-50">
+        <section className="">
+          <div id="about" className="">
                 <div className="">
                     <h2 className="text-2xl md:text-4xl font-bold mx-auto text-gray-700  text-center mb-2">Areas of expertise</h2>
                     <p className="mx-auto text-gray-400   text-center md:mb-16 mb-8">One stop solution for all you need to keep your living space intact.</p>
@@ -30,7 +38,7 @@ export const Areas = () => {
             <div className="flex justify-center flex-col gap-6 md:justify-between items-center  px-0 lg:px-4 ">
                  <div className="grid grid-cols-2 lg:grid-cols-4  md:grid-cols-2 gap-5 items-center">
                     {area.map((area) => (
-                      <div className="flex justify-center relative hover:-translate-y-4 duration-500 delay-200  ">
+                      <div className="flex justify-center relative hover:-translate-y-4 duration-500 delay-200 mb-5 ">
                         <img
                             src={area.img}
                             alt="About Us"
