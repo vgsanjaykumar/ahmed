@@ -5,7 +5,7 @@ export const About = () => {
     return (
         <section id="about" className="top-container-1 ">
         <div  className="py-2 ">
-                <div className="">
+                <div className="mb-8">
                     <h2 className="title-text">About us</h2>
                 </div>
             <div className="flex justify-center md:justify-between items-center  px-2 lg:px-4 ">

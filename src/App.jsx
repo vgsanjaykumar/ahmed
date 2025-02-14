@@ -1,12 +1,8 @@
 import About from "./components/About"
 import Contact from "./components/Contact"
 import Navbar from "./components/Navbar"
-import Product from "./components/Product"
-import JsonData from "./components/Constants/Product.json"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
-import Dealership from "./components/Dealarship"
-import Awards from "./components/Awards"
 import Whatsnew from "./components/Whatsnew"
 import Areas from "./components/Areas"
 import Interiors from "./components/Interiors"
@@ -30,12 +26,13 @@ function App() {
           <About />
           <Interiors/>
           <Areas />
+          <Contact/>
             {/* <Product data={JsonData.Products}/>
             <Dealership/>
             <Awards/>
-            <Contact phone={JsonData.phone} />
+            <Contact phone={JsonData.phone} /> */}
             
-            <Footer/> */}
+            <Footer/>
     </div>
     
     </>
