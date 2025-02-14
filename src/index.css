@@ -15,7 +15,7 @@
 }
 
 .button-all {
-    @apply bg-[white] text-green-600 font-bold md:inline transform transition-transform duration-300 hover:scale-110 py-2 px-4 rounded-full
+    @apply bg-[white] text-green-600 font-bold md:inline transform transition-transform duration-300 hover:scale-110  rounded-full
 }
 
 .txt-shadow {
