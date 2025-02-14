@@ -22,9 +22,9 @@ const inte =[
 ]
 export const Interiors = () => {
     return (
-        <section className="top-container-1">
-          <div id="about" className="">
-                <div className="">
+        <section id="explore" className="top-container-1">
+          <div  className="">
+                <div  className="">
                     <h2 className="text-2xl md:text-4xl font-bold mx-auto text-gray-700  text-center mb-4">Explore our room makeover services</h2>
                     <p className="mx-auto text-gray-400   text-center  mb-8">Get hassle-free project management and execution when it comes to building your dream home with a tailor-made service.</p>
                 </div>

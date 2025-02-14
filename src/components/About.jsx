@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 export const About = () => {
     return (
-        <section className="top-container-1 ">
-          <div id="about" className="py-2 ">
+        <section id="about" className="top-container-1 ">
+        <div  className="py-2 ">
                 <div className="">
                     <h2 className="title-text">About us</h2>
                 </div>
@@ -17,7 +17,7 @@ export const About = () => {
                         <p className="text-gray-400 leading-relaxed max-md:text-sm">
                      Ahmed Paint Traders is a trusted Asian Paints Dealer in Karaikudi,Tamil Nadu,
                      offering a wide range of premium paints,coatings,and related products. 
-                     They specialize in interior and exterior paints,wood finishes,waterproofing 
+                     They specialize in interior and exterior paints,wood finishes,waterproofing
                      solutions, and painting accessories from leading brands,with a focus on Asian Paints products.
                               </p>
                               <p className="text-gray-400 leading-relaxed max-md:text-sm mt-4">

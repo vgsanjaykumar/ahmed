@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 export const Whatsnew = () => {
   return (
-    <section className="top-container-1 py-10">
-      <div id="about" className="container mx-auto px-4">
+    <section id="WN" className="top-container-1 py-10">
+      <div  className="container mx-auto px-4">
         <div className="Title-div mb-10 text-center">
           <h2 className="title-text text-3xl font-bold text-gray-800">What's New</h2>
         </div>

@@ -29,8 +29,8 @@ const area =[
 ]
 export const Areas = () => {
     return (
-        <section className="">
-          <div id="about" className="">
+        <section id="products" className="">
+          <div className="">
                 <div className="">
                     <h2 className="text-2xl md:text-4xl font-bold mx-auto text-gray-700  text-center mb-2">Areas of expertise</h2>
                     <p className="mx-auto text-gray-400   text-center md:mb-16 mb-8">One stop solution for all you need to keep your living space intact.</p>
