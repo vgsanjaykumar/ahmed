@@ -3,14 +3,14 @@ import { motion } from "framer-motion";
 import { BsWhatsapp } from "react-icons/bs";
 
 const products = [
-    { id: 1, name: "Product 1", img: "assets/roff.png", description: "Description of Product 1" },
+    { id: 1, name: "Product 1", img: "ahmed/new product.png", description: "Description of Product 1" },
     { id: 2, name: "Product 2", img: "assets/sintex.jpeg", description: "Description of Product 2" },
-    { id: 3, name: "Product 3", img: "assets/roff.png", description: "Description of Product 3" },
+    { id: 3, name: "Product 3", img: "ahmed/interiors.png", description: "Description of Product 3" },
     { id: 4, name: "Product 4", img: "assets/ultratech.png", description: "Description of Product 4" },
     { id: 5, name: "Product 5", img: "assets/roff.png", description: "Description of Product 5" },
     { id: 6, name: "Product 6", img: "assets/roff.png", description: "Description of Product 6" },
     { id: 7, name: "Product 7", img: "assets/ultratech.png", description: "Description of Product 1" },
-    { id: 8, name: "Product 8", img: "assets/roff.png", description: "Description of Product 2" },
+    { id: 8, name: "Product 8", img: "ahmed/exteriors.png", description: "Description of Product 2" },
     { id: 9, name: "Product 9", img: "assets/dr fixit.jpg", description: "Description of Product 3" },
     { id: 10, name: "Product 10", img: "assets/unnamed.png", description: "Description of Product 4" },
     { id: 11, name: "Product 11", img: "assets/ultratech.png", description: "Description of Product 5" },
