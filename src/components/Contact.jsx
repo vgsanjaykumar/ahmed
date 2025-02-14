@@ -1,22 +1,21 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaFacebook, FaInstagram, FaMailBulk, FaMailchimp, FaUser, FaWhatsapp } from "react-icons/fa";
-import { FaLocationArrow, FaLocationDot, FaLocationPin, FaPhone } from "react-icons/fa6";
-import { BsInbox, BsMailbox, BsMailbox2, BsMailbox2Flag } from "react-icons/bs";
-import { GiMailbox } from "react-icons/gi";
+import { FaFacebook, FaInstagram, FaUser, FaWhatsapp } from "react-icons/fa";
+import { FaLocationDot, FaPhone } from "react-icons/fa6";
+
 import { BiMessage } from "react-icons/bi";
 
 export const Contact = () => {
   return (
     <section id="about" className="top-container-1 ">
       <div className="py-2 ">
-        {/* <motion.div
+        <motion.div
           className=""
           initial={{ scale: 1, opacity: 0 }}
           whileInView={{ scale: 1.1, opacity: 1 }}
           transition={{ duration: 1.2, ease: "easeOut" }}
           viewport={{ once: false, amount: 0.3 }}
-        > */}
+        >
           <div className="mb-8">
             <h2 className="title-text mb-10">Contact us</h2>
           </div>
@@ -61,7 +60,7 @@ export const Contact = () => {
 
           </div>
 
-        {/* </motion.div> */}
+        </motion.div>
       </div>
 
     </section>
