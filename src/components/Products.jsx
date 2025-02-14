@@ -45,7 +45,7 @@ const ProductSection = () => {
 
                     <motion.div
                         id="product-scroll-container"
-                        className="mt-6 max-w-5xl mx-auto h-[22rem] sm:h-[26rem] overflow-y-auto bg-white p-4 rounded-lg shadow-xl border border-gray-200"
+                        className="mt-6 max-w-5xl mx-auto h-[22rem] sm:h-[26rem] overflow-y-auto bg-white p-4 rounded-lg border-y-2 "
                         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
                     >
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
