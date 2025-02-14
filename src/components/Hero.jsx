@@ -14,7 +14,7 @@ const Hero = () => {
                            Sekkalai Rd, near FIVE LAMPS, Karaikudi, Tamil Nadu 630001
                         </p>
                         <button
-                            className="button-all text-gray-700 mt-5 mb-5  xl:text-xl md:text-base text-2xl"
+                            className="button-all text-gray-700 mt-5 mb-5  "
                         >
 
                             <a href="https://wa.me/91+9600417117?text=hello I need buliding products and cement !" target="_blank"><BsWhatsapp className="inline-block max-md:text-base text-2xl "/></a> 
