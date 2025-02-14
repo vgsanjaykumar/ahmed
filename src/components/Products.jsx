@@ -4,38 +4,24 @@ import { BsWhatsapp } from "react-icons/bs";
 
 const products = [
     { id: 1, name: "Product 1", img: "assets/roff.png", description: "Description of Product 1" },
-    { id: 2, name: "Product 2", img: "assets/roff.png", description: "Description of Product 2" },
+    { id: 2, name: "Product 2", img: "assets/sintex.jpeg", description: "Description of Product 2" },
     { id: 3, name: "Product 3", img: "assets/roff.png", description: "Description of Product 3" },
-    { id: 4, name: "Product 4", img: "assets/roff.png", description: "Description of Product 4" },
+    { id: 4, name: "Product 4", img: "assets/ultratech.png", description: "Description of Product 4" },
     { id: 5, name: "Product 5", img: "assets/roff.png", description: "Description of Product 5" },
     { id: 6, name: "Product 6", img: "assets/roff.png", description: "Description of Product 6" },
-    { id: 7, name: "Product 7", img: "assets/roff.png", description: "Description of Product 1" },
+    { id: 7, name: "Product 7", img: "assets/ultratech.png", description: "Description of Product 1" },
     { id: 8, name: "Product 8", img: "assets/roff.png", description: "Description of Product 2" },
-    { id: 9, name: "Product 9", img: "assets/roff.png", description: "Description of Product 3" },
-    { id: 10, name: "Product 10", img: "assets/roff.png", description: "Description of Product 4" },
-    { id: 11, name: "Product 11", img: "assets/roff.png", description: "Description of Product 5" },
-    { id: 12, name: "Product 12", img: "assets/roff.png", description: "Description of Product 6" },
+    { id: 9, name: "Product 9", img: "assets/dr fixit.jpg", description: "Description of Product 3" },
+    { id: 10, name: "Product 10", img: "assets/unnamed.png", description: "Description of Product 4" },
+    { id: 11, name: "Product 11", img: "assets/ultratech.png", description: "Description of Product 5" },
+    { id: 12, name: "Product 12", img: "assets/tenax.png", description: "Description of Product 6" },
 ];
 
 const ProductSection = () => {
     const [selectedProduct, setSelectedProduct] = useState(null);
 
-    useEffect(() => {
-        const scrollInterval = setInterval(() => {
-            const container = document.getElementById("product-scroll-container");
-            if (container) {
-                container.scrollBy({ top: 100, behavior: "smooth" });
-                if (container.scrollTop + container.clientHeight >= container.scrollHeight) {
-                    container.scrollTo({ top: 0, behavior: "smooth" });
-                }
-            }
-        }, 1500);
-
-        return () => clearInterval(scrollInterval);
-    }, []);
-
     return (
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto px-4  sm:px-6 lg:px-8">
             {!selectedProduct ? (
                 <>
                     <div className="text-center mt-6">
@@ -45,10 +31,10 @@ const ProductSection = () => {
 
                     <motion.div
                         id="product-scroll-container"
-                        className="mt-6 max-w-5xl mx-auto h-[22rem] sm:h-[26rem] overflow-y-auto bg-white p-4 rounded-lg border-y-2 "
+                        className="mt-6 max-w-5xl mx-auto h-[22rem] sm:h-[26rem] own-bg overflow-y-auto bg-white p-4 rounded-lg border-y-2 "
                         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
                     >
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 mx-5 my-5">
                             {products.map((product) => (
                                 <div
                                     key={product.id}
