@@ -13,8 +13,8 @@ import Interiors from "./components/Interiors"
 
 
 
-function App() {
 
+function App() {
   return (
     <>
     <div >
@@ -26,7 +26,7 @@ function App() {
         <Navbar />
         <Hero />
       </div>
-           <Whatsnew />
+          <Whatsnew />
           <About />
           <Interiors/>
           <Areas />

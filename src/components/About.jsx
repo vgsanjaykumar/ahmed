@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 export const About = () => {
     return (
@@ -27,11 +28,19 @@ export const About = () => {
                               </p>
                     </div>
                      <div className="flex justify-center h-[60%]">
+                     <motion.div
+            className="flex justify-center"
+            initial={{ scale: 1, opacity: 0 }}
+            whileInView={{ scale: 1.1, opacity: 1 }}
+            transition={{ duration: 1.2, ease:"easeOut" }}
+            viewport={{ once: false, amount: 0.3 }}
+          >
                         <img
                             src="/ahmed/ahmed outside.jpg"
                             alt="About Us"
-                            className="w-full max-h-max max-w-md rounded-lg shadow-lg object-center hover:scale-110  duration-700 delay-100"
+                            className="w-full max-h-max max-w-md rounded-lg shadow-lg object-center "
                         />
+                        </motion.div>
                     </div>
                 </div>
             </div>
