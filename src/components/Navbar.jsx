@@ -1,7 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { BsWhatsapp } from "react-icons/bs";
-import { CgWebsite } from "react-icons/cg";
-import { CiInstagram } from "react-icons/ci";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 
@@ -22,7 +19,7 @@ const Navbar = () => {
         <section className="">
             <nav
                 data-aos="fade-down"
-                className={`${isScrolled ? "md:bg-[C" : "bg-[rgba(255,242,0,0.0)]"
+                className={`${isScrolled ? "md:bg-[#0A3981]" : "bg-[rgba(255,242,0,0.0)]"
                     } p-2 fixed w-full z-50 transition-all duration-300`}
             >
                 <div className={` h-10 xl:h-12  px ${isScrolled ? "text-[white]" : "text-white"}  hidden  md:block`}>
