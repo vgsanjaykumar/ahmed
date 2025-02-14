@@ -1,9 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaFacebook, FaInstagram, FaUser, FaWhatsapp } from "react-icons/fa";
+import { FaEnvelope, FaFacebook, FaInstagram, FaUser, FaWhatsapp } from "react-icons/fa";
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
-
-import { BiMessage } from "react-icons/bi";
 
 export const Contact = () => {
   return (
@@ -47,10 +45,10 @@ export const Contact = () => {
                   <h2 className="md:text-lg lg:text-2xl text-xl f text-gray-500  mb-4">91+9874561230</h2>
                 </div>
                 <div className="flex md:mt-4 md:justify-start justify-center text-[#8a8de1] ">
-                  <FaWhatsapp className=" md:text-lg lg:text-2xl text-xl mr-3 hover:text-4xl duration-700 delay-400" />
-                  <FaInstagram className="md:text-lg lg:text-2xl text-xl mr-3 hover:text-4xl duration-700 delay-400" />
-                  <BiMessage className="md:text-lg lg:text-2xl text-xl mr-3 hover:text-4xl duration-700 delay-400" />
-                  <FaFacebook className="md:text-lg lg:text-2xl text-xl mr-3 hover:text-4xl duration-700 delay-400" />
+                  <a href="https://wa.me/91+9600417117?text=hello how can help you" target="2_blank"><FaWhatsapp className=" md:text-lg lg:text-2xl text-xl mr-3 hover:text-4xl duration-700 delay-400" /></a>
+                  <a href="mailto:sanjaykumarvgs@gmail.com" target="2_blank">  <FaEnvelope className="md:text-lg lg:text-2xl text-xl mr-3 hover:text-4xl duration-700 delay-400" /></a>
+                  <a href="" target="2_blank"> <FaInstagram className="md:text-lg lg:text-2xl text-xl mr-3 hover:text-4xl duration-700 delay-400" /></a>
+                  <a href="https://www.facebook.com/ahmedpaintskkdi/" target="2_blank"> <FaFacebook className="md:text-lg lg:text-2xl text-xl mr-3 hover:text-4xl duration-700 delay-400" /></a>
 
                 </div>
 
