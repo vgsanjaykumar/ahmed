@@ -6,6 +6,7 @@ import Hero from "./components/Hero"
 import Whatsnew from "./components/Whatsnew"
 import Areas from "./components/Areas"
 import Interiors from "./components/Interiors"
+import ProductSection from "./components/Products"
 
 
 
@@ -26,6 +27,7 @@ function App() {
           <About />
           <Interiors/>
           <Areas />
+          <ProductSection/>
           <Contact/>
             {/* <Product data={JsonData.Products}/>
             <Dealership/>
