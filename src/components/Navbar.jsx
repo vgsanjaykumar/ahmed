@@ -29,7 +29,7 @@ const Navbar = () => {
                         <li><a href="#about" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>About</a></li>
                         <li><a href="#explore" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Explore</a></li>
                         <li><a href="#products" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Products</a></li>
-                        <li><a href="/" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Contacts</a></li>
+                        <li><a href="#contact" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Contacts</a></li>
                     </ul>
                 </div>
                 <span
@@ -38,22 +38,22 @@ const Navbar = () => {
                 >
                     <FiMenu />
                 </span>
-                
+
                 {showMenu && (
-                    <div 
-                    className="
+                    <div
+                        className="
                     z-50 w-[60%] md:w-[45%] md:hidden h-screen overflow-scroll absolute top-0 left-0 p-4 scrollbar-hide bg-[#009990]"
                     >
                         <div className="flex flex-col gap-8 py-12 relative">
                             <ul className="flex flex-col text- gap-4 pl-2 py-4">
-                            <li><a href="/" onClick={() => setShowMenu(!showMenu)} className= "text-white hover:text-gray-800 our-font">Home</a></li>
-                            <li><a href="#about" onClick={() => setShowMenu(!showMenu)} className= "text-white hover:text-gray-800 our-font">whats New </a></li>
-                            <li><a href="#Products" onClick={() => setShowMenu(!showMenu)} className= "text-white hover:text-gray-800 our-font">About</a></li>
-                            <li><a href="#Products" onClick={() => setShowMenu(!showMenu)} className= "text-white hover:text-gray-800 our-font">Products</a></li>
-                            <li><a href="#Dealership" onClick={() => setShowMenu(!showMenu)} className= "text-white hover:text-gray-800 our-font">Dealership</a></li>
-                            <li><a href="#contact" onClick={() => setShowMenu(!showMenu)} className= "text-white hover:text-gray-800 our-font">Contacts</a></li>
+                                <li><a href="/" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">Home</a></li>
+                                <li><a href="#about" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">whats New </a></li>
+                                <li><a href="#Products" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">About</a></li>
+                                <li><a href="#Products" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">Products</a></li>
+                                <li><a href="#Dealership" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">Explore</a></li>
+                                <li><a href="#contact" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">Contacts</a></li>
                             </ul>
-                            
+
                             <span
                                 onClick={() => setShowMenu(!showMenu)}
                                 className="

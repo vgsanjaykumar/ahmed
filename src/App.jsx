@@ -7,6 +7,7 @@ import Whatsnew from "./components/Whatsnew"
 import Areas from "./components/Areas"
 import Interiors from "./components/Interiors"
 import ProductSection from "./components/Products"
+import WhatsApp from "./components/Whatapp"
 
 
 
@@ -28,6 +29,7 @@ function App() {
           <Interiors/>
           <Areas />
           <ProductSection/>
+          <WhatsApp/>
           <Contact/>
             {/* <Product data={JsonData.Products}/>
             <Dealership/>

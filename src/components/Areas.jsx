@@ -38,7 +38,7 @@ export const Areas = () => {
             <div className="flex justify-center flex-col gap-6 md:justify-between items-center  px-0 lg:px-4 ">
                  <div className="grid grid-cols-2 lg:grid-cols-4  gap-5 items-center">
                     {area.map((area) => (
-                    <a href="#products">
+                   
                       <div className="flex justify-center relative hover:-translate-y-4 duration-500 delay-200 mb-5 ">
                         <img
                             src={area.img}
@@ -47,10 +47,10 @@ export const Areas = () => {
                         />
                         <p className="absolute top-[70%] md:top-[80%] lg:top-[80%] left-5 right-0  text-white semi-font-bold  md:text-2xl text-[10px]">{area.Name}</p>
                         <div className="absolute  top-[76%] lg:top-[80%] md:top-[80%] md:left-[85%]  left-[80%] right-0 text-white font-bold md:text-2xl text-sm">
-                            <BsArrowRight />
+                                <a href="#whatapp"> <BsArrowRight />  </a>
                         </div>
                     </div>
-                    </a>
+                   
                     ))} 
                 </div>
                 
