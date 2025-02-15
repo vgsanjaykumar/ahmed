@@ -21,12 +21,12 @@ const ProductSection = () => {
     const [selectedProduct, setSelectedProduct] = useState(null);
     
     return (
-        <div className="max-w-6xl mx-auto px-4 relative sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto px-4 relative sm:px-6 md:px-[90px] lg:px-[80px]  ">
             {!selectedProduct ? (
                 <>
-                <img src="ahmed/boy.png" className="absolute left-[-96px] -z-10 bottom-1  h-60"></img>
+                <img src="ahmed/boy.png" className="absolute left-[-96px] lg:-left-[35px] md:-left-[10px] -z-10 bottom-[100px]   lg:h-48  h-40 xs:hidden md:block"></img>
 
-                <img src="ahmed/splash.png" className="absolute  right-[-70px] top-1 h-60 z-40"></img>
+             
                     <div className="text-center mt-6">
                         <h2 className="text-2xl md:text-4xl font-bold mx-auto text-gray-700  text-center mb-2">Our Products</h2>
                         <p className="mx-auto text-gray-400   text-center md:mb-16 mb-8">One stop solution for all you need to keep your living space intact.</p>
@@ -51,7 +51,7 @@ const ProductSection = () => {
                                     <img
                                         src={product.img}
                                         alt={product.name}
-                                        className="w-10 h-10 sm:w-20 sm:h-20 object-cover rounded-lg shadow-md border border-gray-300"
+                                        className="w-10 h-10 sm:w-10 sm:h-10 object-cover rounded-lg shadow-md border border-gray-300"
                                     />
                                     <div className="ml-4">
                                         <h4 className="text-sm sm:text-md font-semibold text-gray-800">{product.name}</h4>

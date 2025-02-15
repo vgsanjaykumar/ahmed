@@ -17,7 +17,7 @@ const Hero = () => {
                             className=" bg-white rounded-full border-white text-green-500 mt-5 mb-5  px-[6px] py-[2px] md:py-2 md:px-2 "
                         >
 
-                            <a href="https://wa.me/91+9600417117?text=hello I need buliding products and cement !" target="_blank"><BsWhatsapp className="inline-block max-md:text-base text-2xl hover:scale-110 duration-500 delay-200 "/></a> 
+                            <a href="https://wa.me/91+9600417117?text=hello I need buliding products and cement !" target="_blank"><BsWhatsapp className="inline-block max-md:text-base text-2xl hover:scale-110 duration-500 delay-200 mr-2 "/>Whatapp</a> 
                         </button>
                     </div>
                     <div></div>
