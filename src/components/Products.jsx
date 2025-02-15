@@ -21,24 +21,31 @@ const ProductSection = () => {
     const [selectedProduct, setSelectedProduct] = useState(null);
     
     return (
-        <div className="max-w-6xl mx-auto px-4  sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto px-4 relative sm:px-6 lg:px-8">
             {!selectedProduct ? (
                 <>
+                <img src="ahmed/boy.png" className="absolute left-[-96px] -z-10 bottom-1  h-60"></img>
+
+                <img src="ahmed/splash.png" className="absolute  right-[-70px] top-1 h-60 z-40"></img>
                     <div className="text-center mt-6">
                         <h2 className="text-2xl md:text-4xl font-bold mx-auto text-gray-700  text-center mb-2">Our Products</h2>
                         <p className="mx-auto text-gray-400   text-center md:mb-16 mb-8">One stop solution for all you need to keep your living space intact.</p>
                     </div>
+
+                    
+
+                    
 
                     <motion.div
                         id="product-scroll-container"
                         className="mt-6 max-w-5xl mx-auto h-[22rem] sm:h-[26rem] own-bg overflow-y-auto bg-white p-4 rounded-lg border-y-2 "
                         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
                     >
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 mx-5 my-5">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-7  mx-5 my-5">
                             {products.map((product) => (
                                 <div
                                     key={product.id}
-                                    className="flex items-center bg-gray-50 p-3 rounded-lg shadow-sm hover:shadow-md transition cursor-pointer"
+                                    className="flex items-center my-box bg-gray-50 p-3 rounded-lg shadow-sm hover:shadow-md transition cursor-pointer"
                                     onClick={() => setSelectedProduct(product)}
                                 >
                                     <img
