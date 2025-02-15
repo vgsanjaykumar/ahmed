@@ -19,7 +19,7 @@ const products = [
 
 const ProductSection = () => {
     const [selectedProduct, setSelectedProduct] = useState(null);
-
+    
     return (
         <div className="max-w-6xl mx-auto px-4  sm:px-6 lg:px-8">
             {!selectedProduct ? (
