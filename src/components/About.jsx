@@ -36,7 +36,7 @@ export const About = () => {
             viewport={{ once: false, amount: 0.3 }}
           >
                         <img
-                            src="/ahmed/ahmed outside.jpg"
+                            src="/ahmed outside.jpg"
                             alt="About Us"
                             className="w-full max-h-max max-w-md rounded-lg shadow-lg object-center "
                         />

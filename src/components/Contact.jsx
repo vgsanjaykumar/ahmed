@@ -23,7 +23,7 @@ export const Contact = () => {
               <div className="flex justify-center h-[65%]  md:h-[75%]">
 
                 <img
-                  src="/ahmed/contact ahmed.png"
+                  src="/contact ahmed.png"
                   alt="About Us"
                   className="w-full max-h-max max-w-md rounded-lg  delay-400 object-center  "
                 />

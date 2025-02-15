@@ -18,7 +18,7 @@ export const Whatsnew = () => {
             viewport={{ once: false, amount: 0.3 }}
           >
             <img
-              src="/ahmed/new product.png"
+              src="/new product.png"
               alt="New Product"
               className="w-full max-w-xl rounded-lg shadow-lg"
             />

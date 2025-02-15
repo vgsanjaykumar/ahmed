@@ -3,20 +3,20 @@ import { BsArrowRight } from "react-icons/bs";
 const inte = [
     {
         Name: "Home interior ",
-        img: "/ahmed/home 2 int.jpg"
+        img: "/home 2 int.jpg"
     },
     {
         Name: "Living room interior ",
-        img: "/ahmed/living room.jpg"
+        img: "/living room.jpg"
     },
 
     {
         Name: "Bedroom interior ",
-        img: "/ahmed/bedroom int.jpg"
+        img: "/bedroom int.jpg"
     },
     {
         Name: " kitchen interior",
-        img: "/ahmed/kic int.jpeg"
+        img: "/kic int.jpeg"
     }
 
 ]

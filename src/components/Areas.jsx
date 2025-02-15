@@ -3,27 +3,27 @@ import { BsArrowRight} from "react-icons/bs";
 const area =[
     {
     Name:"Interiors",
-    img:"/ahmed/interiors.png"
+    img:"/interiors.png"
     },
      {
     Name:"Exteriors",
-    img:"/ahmed/exteriors.png"
+    img:"/exteriors.png"
     },
      {
     Name:"Wallpaper",
-    img:"/ahmed/wallpapers.png"
+    img:"/wallpapers.png"
     },
      {
     Name:"WoodFinishes",
-    img:"/ahmed/wood-finishes.png"
+    img:"/wood-finishes.png"
     },
      {
     Name:"Waterproofing",
-    img:"/ahmed/waterproofing.png"
+    img:"/waterproofing.png"
     },
      {
     Name:"Emulsions",
-    img:"/ahmed/emulsions.png"
+    img:"/emulsions.png"
     }
     
 ]

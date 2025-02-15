@@ -3,17 +3,17 @@ import { motion } from "framer-motion";
 import { BsWhatsapp } from "react-icons/bs";
 
 const products = [
-    { id: 1, name: "Product 1", img: "ahmed/new product.png", description: "Description of Product 1" },
-    { id: 2, name: "Product 2", img: "assets/sintex.jpeg", description: "Description of Product 2" },
-    { id: 3, name: "Product 3", img: "ahmed/interiors.png", description: "Description of Product 3" },
+    { id: 1, name: "Paint", img: "products/paintbox.png", description: "" },
+    { id: 2, name: "Asian Paints Royale Aspira", img: "products/royal aspira.png", description: "" },
+    { id: 3, name: "Asian Enterior Paint", img: "interiors.png", description: "specially for exteriors" },
     { id: 4, name: "Product 4", img: "assets/ultratech.png", description: "Description of Product 4" },
-    { id: 5, name: "Product 5", img: "assets/roff.png", description: "Description of Product 5" },
+    { id: 5, name: "Asian Emulsion Paint", img: "products/royal.png", description: "Royal luxuary emulsion" },
     { id: 6, name: "Product 6", img: "assets/roff.png", description: "Description of Product 6" },
-    { id: 7, name: "Product 7", img: "assets/ultratech.png", description: "Description of Product 1" },
-    { id: 8, name: "Product 8", img: "ahmed/exteriors.png", description: "Description of Product 2" },
-    { id: 9, name: "Product 9", img: "assets/dr fixit.jpg", description: "Description of Product 3" },
+    { id: 7, name: "Spray Paints", img: "products/spray paints.png", description: "" },
+    { id: 8, name: "Product 8", img: "exteriors.png", description: "Description of Product 2" },
+    { id: 9, name: "Asian Water Proof Paints", img: "products/waterproof.png", description: "Description of Product 3" },
     { id: 10, name: "Product 10", img: "assets/unnamed.png", description: "Description of Product 4" },
-    { id: 11, name: "Product 11", img: "assets/ultratech.png", description: "Description of Product 5" },
+    { id: 11, name: "Product 11", img: "products/asian paints.png", description: "Description of Product 5" },
     { id: 12, name: "Product 12", img: "assets/tenax.png", description: "Description of Product 6" },
 ];
 
@@ -24,7 +24,7 @@ const ProductSection = () => {
         <div id="products" className="max-w-6xl mx-auto px-4 relative sm:px-6 md:px-[90px] lg:px-[80px]  ">
             {!selectedProduct ? (
                 <>
-                <img src="ahmed/boy.png" className="absolute left-[-96px] lg:-left-[35px] md:-left-[10px] -z-10 bottom-[100px]   lg:h-48  md:h-40  xs:hidden md:block"></img>
+                <img src="boy.png" className="absolute left-[-96px] lg:-left-[35px] md:-left-[10px] -z-10 bottom-[100px]   lg:h-48  md:h-40  xs:hidden md:block"></img>
                     <div className="text-center mt-6">
                         <h2 className="text-2xl md:text-4xl font-bold mx-auto text-gray-700  text-center mb-2">Our Products</h2>
                         <p className="mx-auto text-gray-400   text-center md:mb-16 mb-8">One stop solution for all you need to keep your living space intact.</p>
