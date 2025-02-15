@@ -21,21 +21,14 @@ const ProductSection = () => {
     const [selectedProduct, setSelectedProduct] = useState(null);
     
     return (
-        <div className="max-w-6xl mx-auto px-4 relative sm:px-6 md:px-[90px] lg:px-[80px]  ">
+        <div id="products" className="max-w-6xl mx-auto px-4 relative sm:px-6 md:px-[90px] lg:px-[80px]  ">
             {!selectedProduct ? (
                 <>
                 <img src="ahmed/boy.png" className="absolute left-[-96px] lg:-left-[35px] md:-left-[10px] -z-10 bottom-[100px]   lg:h-48  md:h-40  xs:hidden md:block"></img>
-
-             
                     <div className="text-center mt-6">
                         <h2 className="text-2xl md:text-4xl font-bold mx-auto text-gray-700  text-center mb-2">Our Products</h2>
                         <p className="mx-auto text-gray-400   text-center md:mb-16 mb-8">One stop solution for all you need to keep your living space intact.</p>
                     </div>
-
-                    
-
-                    
-
                     <motion.div
                         id="product-scroll-container"
                         className="mt-6 max-w-5xl mx-auto h-[22rem] sm:h-[26rem] own-bg overflow-y-auto bg-white p-4 rounded-lg border-y-2 "
