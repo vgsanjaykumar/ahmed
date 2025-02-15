@@ -29,7 +29,7 @@ const area =[
 ]
 export const Areas = () => {
     return (
-        <section id="products" className="">
+        <section id="products" className=" top-container-1">
           <div className="">
                 <div className="">
                     <h2 className="text-2xl md:text-4xl font-bold mx-auto text-gray-700  text-center mb-2">Areas of expertise</h2>
