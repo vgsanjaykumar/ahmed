@@ -20,7 +20,7 @@ export const Contact = () => {
           <div className="flex justify-center md:justify-between items-center  px-2 lg:px-4 ">
 
             <div className="grid grid-cols-1 md:grid-cols-2  items-center mb-10">
-              <div className="flex justify-center h-[80%]  md:h-[100%]">
+              <div className="flex justify-center h-[65%]  md:h-[75%]">
 
                 <img
                   src="/ahmed/contact ahmed.png"
