@@ -14,7 +14,7 @@
     @apply text-2xl md:text-4xl font-bold mx-auto text-gray-700  text-center  md:mb-0
 }
 .own-bg{
-    background-image: url("ahmed/exteriors.png");
+    background-image: url("./ahmed/exteriors.png");
     background-size: cover;
     
 }
