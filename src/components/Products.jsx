@@ -85,10 +85,11 @@ const ProductSection = () => {
                                 </div>
 
                                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
+                                    
                                     <button
-                                        className="bg-green-500 text-white py-2 px-4 sm:px-6 rounded-full hover:bg-green-600 transition flex items-center"
+                                        className="bg-green-500 text-white py-2 px-4 sm:px-6 rounded-full hover:bg-green-600 transition  items-center"
                                     >
-                                        <BsWhatsapp className="mr-2" /> Buy
+                                            <a href="https://wa.me/91+9600417117?text=hello how can help you" target="2_blank " className="flex"><BsWhatsapp className="mr-2 h-6" /> Buy</a>
                                     </button>
                                     <button
                                         className="bg-blue-500 text-white py-2 px-4 sm:px-6 rounded-full hover:bg-blue-600 transition"
