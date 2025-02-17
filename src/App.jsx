@@ -37,10 +37,7 @@ function App() {
         <WhatsApp />
         <Contact />
 
-        {/* <Product data={JsonData.Products}/>
-            <Dealership/>
-            <Awards/>
-            <Contact phone={JsonData.phone} /> */}
+       
 
         <Footer />
       </div>
