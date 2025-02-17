@@ -29,14 +29,26 @@ const ProductSection = () => {
                         <p className="mx-auto text-gray-400   text-center md:mb-16 mb-8">One stop solution for all you need to keep your living space intact.</p>
                     </div>
                     <div className="flex justify-center gap-4">
-                    <button className="button-all " onClick={() => handleProductButton("c1")}>c1</button>
-                    <button className="button-all" onClick={() => handleProductButton("c2")}>c2</button>
-                    <button className="button-all" onClick={() => handleProductButton("c3")}>c3</button>
-                    <button className="button-all" onClick={() => handleProductButton("c4")}>c4</button>
+                    <button className={`${c1
+                                    ? "bg-[#0A3981] text-white"
+                                    : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
+                                    } button-all`} onClick={() => handleProductButton("c1")}>c1</button>
+                    <button className={`${c2
+                                    ? "bg-[#0A3981] text-white"
+                                    : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
+                                    } button-all`} onClick={() => handleProductButton("c2")}>c2</button>
+                    <button className={`${c3
+                                    ? "bg-[#0A3981] text-white"
+                                    : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
+                                    } button-all`} onClick={() => handleProductButton("c3")}>c3</button>
+                    <button className={`${c4
+                                    ? "bg-[#0A3981] text-white"
+                                    : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
+                                    } button-all`} onClick={() => handleProductButton("c4")}>c4</button>
                     </div>
                     <motion.div
                         id="product-scroll-container"
-                        className="mt-6 max-w-5xl mx-auto h-[22rem] sm:h-[26rem] own-bg overflow-y-auto bg-white p-4 rounded-lg border-y-2 "
+                        className="mt-6 max-w-5xl mx-auto h-[22rem] sm:h-[26rem] own-bg  overflow-y-auto bg-white p-4 rounded-lg border-y-2 "
                         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
                     >
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-7  mx-5 my-5">
