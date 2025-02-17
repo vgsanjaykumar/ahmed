@@ -18,7 +18,7 @@ const ProductSection = () => {
         setc3(category === "c3");
         setc4(category === "c4");
     };
-    
+
     return (
         <div id="products" className="max-w-6xl mx-auto px-4 relative sm:px-6 md:px-[90px] lg:px-[80px]  ">
             {!selectedProduct ? (
@@ -28,11 +28,12 @@ const ProductSection = () => {
                         <h2 className="text-2xl md:text-4xl font-bold mx-auto text-gray-700  text-center mb-2">Our Products</h2>
                         <p className="mx-auto text-gray-400   text-center md:mb-16 mb-8">One stop solution for all you need to keep your living space intact.</p>
                     </div>
-                    <button className="button-all" onClick={() => handleProductButton("c1")}>c1</button>
-<button className="button-all" onClick={() => handleProductButton("c2")}>c2</button>
-<button className="button-all" onClick={() => handleProductButton("c3")}>c3</button>
-<button className="button-all" onClick={() => handleProductButton("c4")}>c4</button>
-
+                    <div className="flex justify-center gap-4">
+                    <button className="button-all " onClick={() => handleProductButton("c1")}>c1</button>
+                    <button className="button-all" onClick={() => handleProductButton("c2")}>c2</button>
+                    <button className="button-all" onClick={() => handleProductButton("c3")}>c3</button>
+                    <button className="button-all" onClick={() => handleProductButton("c4")}>c4</button>
+                    </div>
                     <motion.div
                         id="product-scroll-container"
                         className="mt-6 max-w-5xl mx-auto h-[22rem] sm:h-[26rem] own-bg overflow-y-auto bg-white p-4 rounded-lg border-y-2 "
@@ -40,26 +41,26 @@ const ProductSection = () => {
                     >
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-7  mx-5 my-5">
                             <>
-                            {(c1 ? products.c1 : c2 ? products.c2 : c3 ? products.c3 : products.c4).map((product) => (
-                                <div
-                                    key={product.id}
-                                    className="flex items-center my-box bg-gray-50 p-3 rounded-lg shadow-sm hover:shadow-md transition cursor-pointer"
-                                    onClick={() => setSelectedProduct(product)}
-                                >
-                                    <img
-                                        src={product.img}
-                                        alt={product.name}
-                                        className="w-10 h-10 sm:w-10 sm:h-10 object-cover rounded-lg shadow-md border border-gray-300"
-                                    />
-                                    <div className="ml-4">
-                                        <h4 className="text-sm sm:text-md font-semibold text-gray-800">{product.name}</h4>
+                                {(c1 ? products.c1 : c2 ? products.c2 : c3 ? products.c3 : c4 ?  products.c4 : "").map((product) => (
+                                    <div
+                                        key={product.id}
+                                        className="flex items-center my-box bg-gray-50 p-3 rounded-lg shadow-sm hover:shadow-md transition cursor-pointer"
+                                        onClick={() => setSelectedProduct(product)}
+                                    >
+                                        <img
+                                            src={product.img}
+                                            alt={product.name}
+                                            className="w-10 h-10 sm:w-10 sm:h-10 object-cover rounded-lg shadow-md border border-gray-300"
+                                        />
+                                        <div className="ml-4">
+                                            <h4 className="text-sm sm:text-md font-semibold text-gray-800">{product.name}</h4>
 
+                                        </div>
                                     </div>
-                                </div>
-                            )
-                            
-                        )}
-                            
+                                )
+
+                                )}
+
                             </>
                         </div>
                     </motion.div>

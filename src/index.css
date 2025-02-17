@@ -20,7 +20,7 @@
 }
 
 .button-all {
-    @apply bg-[white] mx-10 text-green-600 font-bold md:inline transform transition-transform duration-300 hover:scale-110  rounded-full
+    @apply bg-white text-blue-600 border-2 border-blue-500 font-bold inline-flex items-center justify-center mx-2 w-1/4 h-12 rounded-md shadow hover:shadow-lg transform transition duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-green-600
 }
 
 .txt-shadow {
