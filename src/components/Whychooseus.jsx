@@ -41,11 +41,11 @@ export const Why = () => {
                                 <h2>{why.name}</h2>
                             </div>
                         )}
-                      
-                      
-                      
-                    
-                     
+
+
+
+
+
 
 
 
