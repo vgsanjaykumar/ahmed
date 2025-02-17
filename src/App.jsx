@@ -8,6 +8,7 @@ import Areas from "./components/Areas"
 import Interiors from "./components/Interiors"
 import ProductSection from "./components/Products"
 import WhatsApp from "./components/Whatapp"
+import Why from "./components/Whychooseus"
 
 
 
@@ -27,6 +28,7 @@ function App() {
         </div>
         <Whatsnew />
         <About />
+        <Why/>
         <Interiors />
         <Areas />
         <ProductSection />
