@@ -8,6 +8,7 @@ import Areas from "./components/Areas"
 import Interiors from "./components/Interiors"
 import ProductSection from "./components/Products"
 import WhatsApp from "./components/Whatapp"
+import Project from "./components/Projects"
 
 
 
@@ -28,6 +29,7 @@ function App() {
         <Whatsnew />
         <About />
         <Interiors />
+        <Project />
         <Areas />
         <ProductSection />
         <WhatsApp />
