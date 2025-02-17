@@ -8,9 +8,9 @@ export const About = () => {
                 <div className="mb-8 md:mb-0">
                     <h2 className="title-text">About us</h2>
                 </div>
-            <div className="flex justify-center md:justify-between items-center  px-2 lg:px-4 ">
+            <div className="flex justify-center md:justify-between items-center   ">
                 
-                <div className="grid grid-cols-1 md:grid-cols-2  items-center">
+                <div className="grid grid-cols-1 md:grid-cols-2   items-center">
                     <div className="">
                         <h2 className="md:text-lg lg:text-2xl text-xl font-bold text-gray-800 mb-4">Ahmed Paint Traders</h2>
                         <h3 className="md:text-sm lg:text-xl text-xl font-bold text-gray-500 mb-4"> Exporter / Supplier / Retailer Of Paint</h3>
@@ -27,12 +27,12 @@ export const About = () => {
                     you get the best products for your painting needs.
                               </p>
                     </div>
-                     <div className="flex justify-center h-[60%]">
+                     <div className="flex justify-center md:h-[100%] h-[80%] lg:h-[60%]">
                      <motion.div
             className="flex justify-center"
             initial={{ scale: 1, opacity: 0 }}
-            whileInView={{ scale: 1.1, opacity: 1 }}
-            transition={{ duration: 1.2, ease:"easeOut" }}
+            whileInView={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 1.4, ease:"easeOut" }}
             viewport={{ once: false, amount: 0.3 }}
           >
                         <img
