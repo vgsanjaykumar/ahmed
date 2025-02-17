@@ -25,26 +25,26 @@ const ProductSection = () => {
                 <>
                     <img src="boy.png" className="absolute left-[-96px] lg:-left-[35px] md:-left-[10px] -z-10 bottom-[100px]   lg:h-48  md:h-40  xs:hidden md:block"></img>
                     <div className="text-center mt-6">
-                        <h2 className="text-2xl md:text-4xl font-bold mx-auto text-gray-700  text-center mb-2">Our Products</h2>
-                        <p className="mx-auto text-gray-400   text-center md:mb-16 mb-8">One stop solution for all you need to keep your living space intact.</p>
+                        <h2 className="title-text md:text-2xl font-bold  text-gray-700  text-center mb-2">Our Products</h2>
+                        <p className="mx-auto text-gray-400  fontmobile md:text-lg text-center md:mb-10 mb-3">One stop solution for all you need to keep your living space intact.</p>
                     </div>
-                    <div className="flex justify-center gap-4">
-                    <button className={`${c1
+                    <div className="flex justify-center md:gap-4 gap-1">
+                        <button className={`fontmobile md:text-lg px-1  ${c1
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
-                                    } button-all`} onClick={() => handleProductButton("c1")}>c1</button>
-                    <button className={`${c2
+                                    } button-all`} onClick={() => handleProductButton("c1")}>interior</button>
+                        <button className={`fontmobile md:text-lg px-1  ${c2
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
-                                    } button-all`} onClick={() => handleProductButton("c2")}>c2</button>
-                    <button className={`${c3
+                                    } button-all`} onClick={() => handleProductButton("c2")}>exterior</button>
+                        <button className={`fontmobile md:text-lg px-1 ${c3
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
-                                    } button-all`} onClick={() => handleProductButton("c3")}>c3</button>
-                    <button className={`${c4
+                                    } button-all`} onClick={() => handleProductButton("c3")}>wallpaper</button>
+                        <button className={`fontmobile md:text-lg px-1  ${c4
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
-                                    } button-all`} onClick={() => handleProductButton("c4")}>c4</button>
+                                    } button-all`} onClick={() => handleProductButton("c4")}>emulsions</button>
                     </div>
                     <motion.div
                         id="product-scroll-container"
@@ -65,7 +65,7 @@ const ProductSection = () => {
                                             className="w-10 h-10 sm:w-10 sm:h-10 object-cover rounded-lg shadow-md border border-gray-300"
                                         />
                                         <div className="ml-4">
-                                            <h4 className="text-sm sm:text-md font-semibold text-gray-800">{product.name}</h4>
+                                            <h4 className="fontmobile sm:text-md font-semibold text-gray-800">{product.name}</h4>
 
                                         </div>
                                     </div>
@@ -91,11 +91,11 @@ const ProductSection = () => {
 
                             <div className="flex flex-col justify-center gap-4 max-md:gap-2">
                                 <h1 className="lg:text-4xl text-lg font-bold">{selectedProduct.name}</h1>
-                                <p className="text-sm text-gray-500 tracking-wide ">
+                                <p className="fontmobile text-gray-500 tracking-wide ">
                                     {selectedProduct.description}
                                 </p>
 
-                                <div className="text-sm sm:text-md">
+                                <div className="fontmobile sm:text-md">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni molestias.</p>
                                 </div>
 
