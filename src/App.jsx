@@ -33,8 +33,9 @@ function App() {
         <Interiors />
         <Areas />
         <ProductSection />
-        <Project />
+      
         <WhatsApp />
+        <Project />
         <Contact />
         <Footer />
       </div>
