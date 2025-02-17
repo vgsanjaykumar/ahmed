@@ -31,12 +31,12 @@ const products = [
 
 const ProductSection = () => {
     const [selectedProduct, setSelectedProduct] = useState(null);
-    
+
     return (
         <div id="products" className="max-w-6xl mx-auto px-4 relative sm:px-6 md:px-[90px] lg:px-[80px]  ">
             {!selectedProduct ? (
                 <>
-                <img src="boy.png" className="absolute left-[-96px] lg:-left-[35px] md:-left-[10px] -z-10 bottom-[100px]   lg:h-48  md:h-40  xs:hidden md:block"></img>
+                    <img src="boy.png" className="absolute left-[-96px] lg:-left-[35px] md:-left-[10px] -z-10 bottom-[100px]   lg:h-48  md:h-40  xs:hidden md:block"></img>
                     <div className="text-center mt-6">
                         <h2 className="text-2xl md:text-4xl font-bold mx-auto text-gray-700  text-center mb-2">Our Products</h2>
                         <p className="mx-auto text-gray-400   text-center md:mb-16 mb-8">One stop solution for all you need to keep your living space intact.</p>
@@ -60,7 +60,7 @@ const ProductSection = () => {
                                     />
                                     <div className="ml-4">
                                         <h4 className="text-sm sm:text-md font-semibold text-gray-800">{product.name}</h4>
-                                        <p className="text-xs sm:text-sm text-gray-600">{product.description}</p>
+
                                     </div>
                                 </div>
                             ))}
@@ -90,11 +90,11 @@ const ProductSection = () => {
                                 </div>
 
                                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
-                                    
+
                                     <button
                                         className="bg-green-500 text-white py-2 px-4 sm:px-6 rounded-full hover:bg-green-600 transition  items-center"
                                     >
-                                            <a href="https://wa.me/91+9600417117?text=hello how can help you" target="2_blank " className="flex"><BsWhatsapp className="mr-2 h-6" /> Buy</a>
+                                        <a href={`https://wa.me/91+9600417117?text=hello ${selectedProduct.description} `} target="2_blank " className="flex"><BsWhatsapp className="mr-2 h-6" /> Buy</a>
                                     </button>
                                     <button
                                         className="bg-blue-500 text-white py-2 px-4 sm:px-6 rounded-full hover:bg-blue-600 transition"
