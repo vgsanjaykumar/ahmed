@@ -51,7 +51,7 @@ export const Product = () => {
             <div className="  mx-auto px-8 md:px-16 lg:px-24 ">
 
                 <div className=" title-text  ">
-                    <h2 className="text-3xl font-bold txt-shadow text-gray-800 hover:text-[#FFF200] mb-5">Dealership</h2>
+                    <h2 className="text-3xl font-bold  text-gray-600  mb-5">our top project</h2>
                 </div>
 
 

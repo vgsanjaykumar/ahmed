@@ -29,16 +29,13 @@ function App() {
         </div>
         <Whatsnew />
         <About />
-        <Why/>
+        <Why />
         <Interiors />
-        <Project />
         <Areas />
         <ProductSection />
+        <Project />
         <WhatsApp />
         <Contact />
-
-       
-
         <Footer />
       </div>
 
