@@ -7,14 +7,14 @@ const Hero = () => {
             <div className=" h-[400px] md:h-[600px] lg:h-[800px] flex justify-center items-center ">
                 <div className="gap-4  bg-[#00000028] rounded-2xl w-full h-50  ">
                     <div className="text-white  text-center mt-7 ">
-                        <h1 className="xl:text-5xl md:text-2xl mobile-font uppercase font-bold ">
-                            Ahmed paint<span className="text-[#7AB2D3]"> traders...</span>
+                        <h1 className="xl:text-4xl md:text-2xl  uppercase font-bold text-sm  ">
+                            Ahmed paint<span className="text-[#7AB2D3]"> traders</span>
                         </h1>
-                        <p className="mt-5 px-8 xl:text-lg md:text-base fontmobile uppercase  text-slate-300">
+                        <p className="mt-5 px-8 xl:text-sm md:text-base fontmobile uppercase  text-slate-300">
                            Sekkalai Rd, near FIVE LAMPS, Karaikudi, Tamil Nadu 630001
                         </p>
                         <button
-                            className=" bg-white rounded-full border-white text-green-500 mt-5 mb-5  mobilefont px-2 py-1 md:py-2 md:px-2 "
+                            className=" bg-white rounded-full border-white text-green-500 mt-5 mb-5  mobilefont px-2 py-1 md:py-2 md:px-4 "
                         >
 
                             <a href="https://wa.me/91+9600417117?text=hello I need buliding products and cement !" target="_blank"><BsWhatsapp className="inline-block max-md:text-base text-2xl hover:scale-110 duration-500 delay-200 mr-2 "/>Whatapp</a> 
