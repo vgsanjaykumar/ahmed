@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { BsWhatsapp } from "react-icons/bs";
-import products from "./Constants/products";
+import products from "./Constants/Products.json";
 
 
 
