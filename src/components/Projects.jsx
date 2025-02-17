@@ -48,7 +48,7 @@ export const Product = () => {
     };
     return (
         <section className="  top-container-1  ">
-            <div className="  mx-auto px-8 md:px-16 lg:px-24 ">
+            <div className="  ">
 
                 <div className="   ">
                     <h2 className="title-text font-bold  text-gray-600  mb-5">our top project</h2>
@@ -61,10 +61,10 @@ export const Product = () => {
 
                         <div
                             key={index}
-                            className="flex flex-col items-center  rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 group transform hover:-translate-y-2"
+                            className="flex flex-col items-center md:space-x-4 space-x-0 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 group transform hover:-translate-y-2"
                         >
 
-                            <div className=" px-6  w-50 h-25 md:h-50 lg:h-60  flex object-fill items-center justify-center rounded-full mb-1 transition-all duration-300">
+                            <div className=" px-6  w-50 h-25 md:h-50 lg:h-60  flex  items-center justify-center rounded-full mb-1 transition-all duration-300">
                                 <img src={d.icon} className=" h-40 w-80"/>
                             </div>
 
