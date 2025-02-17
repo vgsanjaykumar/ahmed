@@ -94,7 +94,7 @@ const ProductSection = () => {
                                     <button
                                         className="bg-green-500 text-white py-2 px-4 sm:px-6 rounded-full hover:bg-green-600 transition  items-center"
                                     >
-                                        <a href={`https://wa.me/91+9600417117?text=hello ${selectedProduct.description} `} target="2_blank " className="flex"><BsWhatsapp className="mr-2 h-6" /> Buy</a>
+                                        <a href={`https://wa.me/91+9600417117?text=hello ${selectedProduct.name} `} target="2_blank " className="flex"><BsWhatsapp className="mr-2 h-6" /> Buy</a>
                                     </button>
                                     <button
                                         className="bg-blue-500 text-white py-2 px-4 sm:px-6 rounded-full hover:bg-blue-600 transition"
