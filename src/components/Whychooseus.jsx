@@ -26,19 +26,19 @@ export const Why = () => {
         }
     ]
     return (
-        <section id="about" className="top-container-1 bg-gray-100 ">
+        <section id="about" className=" px-4 bg-gray-100 ">
             <div className="py-2 ">
                 <div className="mb-10">
                     <h2 className="title-text">Why choose us?</h2>
                 </div>
                 <div className="  ">
 
-                    <div className="grid grid-cols-5 place-items-center  items-center  gap-6 text-center ">
+                    <div className="grid grid-cols-5 place-items-center  items-center  gap-4 text-center ">
 
                         {why.map((why) =>
                             <div >
-                                <img src={why.img} alt="" className="bg-blue-500 rounded-full object-cover mb-5 h-[50%] md:h-full" />
-                                <h2>{why.name}</h2>
+                                <img src={why.img} alt="" className="bg-blue-500 rounded-full object-cover mb-5 h-[100%] w-[100%] md:h-[80%] md:w-[80%]" />
+                                <h2 className="text-[8px] md:text-sm ">{why.name}</h2>
                             </div>
                         )}
 

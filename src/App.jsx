@@ -29,19 +29,13 @@ function App() {
         </div>
         <Whatsnew />
         <About />
-        <Why/>
+        <Why />
         <Interiors />
-        <Project />
         <Areas />
         <ProductSection />
+        <Project />
         <WhatsApp />
         <Contact />
-
-        {/* <Product data={JsonData.Products}/>
-            <Dealership/>
-            <Awards/>
-            <Contact phone={JsonData.phone} /> */}
-
         <Footer />
       </div>
 
