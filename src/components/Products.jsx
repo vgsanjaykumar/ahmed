@@ -1,37 +1,24 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { BsWhatsapp } from "react-icons/bs";
+import products from "./Constants/products";
 
-const products = [
-    { id: 1, name: "Paint", img: "/products/paintbox.png", description: "" },
-    { id: 2, name: "Asian Paints Royale Aspira", img: "/products/royal aspira.png", description: "" },
-    { id: 3, name: "Asian Enterior Paint", img: "/interiors.png", description: "specially for exteriors" },
-    { id: 4, name: "Product 4", img: "/kic int.jpeg", description: "Description of Product 4" },
-    { id: 5, name: "Asian Emulsion Paint", img: "/products/royal.png", description: "Royal luxuary emulsion" },
-    { id: 6, name: "Product 6", img: "/waterproofing.png", description: "Description of Product 6" },
-    { id: 7, name: "Spray Paints", img: "/products/spray paints.png", description: "" },
-    { id: 8, name: "Product 8", img: "/exteriors.png", description: "Description of Product 2" },
-    { id: 9, name: "Asian Water Proof Paints", img: "/products/waterproof.png", description: "Description of Product 3" },
-    { id: 10, name: "Product 10", img: "/waterproofing.png", description: "Description of Product 4" },
-    { id: 11, name: "Product 11", img: "products/asian paints.png", description: "Description of Product 5" },
-    { id: 12, name: "Product 12", img: "/new product.png", description: "Description of Product 6" },
-    { id: 13, name: "Paint", img: "/products/paintbox.png", description: "" },
-    { id: 14, name: "Asian Paints Royale Aspira", img: "/products/royal aspira.png", description: "" },
-    { id: 15, name: "Asian Enterior Paint", img: "/interiors.png", description: "specially for exteriors" },
-    { id: 16, name: "Product 4", img: "/kic int.jpeg", description: "Description of Product 4" },
-    { id: 17, name: "Asian Emulsion Paint", img: "/products/royal.png", description: "Royal luxuary emulsion" },
-    { id: 18, name: "Product 6", img: "/waterproofing.png", description: "Description of Product 6" },
-    { id: 19, name: "Spray Paints", img: "/products/spray paints.png", description: "" },
-    { id: 20, name: "Product 8", img: "/exteriors.png", description: "Description of Product 2" },
-    { id: 21, name: "Asian Water Proof Paints", img: "/products/waterproof.png", description: "Description of Product 3" },
-    { id: 22, name: "Product 10", img: "/waterproofing.png", description: "Description of Product 4" },
-    { id: 23, name: "Product 11", img: "products/asian paints.png", description: "Description of Product 5" },
-    { id: 24, name: "Product 12", img: "/new product.png", description: "Description of Product 6" },
-];
+
 
 const ProductSection = () => {
     const [selectedProduct, setSelectedProduct] = useState(null);
+    const [c1, setc1] = useState(true);
+    const [c2, setc2] = useState(false);
+    const [c3, setc3] = useState(false);
+    const [c4, setc4] = useState(false);
 
+    const handleProductButton = (category) => {
+        setc1(category === "c1");
+        setc2(category === "c2");
+        setc3(category === "c3");
+        setc4(category === "c4");
+    };
+    
     return (
         <div id="products" className="max-w-6xl mx-auto px-4 relative sm:px-6 md:px-[90px] lg:px-[80px]  ">
             {!selectedProduct ? (
@@ -41,13 +28,19 @@ const ProductSection = () => {
                         <h2 className="text-2xl md:text-4xl font-bold mx-auto text-gray-700  text-center mb-2">Our Products</h2>
                         <p className="mx-auto text-gray-400   text-center md:mb-16 mb-8">One stop solution for all you need to keep your living space intact.</p>
                     </div>
+                    <button className="button-all" onClick={() => handleProductButton("c1")}>c1</button>
+<button className="button-all" onClick={() => handleProductButton("c2")}>c2</button>
+<button className="button-all" onClick={() => handleProductButton("c3")}>c3</button>
+<button className="button-all" onClick={() => handleProductButton("c4")}>c4</button>
+
                     <motion.div
                         id="product-scroll-container"
                         className="mt-6 max-w-5xl mx-auto h-[22rem] sm:h-[26rem] own-bg overflow-y-auto bg-white p-4 rounded-lg border-y-2 "
                         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
                     >
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-7  mx-5 my-5">
-                            {products.map((product) => (
+                            <>
+                            {(c1 ? products.c1 : c2 ? products.c2 : c3 ? products.c3 : products.c4).map((product) => (
                                 <div
                                     key={product.id}
                                     className="flex items-center my-box bg-gray-50 p-3 rounded-lg shadow-sm hover:shadow-md transition cursor-pointer"
@@ -63,7 +56,11 @@ const ProductSection = () => {
 
                                     </div>
                                 </div>
-                            ))}
+                            )
+                            
+                        )}
+                            
+                            </>
                         </div>
                     </motion.div>
                 </>
