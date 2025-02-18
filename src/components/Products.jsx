@@ -41,19 +41,19 @@ const ProductSection = () => {
                         <button className={`fontmobile md:text-lg   ${c1
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
-                                    } button-all`} onClick={() => handleProductButton("c1")}>interior</button>
+                                    } button-all`} onClick={() => handleProductButton("c1")}>Interior</button>
                         <button className={`fontmobile md:text-lg   ${c2
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
-                                    } button-all`} onClick={() => handleProductButton("c2")}>exterior</button>
+                                    } button-all`} onClick={() => handleProductButton("c2")}>Exterior</button>
                         <button className={`fontmobile md:text-lg  ${c3
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
-                                    } button-all`} onClick={() => handleProductButton("c3")}>wallpaper</button>
+                                    } button-all`} onClick={() => handleProductButton("c3")}>Waterproof</button>
                         <button className={`fontmobile md:text-lg  ${c4
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
-                                    } button-all`} onClick={() => handleProductButton("c4")}>emulsions</button>
+                                    } button-all`} onClick={() => handleProductButton("c4")}>Wood Paint</button>
                                     
                     </div>
                     <div className="flex justify-center md:gap-4 gap-2">
