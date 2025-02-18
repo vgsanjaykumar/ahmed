@@ -64,7 +64,6 @@
     "c2": [
       { "name": "Ace Advanced", "img": "/products/exterior/Ace Advanced.png", "description": "" },
       { "name": "Ace Exterior Emulsion", "img": "/products/exterior/Ace Exterior Emulsion.png", "description": "Description of Product 2" },
-      { "name": "Asian Water Proof Paints", "img": "/products/waterproof.png", "description": "Description of Product 3" },
       {  "name": "Ace Power+", "img": "/products/exterior/Ace Power+.png", "description": "Description of Product 4" },
       {  "name": "Ace Shyne", "img": "/products/exterior/Ace Shyne.png", "description": "Description of Product 5" },
       {  "name": "Ace Sparc Colours", "img": "/products/exterior/Ace Sparc Colours.png", "description": "Description of Product 6" },
