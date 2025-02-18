@@ -70,12 +70,18 @@
       {  "name": "Product 12", "img": "/new product.png", "description": "Description of Product 6" }
     ],
     "c3": [
-      {  "name": "Category 3", "img": "/products/paintbox.png", "description": "" },
-      {  "name": "Asian Paints Royale Aspira", "img": "/products/royal aspira.png", "description": "" },
-      {  "name": "Asian Enterior Paint", "img": "/interiors.png", "description": "specially for exteriors" },
-      {  "name": "Product 4", "img": "/kic int.jpeg", "description": "Description of Product 4" },
-      {  "name": "Asian Emulsion Paint", "img": "/products/royal.png", "description": "Royal luxuary emulsion" },
-      {  "name": "Product 6", "img": "/waterproofing.png", "description": "Description of Product 6" }
+      {  "name": "Damp Proof Play", "img": "/products/waterproof/Damp Proof Play.png", "description": "" },
+      {  "name": "Damp Sheath Exterior", "img": "/products/waterproof/Damp Sheath Exterior.png", "description": "" },
+      {  "name": "SmartCare Damp Block 2K", "img": "/products/waterproof/SmartCare Damp Block 2K.png", "description": "" },
+      {  "name": "SmartCare Damp Proof Ultra", "img": "/products/waterproof/SmartCare Damp Proof Ultra.png", "description": "" },
+      {  "name": "SmartCare Damp Proof Xtreme", "img": "/products/waterproof/SmartCare Damp Proof Xtreme.png", "description": "" },
+      {  "name": "SmartCare Damp Sheath Exterior Advanced", "img": "/products/waterproof/SmartCare Damp Sheath Exterior Advanced.png", "description": "" },
+      {  "name": "SmartCare Terrace Tile Primer", "img": "/products/waterproof/SmartCare Terrace Tile Primer.png", "description": "" },
+      {  "name": "SmartCare Textured Crack Filler", "img": "/products/waterproof/SmartCare Textured Crack Filler.png", "description": "" },
+      {  "name": "SmartCare Tile Adhesive", "img": "/products/waterproof/SmartCare Tile Adhesive.png", "description": "" },
+      {  "name": "SmartCare Tile Coat", "img": "/products/waterproof/SmartCare Tile Coat.png", "description": "" },
+      {  "name": "SmartCare Waterproofing Putty", "img": "/products/waterproof/SmartCare Waterproofing Putty.png", "description": "" },
+      {  "name": "Ultra Block 2k", "img": "/products/waterproof/Ultra Block 2k.png", "description": "" }
     ],
     "wood": [
       { "name": "wood tech polyester gold", "img": "/products/wood/wood tech polyester gold.png", "description": "" },
