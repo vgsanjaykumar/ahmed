@@ -88,12 +88,19 @@
       {  "name": "Product 6", "img": "/waterproofing.png", "description": "Description of Product 6" }
     ],
     "wood": [
-      { "name": "wood tech polyester gold", "img": "/wood/wood tech polyester gold.png", "description": "" },
-      { "name": "Product 8", "img": "/exteriors.png", "description": "Description of Product 2" },
-      { "name": "Asian Water Proof Paints", "img": "/products/waterproof.png", "description": "Description of Product 3" },
-      { "name": "Product 10", "img": "/waterproofing.png", "description": "Description of Product 4" },
-      { "name": "Product 11", "img": "/products/asian paints.png", "description": "Description of Product 5" },
-      { "name": "Product 12", "img": "/new product.png", "description": "Description of Product 6" }
+      { "name": "wood tech polyester gold", "img": "/products/wood/wood tech polyester gold.png", "description": "" },
+      { "name": "WoodTech Aquadur 2K PU for Interior", "img": "/products/wood/WoodTech Aquadur 2K PU for Interior.png", "description": "" },
+      { "name": "WoodTech Aquadur PU Exterior Matt", "img": "/products/wood/WoodTech Aquadur PU Exterior Matt.png", "description": "" },
+      { "name": "WoodTech Aquadur PU Interior Gloss", "img": "/products/wood/WoodTech Aquadur PU Interior Gloss.png", "description": "" },
+      { "name": "WoodTech Emporio Acrylic PU", "img": "/products/wood/WoodTech Emporio Acrylic PU.png", "description": "" },
+      { "name": "WoodTech Emporio Gold PU Clear", "img": "/products/wood/wood tech polyester gold.png", "description": "" },
+      { "name": "WoodTech Emporio Regal PU Clear", "img": "/products/wood/WoodTech Emporio Regal PU Clear.png", "description": "" },
+      { "name": "WoodTech Ingenio PU", "img": "/products/wood/WoodTech Ingenio PU.png", "description": "" },
+      { "name": "WoodTech Insignia", "img": "/products/wood/WoodTech Insignia.png", "description": "" },
+      { "name": "WoodTech Melamyne", "img": "/products/wood/WoodTech Melamyne.png", "description": "" },
+      { "name": "WoodTech NC Sanding Sealer", "img": "/products/wood/WoodTech NC Sanding Sealer.png", "description": "" },
+      { "name": "WoodTech PU Luxury Wood Finish for Exterior", "img": "/products/wood/WoodTech PU Luxury Wood Finish for Exterior.png", "description": "" },
+      { "name": "WoodTech Wood Stains Exterior", "img": "/products/wood/WoodTech Wood Stains Exterior.png", "description": "" }      
     ],
     "c5": [
       { "name": "Category 5", "img": "/products/paintbox.png", "description": "" },
