@@ -82,7 +82,7 @@ const ProductSection = () => {
                     >
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 mx-3 md:mx-5 my-5">
                             <>
-                                {(Interior ? products.Interior : c2 ? products.c2 : c3 ? products.c3 : c4 ?  products.c4 :
+                                
                                 {(Interior ? products.Interior : c2 ? products.c2 : c3 ? products.c3 : wood ?  products.wood :
                                 c5 ? products.c5 : c6 ? products.c6 : c7 ? products.c7 : c8 ?  products.c8 : "").map((product) => (
                                     <div
