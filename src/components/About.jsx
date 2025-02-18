@@ -10,7 +10,22 @@ export const About = () => {
                 </div>
             <div className="    ">
                 
-                <div className="grid grid-cols-1 md:grid-cols-2   items-center">
+                <div className="grid grid-cols-1 md:grid-cols-2  items-center">
+                <div className="flex justify-center md:h-[60%] h-[60%] lg:h-[60%]">
+                     <motion.div
+            className="flex justify-center"
+            initial={{ scale: 1, opacity: 0 }}
+            whileInView={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 1.4, ease:"easeOut" }}
+            viewport={{ once: false, amount: 0.3 }}
+          >
+                        <img
+                            src="/ahmed outside.jpg"
+                            alt="About Us"
+                            className="w-full max-md:w-[35%] max-w-md rounded-lg shadow-lg "
+                        />
+                        </motion.div>
+                    </div>
                     <div className="">
                         <h2 className="md:text-lg lg:text-2xl text-sm font-bold text-gray-800 mb-2">Ahmed Paint Traders</h2>
                        
@@ -27,21 +42,7 @@ export const About = () => {
                     you get the best products for your painting needs.
                               </p>
                     </div>
-                     <div className="flex justify-center md:h-[60%] h-[60%] lg:h-[60%]">
-                     <motion.div
-            className="flex justify-center"
-            initial={{ scale: 1, opacity: 0 }}
-            whileInView={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 1.4, ease:"easeOut" }}
-            viewport={{ once: false, amount: 0.3 }}
-          >
-                        <img
-                            src="/ahmed outside.jpg"
-                            alt="About Us"
-                            className="w-full max-h-max max-w-md rounded-lg shadow-lg object-center "
-                        />
-                        </motion.div>
-                    </div>
+                     
                 </div>
             </div>
         </div>
