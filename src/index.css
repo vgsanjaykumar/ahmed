@@ -22,7 +22,12 @@
     float: left;
     
 }
-
+.truncated {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limit to 3 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
 .button-all {
     @apply w-full h-12 text-xl  cursor-pointer duration-300 border-[#0A3981] border-[1px] rounded-xl;
 }
@@ -46,7 +51,7 @@ html {
   }
 
   .fontmobile{
-    @apply text-[11px] uppercase
+    @apply text-[9px]  leading-5
   }
   
 
