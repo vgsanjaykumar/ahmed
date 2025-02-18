@@ -122,9 +122,9 @@ const ProductSection = () => {
 
                             <div className="flex flex-col justify-center gap-4 max-md:gap-2">
                                 <h1 className="lg:text-4xl text-lg font-bold">{selectedProduct.name}</h1>
-                                <p className="fontmobile text-gray-500 tracking-wide ">
+                                {/* <p className="fontmobile text-gray-500 tracking-wide ">
                                     {selectedProduct.description}
-                                </p>
+                                </p> */}
 
                                 <div className="fontmobile sm:text-md">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni molestias.</p>
