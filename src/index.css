@@ -11,7 +11,7 @@
     @apply mt-16 px-8 md:px-16 xl:px-24 xl:mb-36 max-md:mt-8 max-md:text-base
 }
 .title-text{
-    @apply text-2xl md:text-4xl font-bold mx-auto text-gray-700  text-center  md:mb-0
+    @apply text-sm md:text-2xl font-bold mx-auto text-gray-700  text-center  uppercase
 }
 .own-bg{
     background-image: url("/exteriors.png");
@@ -39,6 +39,15 @@ html {
 }
 .my-box {
     box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.3);
+<<<<<<< HEAD
 }
+=======
+  }
+
+  .fontmobile{
+    @apply text-[11px] uppercase
+  }
+  
+>>>>>>> d0960eb1c5a438946b99b623626cf1ed2d60e8e9
 
 

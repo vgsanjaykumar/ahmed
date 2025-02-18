@@ -32,8 +32,8 @@ export const Areas = () => {
         <section  className=" top-container-1">
           <div className="">
                 <div className="">
-                    <h2 className="text-2xl md:text-4xl font-bold mx-auto text-gray-700  text-center mb-2">Areas of expertise</h2>
-                    <p className="mx-auto text-gray-400   text-center md:mb-16 mb-8">One stop solution for all you need to keep your living space intact.</p>
+                    <h2 className="title-text md:text-2xl font-bold mx-auto text-gray-700  text-center md:mb-2 mb-0">Areas of expertise</h2>
+                    <p className="mx-auto fontmobile text-gray-400  md:text-lg   text-center md:mb-16 mb-2">One stop solution for all you need to keep your living space intact.</p>
                 </div>
             <div className="flex justify-center flex-col gap-6 md:justify-between items-center  px-0 lg:px-4 ">
                  <div className="grid grid-cols-2 lg:grid-cols-4  gap-5 items-center">
