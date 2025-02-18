@@ -20,7 +20,7 @@ const ProductSection = () => {
     };
 
     return (
-        <div id="products" className="max-w-6xl mx-auto px-4 relative sm:px-6 md:px-[90px] lg:px-[80px]  ">
+        <div id="products" className="max-w-6xl mx-auto max-md:mt-12 px-4 relative sm:px-6 md:px-[90px] lg:px-[80px]  ">
             {!selectedProduct ? (
                 <>
                     <img src="boy.png" className="absolute left-[-96px] lg:-left-[35px] md:-left-[10px] -z-10 bottom-[100px]   lg:h-48  md:h-40  xs:hidden md:block"></img>
