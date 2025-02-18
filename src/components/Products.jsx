@@ -7,7 +7,7 @@ import products from "./Constants/Products.json";
 
 const ProductSection = () => {
     const [selectedProduct, setSelectedProduct] = useState(null);
-    const [c1, setc1] = useState(true);
+    const [Interior, setInterior] = useState(true);
     const [c2, setc2] = useState(false);
     const [c3, setc3] = useState(false);
     const [c4, setc4] = useState(false);
@@ -17,7 +17,7 @@ const ProductSection = () => {
     const [c8, setc8] = useState(false);
 
     const handleProductButton = (category) => {
-        setc1(category === "c1");
+        setInterior(category === "Interior");
         setc2(category === "c2");
         setc3(category === "c3");
         setc4(category === "c4");
@@ -38,10 +38,10 @@ const ProductSection = () => {
                         <p className="mx-auto text-gray-400  fontmobile md:text-lg text-center md:mb-10 mb-3">One stop solution for all you need to keep your living space intact.</p>
                     </div>
                     <div className="flex justify-center md:gap-4 gap-2 mb-2">
-                        <button className={`fontmobile md:text-lg   ${c1
+                        <button className={`fontmobile md:text-lg   ${Interior
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
-                                    } button-all`} onClick={() => handleProductButton("c1")}>Interior</button>
+                                    } button-all`} onClick={() => handleProductButton("Interior")}>Interior</button>
                         <button className={`fontmobile md:text-lg   ${c2
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
@@ -82,7 +82,7 @@ const ProductSection = () => {
                     >
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 mx-3 md:mx-5 my-5">
                             <>
-                                {(c1 ? products.c1 : c2 ? products.c2 : c3 ? products.c3 : c4 ?  products.c4 :
+                                {(Interior ? products.Interior : c2 ? products.c2 : c3 ? products.c3 : c4 ?  products.c4 :
                                 c5 ? products.c5 : c6 ? products.c6 : c7 ? products.c7 : c8 ?  products.c8 : "").map((product) => (
                                     <div
                                         key={product.id}

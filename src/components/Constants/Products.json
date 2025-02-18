@@ -1,5 +1,5 @@
 {
-    "c1": [
+    "Interior": [
       { 
         "name": "Apcolite Advanced Premium Emulsion ", 
         "img": "/products/Interior/Apcolite Advanced Premium Emulsion.png",
@@ -36,28 +36,28 @@
         "description": ""
       },
        { 
-        "name": " ", 
-        "img": "/products/Interior/Apcolite Advanced Premium Emulsion.png",
+        "name": " Royale Glitz ", 
+        "img": "/products/Interior/Royale Glitz.png",
         "description": ""
       },
        { 
-        "name": " ", 
-        "img": "/products/Interior/Apcolite Advanced Premium Emulsion.png",
+        "name": " Tractor Aqualock ", 
+        "img": "/products/Interior/Tractor Aqualock.png",
         "description": ""
       },
        { 
-        "name": "", 
-        "img": "/products/Interior/Apcolite Advanced Premium Emulsion.png",
+        "name": "Tractor Emulsion Advanced", 
+        "img": "/products/Interior/Tractor Emulsion Advanced.png",
         "description": ""
       },
        { 
-        "name": "", 
-        "img": "/products/Interior/Apcolite Advanced Premium Emulsion.png",
+        "name": "Tractor Emulsion Shyne", 
+        "img": "/products/Interior/Tractor Emulsion Shyne.png",
         "description": ""
       },
        { 
-        "name": " ", 
-        "img": "/products/Interior/Apcolite Advanced Premium Emulsion.png",
+        "name": "Tractor Sparc Advanced", 
+        "img": "/products/Interior/Tractor Sparc Advanced.png",
         "description": ""
       },
        { 
