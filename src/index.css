@@ -28,7 +28,7 @@
     overflow: hidden;
   }
 .button-all {
-    @apply w-full h-12 max-md:h-8 text-xl md:px-1  cursor-pointer duration-300 border-[#0A3981] border-[1px] rounded-md md:rounded-xl;
+    @apply w-full h-12 max-md:h-7 text-xl md:px-1  cursor-pointer duration-300 border-[#0A3981] border-[1px] rounded-md md:rounded-xl;
 }
 
 .txt-shadow {

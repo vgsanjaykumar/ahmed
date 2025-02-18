@@ -11,12 +11,20 @@ const ProductSection = () => {
     const [c2, setc2] = useState(false);
     const [c3, setc3] = useState(false);
     const [c4, setc4] = useState(false);
+    const [c5, setc5] = useState(false);
+    const [c6, setc6] = useState(false);
+    const [c7, setc7] = useState(false);
+    const [c8, setc8] = useState(false);
 
     const handleProductButton = (category) => {
         setc1(category === "c1");
         setc2(category === "c2");
         setc3(category === "c3");
         setc4(category === "c4");
+        setc5(category === "c5");
+        setc6(category === "c6");
+        setc7(category === "c7");
+        setc8(category === "c8");
     };
 
     return (
@@ -29,7 +37,7 @@ const ProductSection = () => {
                         <h2 className="title-text md:text-2xl font-bold  text-gray-700  text-center mb-2">Our Products</h2>
                         <p className="mx-auto text-gray-400  fontmobile md:text-lg text-center md:mb-10 mb-3">One stop solution for all you need to keep your living space intact.</p>
                     </div>
-                    <div className="flex justify-center md:gap-4 gap-2">
+                    <div className="flex justify-center md:gap-4 gap-2 mb-2">
                         <button className={`fontmobile md:text-lg   ${c1
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
@@ -46,6 +54,26 @@ const ProductSection = () => {
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
                                     } button-all`} onClick={() => handleProductButton("c4")}>emulsions</button>
+                                    
+                    </div>
+                    <div className="flex justify-center md:gap-4 gap-2">
+                        <button className={`fontmobile md:text-lg   ${c5
+                                    ? "bg-[#0A3981] text-white"
+                                    : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
+                                    } button-all`} onClick={() => handleProductButton("c5")}>interior</button>
+                        <button className={`fontmobile md:text-lg   ${c6
+                                    ? "bg-[#0A3981] text-white"
+                                    : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
+                                    } button-all`} onClick={() => handleProductButton("c6")}>exterior</button>
+                        <button className={`fontmobile md:text-lg  ${c7
+                                    ? "bg-[#0A3981] text-white"
+                                    : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
+                                    } button-all`} onClick={() => handleProductButton("c7")}>wallpaper</button>
+                        <button className={`fontmobile md:text-lg  ${c8
+                                    ? "bg-[#0A3981] text-white"
+                                    : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
+                                    } button-all`} onClick={() => handleProductButton("c8")}>emulsions</button>
+                                    
                     </div>
                     <motion.div
                         id="product-scroll-container"
@@ -54,7 +82,8 @@ const ProductSection = () => {
                     >
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 mx-3 md:mx-5 my-5">
                             <>
-                                {(c1 ? products.c1 : c2 ? products.c2 : c3 ? products.c3 : c4 ?  products.c4 : "").map((product) => (
+                                {(c1 ? products.c1 : c2 ? products.c2 : c3 ? products.c3 : c4 ?  products.c4 :
+                                c5 ? products.c5 : c6 ? products.c6 : c7 ? products.c7 : c8 ?  products.c8 : "").map((product) => (
                                     <div
                                         key={product.id}
                                         className="flex items-center my-box bg-gray-50 p-1 md:p-3 rounded-lg shadow-sm hover:shadow-md transition cursor-pointer"
