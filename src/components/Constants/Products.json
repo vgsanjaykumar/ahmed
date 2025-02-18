@@ -1,7 +1,13 @@
 {
     "c1": [
-      { "id": 1, "name": "Category 1", "img": "/products/paintbox.png", "description": "" },
-      { "id": 2, "name": "Asian Paints Royale Aspira", "img": "/products/royal aspira.png", "description": "" },
+      { "id": 1, "name": "Apcolite Advanced Heavy Duty Emulsion ", "img": "/products/Interior/interior-walls-apcolite-advanced-heavy-duty-emulsion-asian-paints.png", "description": "" },
+      { "id": 2, "name": "apcolite all protek matt packshot", "img": "/products/Interior/interior-walls-apcolite-all-protek-matt-packshot-asian-paints.png", "description": "" },
+      { "id": 3, "name": "Asian Enterior Paint", "img": "/interiors.png", "description": "specially for exteriors" },
+      { "id": 4, "name": "Product 4", "img": "/kic int.jpeg", "description": "Description of Product 4" },
+      { "id": 5, "name": "Asian Emulsion Paint", "img": "/products/royal.png", "description": "Royal luxuary emulsion" },
+      { "id": 6, "name": "Product 6", "img": "/waterproofing.png", "description": "Description of Product 6" },
+      { "id": 1, "name": "Apcolite Advanced Heavy Duty Emulsion ", "img": "/products/Interior/interior-walls-apcolite-advanced-heavy-duty-emulsion-asian-paints.png", "description": "" },
+      { "id": 2, "name": "apcolite all protek matt packshot", "img": "/products/Interior/interior-walls-apcolite-all-protek-matt-packshot-asian-paints.png", "description": "" },
       { "id": 3, "name": "Asian Enterior Paint", "img": "/interiors.png", "description": "specially for exteriors" },
       { "id": 4, "name": "Product 4", "img": "/kic int.jpeg", "description": "Description of Product 4" },
       { "id": 5, "name": "Asian Emulsion Paint", "img": "/products/royal.png", "description": "Royal luxuary emulsion" },
