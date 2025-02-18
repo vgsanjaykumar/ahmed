@@ -62,13 +62,24 @@
       }
     ],
     "c2": [
-      { "name": "Category 2", "img": "/products/spray paints.png", "description": "" },
-      { "name": "Product 8", "img": "/exteriors.png", "description": "Description of Product 2" },
+      { "name": "Ace Advanced", "img": "/products/exterior/Ace Advanced.png", "description": "" },
+      { "name": "Ace Exterior Emulsion", "img": "/products/exterior/Ace Exterior Emulsion.png", "description": "Description of Product 2" },
       { "name": "Asian Water Proof Paints", "img": "/products/waterproof.png", "description": "Description of Product 3" },
-      {  "name": "Product 10", "img": "/waterproofing.png", "description": "Description of Product 4" },
-      {  "name": "Product 11", "img": "/products/asian paints.png", "description": "Description of Product 5" },
-      {  "name": "Product 12", "img": "/new product.png", "description": "Description of Product 6" }
+      {  "name": "Ace Power+", "img": "/products/exterior/Ace Power+.png", "description": "Description of Product 4" },
+      {  "name": "Ace Shyne", "img": "/products/exterior/Ace Shyne.png", "description": "Description of Product 5" },
+      {  "name": "Ace Sparc Colours", "img": "/products/exterior/Ace Sparc Colours.png", "description": "Description of Product 6" },
+       {  "name": "Apex Advanced Dust Proof", "img": "/products/exterior/Apex Advanced Dust Proof.png", "description": "Description of Product 5" },
+      {  "name": "Apex Floor Guard", "img": "/products/exterior/Apex Floor Guard.png", "description": "Description of Product 6" },
+       {  "name": "Apex Shyne Paint", "img": "/products/exterior/Apex Shyne Paint.png", "description": "Description of Product 5" },
+      {  "name": "Apex Tile Guard Clear Matt", "img": "/products/exterior/Apex Tile Guard Clear Matt.png", "description": "Description of Product 6" },
+      {  "name": "Apex Tile Guard ", "img": "/products/exterior/Apex Tile Guard.png", "description": "Description of Product 6" },
+      {  "name": "Apex Ultima Protek Duralife", "img": "/products/exterior/Apex Ultima Protek Duralife.png", "description": "Description of Product 6" },
+      {  "name": "Apex Ultima Protek", "img": "/products/exterior/Apex Ultima Protek.png", "description": "Description of Product 6" },
+      {  "name": "Apex Ultima Stretch", "img": "/products/exterior/Apex Ultima Stretch.png", "description": "Description of Product 6" }
     ],
+     
+    
+
     "c3": [
       {  "name": "Damp Proof Play", "img": "/products/waterproof/Damp Proof Play.png", "description": "" },
       {  "name": "Damp Sheath Exterior", "img": "/products/waterproof/Damp Sheath Exterior.png", "description": "" },
