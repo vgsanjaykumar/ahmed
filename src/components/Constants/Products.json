@@ -80,20 +80,33 @@
     
 
     "c3": [
-      {  "name": "Category 3", "img": "/products/paintbox.png", "description": "" },
-      {  "name": "Asian Paints Royale Aspira", "img": "/products/royal aspira.png", "description": "" },
-      {  "name": "Asian Enterior Paint", "img": "/interiors.png", "description": "specially for exteriors" },
-      {  "name": "Product 4", "img": "/kic int.jpeg", "description": "Description of Product 4" },
-      {  "name": "Asian Emulsion Paint", "img": "/products/royal.png", "description": "Royal luxuary emulsion" },
-      {  "name": "Product 6", "img": "/waterproofing.png", "description": "Description of Product 6" }
+      {  "name": "Damp Proof Play", "img": "/products/waterproof/Damp Proof Play.png", "description": "" },
+      {  "name": "Damp Sheath Exterior", "img": "/products/waterproof/Damp Sheath Exterior.png", "description": "" },
+      {  "name": "SmartCare Damp Block 2K", "img": "/products/waterproof/SmartCare Damp Block 2K.png", "description": "" },
+      {  "name": "SmartCare Damp Proof Ultra", "img": "/products/waterproof/SmartCare Damp Proof Ultra.png", "description": "" },
+      {  "name": "SmartCare Damp Proof Xtreme", "img": "/products/waterproof/SmartCare Damp Proof Xtreme.png", "description": "" },
+      {  "name": "SmartCare Damp Sheath Exterior Advanced", "img": "/products/waterproof/SmartCare Damp Sheath Exterior Advanced.png", "description": "" },
+      {  "name": "SmartCare Terrace Tile Primer", "img": "/products/waterproof/SmartCare Terrace Tile Primer.png", "description": "" },
+      {  "name": "SmartCare Textured Crack Filler", "img": "/products/waterproof/SmartCare Textured Crack Filler.png", "description": "" },
+      {  "name": "SmartCare Tile Adhesive", "img": "/products/waterproof/SmartCare Tile Adhesive.png", "description": "" },
+      {  "name": "SmartCare Tile Coat", "img": "/products/waterproof/SmartCare Tile Coat.png", "description": "" },
+      {  "name": "SmartCare Waterproofing Putty", "img": "/products/waterproof/SmartCare Waterproofing Putty.png", "description": "" },
+      {  "name": "Ultra Block 2k", "img": "/products/waterproof/Ultra Block 2k.png", "description": "" }
     ],
     "wood": [
-      { "name": "wood tech polyester gold", "img": "/wood/wood tech polyester gold.png", "description": "" },
-      { "name": "Product 8", "img": "/exteriors.png", "description": "Description of Product 2" },
-      { "name": "Asian Water Proof Paints", "img": "/products/waterproof.png", "description": "Description of Product 3" },
-      { "name": "Product 10", "img": "/waterproofing.png", "description": "Description of Product 4" },
-      { "name": "Product 11", "img": "/products/asian paints.png", "description": "Description of Product 5" },
-      { "name": "Product 12", "img": "/new product.png", "description": "Description of Product 6" }
+      { "name": "wood tech polyester gold", "img": "/products/wood/wood tech polyester gold.png", "description": "" },
+      { "name": "WoodTech Aquadur 2K PU for Interior", "img": "/products/wood/WoodTech Aquadur 2K PU for Interior.png", "description": "" },
+      { "name": "WoodTech Aquadur PU Exterior Matt", "img": "/products/wood/WoodTech Aquadur PU Exterior Matt.png", "description": "" },
+      { "name": "WoodTech Aquadur PU Interior Gloss", "img": "/products/wood/WoodTech Aquadur PU Interior Gloss.png", "description": "" },
+      { "name": "WoodTech Emporio Acrylic PU", "img": "/products/wood/WoodTech Emporio Acrylic PU.png", "description": "" },
+      { "name": "WoodTech Emporio Gold PU Clear", "img": "/products/wood/wood tech polyester gold.png", "description": "" },
+      { "name": "WoodTech Emporio Regal PU Clear", "img": "/products/wood/WoodTech Emporio Regal PU Clear.png", "description": "" },
+      { "name": "WoodTech Ingenio PU", "img": "/products/wood/WoodTech Ingenio PU.png", "description": "" },
+      { "name": "WoodTech Insignia", "img": "/products/wood/WoodTech Insignia.png", "description": "" },
+      { "name": "WoodTech Melamyne", "img": "/products/wood/WoodTech Melamyne.png", "description": "" },
+      { "name": "WoodTech NC Sanding Sealer", "img": "/products/wood/WoodTech NC Sanding Sealer.png", "description": "" },
+      { "name": "WoodTech PU Luxury Wood Finish for Exterior", "img": "/products/wood/WoodTech PU Luxury Wood Finish for Exterior.png", "description": "" },
+      { "name": "WoodTech Wood Stains Exterior", "img": "/products/wood/WoodTech Wood Stains Exterior.png", "description": "" }      
     ],
     "c5": [
       { "name": "Category 5", "img": "/products/paintbox.png", "description": "" },
