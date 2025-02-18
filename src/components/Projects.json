@@ -1,37 +1,97 @@
 [
     {
-        "icon": "ahmed logo.jpg",
-        "name": "Project 1",
+        "icon": "/project/amm hospital.jpg",
+        "name": "AMM Hospital Pallathur",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-        "icon": "/ahmed inside.jpg",
-        "name": "Project 2",
+        "icon": "/project/Ananda College, Devakottai.jpg",
+        "name": "Ananda College, Devakottai",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-        "icon": "/ahmed outside.jpg",
-        "name": "Project 3",
+        "icon": "/project/central university.jpg",
+        "name": "Central University of Tamil Nadu,Thiruvarur",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-        "icon": "ahmed logo.jpg",
-        "name": "project 4",
+        "icon": "/project/de britto .png",
+        "name": "DE BRITTO HIGHER SECONDARY SCHOOL, DEVAKOTTAI",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-        "icon": "ahmed logo.jpg",
-        "name": "project 5",
+        "icon": "/project/Mehar inn hotel.jpg",
+        "name": "Mehar Hotel in Karaikudi",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-        "icon": "ahmed logo.jpg",
-        "name": "project 6",
+        "icon": "/project/Katuthalaivsal mosque.jpg",
+        "name": "Kattuthalaivasal Mosque Karaikudi",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-        "icon": "ahmed logo.jpg",
-        "name": "project 7",
+        "icon": "/project/hotel madurai.jpg",
+        "name": "Hotel Palace Madurai",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+     {
+        "icon": "/project/Murugappa Science Centre.png",
+        "name": "Murugappa Science Centre Pudukottai",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+     {
+        "icon": "/project/nagara sivan kovil.jpg",
+        "name": "Nagara Sivan Kovil,Devakottai",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+     {
+        "icon": "/project/oa house pallathur.jpg",
+        "name": "OA HOUSE PALLATHUR",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+     {
+        "icon": "/project/surya-dental-care-thillai-.png",
+        "name": "Surya Dental Care Karaikudi",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+     {
+        "icon": "/project/ST JOHN DE BRITTO SHRINE ORIYUR.jpg",
+        "name": "ST JOHN DE BRITTO SHRINE ORIYUR",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+     {
+        "icon": "/project/Seethalakshmi college.png",
+        "name": "Seethalakshmi college Pallatur",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+     {
+        "icon": "/project/Pudukkottai-SRI KAILASANATHAR TEMPLE, Kodungallur, Avatar Kovil.jpg",
+        "name": "Sri Kailasanathar Temple Nedungudi",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+     {
+        "icon": "/project/power grid.jpg",
+        "name": "Power Grid Karaikudi",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+     {
+        "icon": "/project/pondicherry sri parvatheeswarar kovil.jpg",
+        "name": "Parvatheeswarar Temple, Tiruthelicheri, Karaikal",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+     {
+        "icon": "/project/params-tex-karaikudi.png",
+        "name": "Params Tex Karaikudi",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+     {
+        "icon": "/project/Suthanthira Polytechnic College.jpeg",
+        "name": "Suthanthira Polytechnic College in Kalayarkoil",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+     {
+        "icon": "/project/Vairavan Patti variravn kovi.jpg",
+        "name": "Arulmigu Sri Vairavar Swamy Temple, Vairavanpatti.",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
 ]
