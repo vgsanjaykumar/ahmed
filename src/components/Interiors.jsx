@@ -26,13 +26,13 @@ export const Interiors = () => {
             <div className="">
                 <div className="">
                     <h2 className="title-text font-bold mx-auto text-gray-700  text-center mb-4">Explore our room makeover services</h2>
-                    <p className="mx-auto text-gray-400  fontmobile  mb-8">Get hassle-free project management and execution when it comes to building your dream home with a tailor-made service.</p>
+                    <p className="mx-auto text-gray-400  fontmobile  mb-3">Get hassle-free project management and execution when it comes to building your dream home with a tailor-made service.</p>
                 </div>
                 <div className="flex justify-center flex-col gap-6 md:justify-between items-center  px-0 lg:px-4 ">
-                    <div className="grid grid-cols-2 lg:grid-cols-4  md:grid-cols-2 gap-5 items-center">
+                    <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 items-center">
                         {inte.map((inte) => (
                             <a href="#products">
-                                <div className="flex justify-center relative hover:-translate-y-4 duration-500 delay-200 mb-5 h-[80%]  ">
+                                <div className="flex justify-center relative hover:-translate-y-4 duration-500 delay-200  h-[80%]  ">
                                     <img
                                         src={inte.img}
                                         alt="About Us"

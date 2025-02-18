@@ -51,7 +51,7 @@ html {
   }
 
   .fontmobile{
-    @apply text-[9px]  leading-5
+    @apply text-[10px]  leading-5
   }
   
 

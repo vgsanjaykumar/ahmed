@@ -5,7 +5,7 @@ export const About = () => {
     return (
         <section id="about" className="top-container-1 ">
             <div className="py-2 ">
-                <div className="mb-12 ">
+                <div className="mb-6 ">
                     <h2 className="title-text">About us</h2>
                 </div>
 
