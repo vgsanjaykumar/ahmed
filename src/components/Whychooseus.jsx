@@ -27,7 +27,7 @@ export const Why = () => {
     ]
     return (
         <section id="about" className=" px-5 bg-gray-100   ">
-            <div className=" ">
+            <div className="pt-[1px]">
                 <div className="mb-4  ">
                     <h2 className="title-text mt-6">Why choose us?</h2>
                 </div>
@@ -37,7 +37,7 @@ export const Why = () => {
 
                         {why.map((why) =>
                             <div >
-                                <img src={why.img} alt="" className="bg-blue-500 rounded-full object-cover  mb-2 h-[80%] w-[80%] md:h-[60%] md:w-[60%]" />
+                                <img src={why.img} alt="" className="bg-blue-500 rounded-full object-cover p-[2px] mb-2 h-[80%] w-[80%] md:h-[60%] md:w-[60%]" />
                                 <h2 className="text-[6px] uppercase md:text-sm mb-6  ">{why.name}</h2>
                             </div>
                         )}

@@ -8,7 +8,7 @@ export const About = () => {
                 <div className="mb-12 ">
                     <h2 className="title-text">About us</h2>
                 </div>
-
+                
                 <div className="flex max-md:flex-col-reverse gap-10  items-center">
                 <div className="">
                         <div className="p-2 h-44 w-[16%] max-md:w-[40%] max-md:h-28 img-float mr-5 max-md:mr-2">
