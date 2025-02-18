@@ -87,8 +87,8 @@
       {  "name": "Asian Emulsion Paint", "img": "/products/royal.png", "description": "Royal luxuary emulsion" },
       {  "name": "Product 6", "img": "/waterproofing.png", "description": "Description of Product 6" }
     ],
-    "c4": [
-      { "name": "Category 4", "img": "/products/spray paints.png", "description": "" },
+    "wood": [
+      { "name": "wood tech polyester gold", "img": "/wood/wood tech polyester gold.png", "description": "" },
       { "name": "Product 8", "img": "/exteriors.png", "description": "Description of Product 2" },
       { "name": "Asian Water Proof Paints", "img": "/products/waterproof.png", "description": "Description of Product 3" },
       { "name": "Product 10", "img": "/waterproofing.png", "description": "Description of Product 4" },

@@ -10,7 +10,7 @@ const ProductSection = () => {
     const [c1, setc1] = useState(true);
     const [c2, setc2] = useState(false);
     const [c3, setc3] = useState(false);
-    const [c4, setc4] = useState(false);
+    const [wood, setwood] = useState(false);
     const [c5, setc5] = useState(false);
     const [c6, setc6] = useState(false);
     const [c7, setc7] = useState(false);
@@ -20,7 +20,7 @@ const ProductSection = () => {
         setc1(category === "c1");
         setc2(category === "c2");
         setc3(category === "c3");
-        setc4(category === "c4");
+        setwood(category === "wood");
         setc5(category === "c5");
         setc6(category === "c6");
         setc7(category === "c7");
@@ -50,10 +50,10 @@ const ProductSection = () => {
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
                                     } button-all`} onClick={() => handleProductButton("c3")}>Waterproof</button>
-                        <button className={`fontmobile md:text-lg  ${c4
+                        <button className={`fontmobile md:text-lg  ${wood
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
-                                    } button-all`} onClick={() => handleProductButton("c4")}>Wood Paint</button>
+                                    } button-all`} onClick={() => handleProductButton("wood")}>Wood Paint</button>
                                     
                     </div>
                     <div className="flex justify-center md:gap-4 gap-2">
@@ -82,7 +82,7 @@ const ProductSection = () => {
                     >
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 mx-3 md:mx-5 my-5">
                             <>
-                                {(c1 ? products.c1 : c2 ? products.c2 : c3 ? products.c3 : c4 ?  products.c4 :
+                                {(c1 ? products.c1 : c2 ? products.c2 : c3 ? products.c3 : wood ?  products.wood :
                                 c5 ? products.c5 : c6 ? products.c6 : c7 ? products.c7 : c8 ?  products.c8 : "").map((product) => (
                                     <div
                                         key={product.id}
