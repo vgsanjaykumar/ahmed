@@ -20,7 +20,8 @@ const ProductSection = () => {
     };
 
     return (
-        <div id="products" className="max-w-6xl mx-auto max-md:mt-12 px-4 relative sm:px-6 md:px-[90px] lg:px-[80px]  ">
+        
+        <div id="products" className="top-container-1 ">
             {!selectedProduct ? (
                 <>
                     <img src="boy.png" className="absolute left-[-96px] lg:-left-[35px] md:-left-[10px] -z-10 bottom-[100px]   lg:h-48  md:h-40  xs:hidden md:block"></img>
@@ -28,35 +29,35 @@ const ProductSection = () => {
                         <h2 className="title-text md:text-2xl font-bold  text-gray-700  text-center mb-2">Our Products</h2>
                         <p className="mx-auto text-gray-400  fontmobile md:text-lg text-center md:mb-10 mb-3">One stop solution for all you need to keep your living space intact.</p>
                     </div>
-                    <div className="flex justify-center md:gap-4 gap-1">
-                        <button className={`fontmobile md:text-lg px-1  ${c1
+                    <div className="flex justify-center md:gap-4 gap-2">
+                        <button className={`fontmobile md:text-lg   ${c1
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
                                     } button-all`} onClick={() => handleProductButton("c1")}>interior</button>
-                        <button className={`fontmobile md:text-lg px-1  ${c2
+                        <button className={`fontmobile md:text-lg   ${c2
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
                                     } button-all`} onClick={() => handleProductButton("c2")}>exterior</button>
-                        <button className={`fontmobile md:text-lg px-1 ${c3
+                        <button className={`fontmobile md:text-lg  ${c3
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
                                     } button-all`} onClick={() => handleProductButton("c3")}>wallpaper</button>
-                        <button className={`fontmobile md:text-lg px-1  ${c4
+                        <button className={`fontmobile md:text-lg  ${c4
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
                                     } button-all`} onClick={() => handleProductButton("c4")}>emulsions</button>
                     </div>
                     <motion.div
                         id="product-scroll-container"
-                        className="mt-6 max-w-5xl mx-auto h-[22rem] sm:h-[26rem] own-bg  overflow-y-auto bg-white p-4 rounded-lg border-y-2 "
+                        className="mt-4 md:mt-6 max-w-5xl mx-auto h-[16rem] sm:h-[26rem] own-bg  overflow-y-auto bg-white p-4 rounded-lg border-y-2 "
                         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
                     >
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-7  mx-5 my-5">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 mx-3 md:mx-5 my-5">
                             <>
                                 {(c1 ? products.c1 : c2 ? products.c2 : c3 ? products.c3 : c4 ?  products.c4 : "").map((product) => (
                                     <div
                                         key={product.id}
-                                        className="flex items-center my-box bg-gray-50 p-3 rounded-lg shadow-sm hover:shadow-md transition cursor-pointer"
+                                        className="flex items-center my-box bg-gray-50 p-1 md:p-3 rounded-lg shadow-sm hover:shadow-md transition cursor-pointer"
                                         onClick={() => setSelectedProduct(product)}
                                     >
                                         <img
