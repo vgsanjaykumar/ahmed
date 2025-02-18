@@ -37,7 +37,7 @@ export const Why = () => {
 
                         {why.map((why) =>
                             <div >
-                                <img src={why.img} alt="" className="bg-blue-500 rounded-full object-cover p-[2px] mb-2 h-[80%] w-[80%] md:h-[60%] md:w-[60%]" />
+                                <img src={why.img} alt="" className="bg-[#0A3981] rounded-full object-cover p-[2px] mb-2 h-[80%] w-[80%] md:h-[60%] md:w-[60%]" />
                                 <h2 className="text-[6px] uppercase md:text-sm mb-6  ">{why.name}</h2>
                             </div>
                         )}
