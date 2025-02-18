@@ -56,7 +56,7 @@ const ProductSection = () => {
                                     } button-all`} onClick={() => handleProductButton("wood")}>Wood Paint</button>
                                     
                     </div>
-                    <div className="flex justify-center md:gap-4 gap-2">
+                    {/* <div className="flex justify-center md:gap-4 gap-2">
                         <button className={`fontmobile md:text-lg   ${c5
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
@@ -74,7 +74,7 @@ const ProductSection = () => {
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
                                     } button-all`} onClick={() => handleProductButton("c8")}>emulsions</button>
                                     
-                    </div>
+                    </div> */}
                     <motion.div
                         id="product-scroll-container"
                         className="mt-4 md:mt-6 max-w-5xl mx-auto h-[16rem] sm:h-[26rem] own-bg  overflow-y-auto bg-white p-4 rounded-lg border-y-2 "
