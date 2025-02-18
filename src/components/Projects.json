@@ -93,5 +93,20 @@
         "icon": "/project/Vairavan Patti variravn kovi.jpg",
         "name": "Arulmigu Sri Vairavar Swamy Temple, Vairavanpatti.",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+      {
+        "icon": "/project/JIPMER Hospital Pondicherry.jpg",
+        "name": "jipmer hospital Pondicherry",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+     {
+        "icon": "/project/Muthupattanam.jpeg",
+        "name": "Muthupattinam Mosque Karaikudi",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+     {
+        "icon": "/project/St. Sengol Annai Church.jpg",
+        "name": "St. Sengol Annai Church Karankadu",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
 ]
