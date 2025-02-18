@@ -32,7 +32,7 @@ const WhatsApp = () => {
             <h2 className="text-center  title-text  md:text-2xl font-bold  text-gray-700 md:mb-5 mb-0   ">Get An Expert Advice</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-6">
                 <div className="flex justify-center ">
-                    <img src="/Untitled design (3).png" alt="" className=" rounded-lg  object-contain h-[90%] w-[90%]" />
+                    <img src="/Untitled design (3).png" alt="" className=" rounded-lg  object-contain h-40 md:h-[90%] w-[90%]" />
 
                 </div>
                 <div className="flex justify-center flex-col text-white font-semibold">
