@@ -32,7 +32,7 @@ const ProductSection = () => {
         <div id="products" className="top-container-1 ">
             {!selectedProduct ? (
                 <>
-                    <img src="boy.png" className="absolute left-[-96px] lg:-left-[35px] md:-left-[10px] -z-10 bottom-[100px]   lg:h-48  md:h-40  xs:hidden md:block"></img>
+                   
                     <div className="text-center mt-6">
                         <h2 className="title-text md:text-2xl font-bold  text-gray-700  text-center mb-2">Our Products</h2>
                         <p className="mx-auto text-gray-400  fontmobile md:text-lg text-center md:mb-10 mb-3">One stop solution for all you need to keep your living space intact.</p>
