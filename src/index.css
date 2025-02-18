@@ -18,6 +18,10 @@
     background-size: cover;
     
 }
+.img-float{
+    float: left;
+    
+}
 
 .button-all {
     @apply w-full h-12 text-xl  cursor-pointer duration-300 border-[#0A3981] border-[1px] rounded-xl;
