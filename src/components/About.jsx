@@ -11,11 +11,11 @@ export const About = () => {
 
                 <div className="flex max-md:flex-col-reverse gap-10  items-center">
                 <div className="">
-                        <div className="p-2 h-44 w-[16%] max-md:w-[40%] max-md:h-28 img-float mr-5 max-md:mr-2">
+                        <div className="p-2 h-44 w-[16%] max-md:w-[40%] max-md:h-28 img-float mr-10 max-md:mr-3">
                         <motion.div
                             className="h-full "
                             initial={{ scale: 1, opacity: 0 }}
-                            whileInView={{ scale: 1, opacity: 1 }}
+                            whileInView={{ scale: 1.4, opacity: 1 }}
                             transition={{ duration: 1.4, ease: "easeOut" }}
                             viewport={{ once: false, amount: 0.3 }}
                         >
@@ -28,7 +28,7 @@ export const About = () => {
                     </div>
                     <h2 className="md:text-lg lg:text-2xl text-sm font-bold text-gray-800 mb-2 ">Ahmed Paint Traders</h2>
                         
-                        <p className="text-gray-400 leading-relaxed md:text-sm fontmobile truncated">
+                        <p className="text-gray-400 leading-relaxed md:text-sm fontmobile md:truncated ">
                             Ahmed Paint Traders is a trusted Asian Paints Dealer in Karaikudi, Tamil Nadu,
                             offering a wide range of premium paints, coatings and related products.
                             They specialize in interior and exterior paints,wood finishes, waterproofing
