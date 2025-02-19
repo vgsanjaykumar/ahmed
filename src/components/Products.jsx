@@ -11,21 +11,24 @@ const ProductSection = () => {
     const [c2, setc2] = useState(false);
     const [c3, setc3] = useState(false);
     const [wood, setwood] = useState(false);
-    const [c5, setc5] = useState(false);
+    const [c5, setc5] = useState(true);
     const [c6, setc6] = useState(false);
     const [c7, setc7] = useState(false);
-    const [c8, setc8] = useState(false);
 
-    const handleProductButton = (category) => {
+    const handleMainCategoryBtn = (category) => {
         setInterior(category === "Interior");
         setc2(category === "c2");
         setc3(category === "c3");
         setwood(category === "wood");
+        setc5(true);
+        setc6(false);
+        setc7(false);
+    };
+    const handleSubCategoryBtn = (category) =>{
         setc5(category === "c5");
         setc6(category === "c6");
         setc7(category === "c7");
-        setc8(category === "c8");
-    };
+    }
 
     return (
         
@@ -41,50 +44,66 @@ const ProductSection = () => {
                         <button className={`fontmobile md:text-lg   ${Interior
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
-                                    } button-all`} onClick={() => handleProductButton("Interior")}>Interior</button>
+                                    } button-all`} onClick={() => handleMainCategoryBtn("Interior")}>Interior</button>
                         <button className={`fontmobile md:text-lg   ${c2
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
-                                    } button-all`} onClick={() => handleProductButton("c2")}>Exterior</button>
+                                    } button-all`} onClick={() => handleMainCategoryBtn("c2")}>Exterior</button>
                         <button className={`fontmobile md:text-lg  ${c3
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
-                                    } button-all`} onClick={() => handleProductButton("c3")}>Waterproof</button>
+                                    } button-all`} onClick={() => handleMainCategoryBtn("c3")}>Waterproof</button>
                         <button className={`fontmobile md:text-lg  ${wood
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
-                                    } button-all`} onClick={() => handleProductButton("wood")}>Wood Paint</button>
+                                    } button-all`} onClick={() => handleMainCategoryBtn("wood")}>Wood Paint</button>
                                     
                     </div>
                     {/* <div className="flex justify-center md:gap-4 gap-2">
                         <button className={`fontmobile md:text-lg   ${c5
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
-                                    } button-all`} onClick={() => handleProductButton("c5")}>interior</button>
+                                    } button-all`} onClick={() => handleMainCategoryBtn("c5")}>interior</button>
                         <button className={`fontmobile md:text-lg   ${c6
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
-                                    } button-all`} onClick={() => handleProductButton("c6")}>exterior</button>
+                                    } button-all`} onClick={() => handleMainCategoryBtn("c6")}>exterior</button>
                         <button className={`fontmobile md:text-lg  ${c7
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
-                                    } button-all`} onClick={() => handleProductButton("c7")}>wallpaper</button>
+                                    } button-all`} onClick={() => handleMainCategoryBtn("c7")}>wallpaper</button>
                         <button className={`fontmobile md:text-lg  ${c8
                                     ? "bg-[#0A3981] text-white"
                                     : "bg-[#0A3981] text-gray-700 bg-opacity-5 "
-                                    } button-all`} onClick={() => handleProductButton("c8")}>emulsions</button>
+                                    } button-all`} onClick={() => handleMainCategoryBtn("c8")}>emulsions</button>
                                     
                     </div> */}
                     <motion.div
                         id="product-scroll-container"
-                        className="mt-4 md:mt-6 max-w-5xl mx-auto h-[16rem] sm:h-[26rem] own-bg  overflow-y-auto bg-white p-4 rounded-lg border-y-2 "
+                        className="mt-4 md:mt-6 max-w-5xl  mx-auto h-[16rem] sm:h-[26rem] own-bg  overflow-y-auto bg-white p-4 rounded-lg border-y-2 "
                         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
                     >
+                        <div className="flex justify-start mx-6 md:gap-4 gap-2">
+                        <button className={`fontmobile md:text-lg  ${c5
+                                    ? " text-white underline"
+                                    : " text-white "
+                                    }`} onClick={() => handleSubCategoryBtn("c5")}>R1</button>
+                        <button className={`fontmobile md:text-lg  ${c6
+                                    ? " text-white underline"
+                                    : " text-white "
+                                    }`} onClick={() => handleSubCategoryBtn("c6")}>R2</button>
+                        <button className={`fontmobile md:text-lg  ${c7
+                                    ? " text-white underline"
+                                    : " text-white "
+                                    }`} onClick={() => handleSubCategoryBtn("c7")}>R3</button>
+                        
+                        
+                    </div> 
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 mx-3 md:mx-5 my-5">
                             <>
                                 
                                 {(Interior ? products.Interior : c2 ? products.c2 : c3 ? products.c3 : wood ?  products.wood :
-                                c5 ? products.c5 : c6 ? products.c6 : c7 ? products.c7 : c8 ?  products.c8 : "").map((product) => (
+                                c5 ? products.c5 : c6 ? products.c6 : c7 ? products.c7 :  "").map((product) => (
                                     <div
                                         key={product.id}
                                         className="flex items-center my-box bg-gray-50 p-1 md:p-3 rounded-lg shadow-sm hover:shadow-md transition cursor-pointer"
