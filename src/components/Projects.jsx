@@ -65,11 +65,11 @@ export const Product = () => {
                         >
 
                             <div className="   w-50 h-25 md:h-60 lg:h-100   flex object-fill items-center justify-center rounded-full mb-1 transition-all duration-300">
-                                <img src={d.icon} className=" h-40 w-80"/>
+                                <img src={d.icon} className=" h-40 w-80" />
                             </div>
 
                             <div className="text-center ">
-                                <h3 className="fontmobile   md:text-lg font-bold text-gray-800 mb-1 capitalize  hover:text-[#FFF200]">
+                                <h3 className="fontmobile   md:text-lg font-bold text-gray-800 mb-1 capitalize ">
                                     {d.name}
                                 </h3>
                                 <p className="text-gray-600 md:text-sm fontmobile md:px-6 px-0 mb-1 md:mb-8 ">{d.text}</p>
