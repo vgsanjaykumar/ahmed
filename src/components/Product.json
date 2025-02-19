@@ -225,6 +225,284 @@
     ]
             }
             
+         ],
+          "Waterproofing":[
+            {
+                "Exterior":[
+       
+        {
+                "name":"Damp Sheath Exterior",
+                "img":"/product/waterproofing/Exterior Walls Products/Damp Sheath Exterior.png",
+                "description":"5 years warranty,Crack bridging ability,Top coat coverage increase up to 10%"
+        },
+          {
+                "name":"SmartCare Damp Proof Xtreme",
+                "img":"/product/waterproofing/Exterior Walls Products/SmartCare Damp Proof Xtreme.png",
+                "description":"12 Years Waterproofing Warranty,Surface Temperature Reduction,Anti-efflorescence"
+        },
+        
+        {
+                "name":"SmartCare Damp Proof",
+                "img":"//product/waterproofing/Exterior Walls Products/SmartCare Damp Proof.png",
+                "description":"Upto 10 years Warranty,Surface Heat Reduction,Crack Bridging"
+        },
+        {
+                "name":"SmartCare Damp Sheath Exterior Advanced",
+                "img":"/product/waterproofing/Exterior Walls Products/SmartCare Damp Sheath Exterior Advanced.png",
+                "description":"5 years warranty,Crack bridging ability,Top coat coverage increase up to 10%"
+        },
+        {
+                "name":"SmartCare Epoxy TriBlock",
+                "img":"/product/waterproofing/Exterior Walls Products/SmartCare Epoxy TriBlock.png",
+                "description":"Food Grade Certified,2 years Warranty,Microbial"
+        },
+          {
+                "name":"Crack Nil",
+                "img":"/product/waterproofing/Exterior Walls Products/Crack Nil.png",
+                "description":"Crack filling,Waterpoofing,Adhesion"
+        },
+        {
+                "name":"SmartCare Tile Adhesive",
+                "img":"/product/waterproofing/Exterior Walls Products/SmartCare Tile Adhesive.png",
+                "description":"Easy Application,Excellent Adhesion,Ready-to-Use"
+        },
+        {
+                "name":"SmartCare Waterproofing Putty",
+                "img":"/product/waterproofing/Exterior Walls Products/SmartCare Waterproofing Putty.png",
+                "description":"Water Resistance,Effloroscence Resistant,Vibrant White Whiteness"
+        },
+        {
+                "name":"Ultra Block 2k",
+                "img":"/product/waterproofing/Exterior Walls Products/Ultra Block 2k.png",
+                "description":"3 years Warranty,Anti-Efflorescence,Anti-carbonation,Elongation"
+        },
+         {
+                "name":"SmartCare Damp Block 2K",
+                "img":"/product/waterproofing/Interior Wall Products/SmartCare Damp Block 2K - Prime.png",
+                "description":"3 years Warranty,Anti-Efflorescence,Anti-carbonation,Elongation"
+        }
+        
+    ],
+
+          "Interior":[
+        {
+                "name":"Marvelloplast S500",
+                "img":"/product/waterproofing/Interior Wall Products/Marvelloplast S500.png",
+                "description":"Anti-algal Properties,High Washability,Dust Proof Technology"
+        },
+        {
+                "name":"Putty Boost",
+                "img":"/product/waterproofing/Interior Wall Products/Putty Boost.png",
+                "description":"High Washability,6-years Warranty*,Dust Proof Technology"
+        },
+        {
+                "name":"SmartCare Crack Seal",
+                "img":"/product/waterproofing/Interior Wall Products/SmartCare Crack Seal.png",
+                "description":"50+ Shades,2 years Warranty*,Super Adhesion"
+        },
+        {
+                "name":"SmartCare Damp Block 2K",
+                "img":"/product/waterproofing/Interior Wall Products/SmartCare Damp Block 2K - Prime.png",
+                "description":"3 years Warranty,Anti-Efflorescence,Anti-carbonation,Elongation"
+        },
+         {
+                "name":"Crack Nil",
+                "img":"/product/waterproofing/Exterior Walls Products/Crack Nil.png",
+                "description":"Crack filling,Waterpoofing,Adhesion"
+        },
+        {
+                "name":"SmartCare Damp Sheath Interior Advanced",
+                "img":"/product/waterproofing/Interior Wall Products/SmartCare Damp Sheath Interior Advanced.png",
+                "description":"3 years waterproofing warranty,7X more water resistant,Upgraded with moisture block technology"
+        },
+         {
+                "name":"SmartCare Waterproofing Putty",
+                "img":"/product/waterproofing/Exterior Walls Products/SmartCare Waterproofing Putty.png",
+                "description":"Water Resistance,Effloroscence Resistant,Vibrant White Whiteness"
+        },
+        {
+                "name":"Ultra Block 2k",
+                "img":"/product/waterproofing/Exterior Walls Products/Ultra Block 2k.png",
+                "description":"3 years Warranty,Anti-Efflorescence,Anti-carbonation,Elongation"
+        }
+       
+    ],
+    "Terrace & Tanks Products":[
+         {
+                "name":"Damp Proof Play",
+                "img":"/product/waterproofing/Terrace & Tanks Products/Damp Proof Play.png",
+                "description":"10 years warranty,Terrace Decor with waterproofing,4 exciting patterns & 20 shades"
+        },
+         {
+                "name":"Damp Sheath Exterior",
+                "img":"/product/waterproofing/Exterior Walls Products/Damp Sheath Exterior.png",
+                "description":"5 years warranty,Crack bridging ability,Top coat coverage increase up to 10%"
+        },
+        {
+                "name":"SmartCare Roof Tapes",
+                "img":"/product/waterproofing/Terrace & Tanks Products/SmartCare Roof Tapes.png",
+                "description":"Superior Technology,Weather and Chemical Resistance,Flexibilty"
+        },
+        {
+                "name":"SmartCare Damp Sheath Exterior Advanced",
+                "img":"/product/waterproofing/Exterior Walls Products/SmartCare Damp Sheath Exterior Advanced.png",
+                "description":"5 years warranty,Crack bridging ability,Top coat coverage increase up to 10%"
+        },
+           {
+                "name":"SmartCare Damp Proof Xtreme",
+                "img":"/product/waterproofing/Terrace & Tanks Products/SmartCare Damp Proof Xtreme.png",
+                "description":"12 Years Waterproofing Warranty,Surface Temperature Reduction,Anti-efflorescence"
+        },
+         {
+                "name":"SmartCare Damp Block 2K",
+                "img":"/product/waterproofing/Interior Wall Products/SmartCare Damp Block 2K - Prime.png",
+                "description":"3 years Warranty,Anti-Efflorescence,Anti-carbonation,Elongation"
+        },
+        {
+                "name":"SmartCare Terrace Tile Primer",
+                "img":"/product/waterproofing/Terrace & Tanks Products/SmartCare Terrace Tile Primer.png",
+                "description":"Adhesion,Flexibility,Hybrid Technology,Eco-friendly"
+        },
+           {
+                "name":"SmartCare Tile Adhesive",
+                "img":"/product/waterproofing/Terrace & Tanks Products/SmartCare Tile Adhesive.png",
+                "description":"Easy Application,Excellent Adhesion,Ready-to-Use"
+        },
+           {
+                "name":"SmartCare Tile Coat",
+                "img":"/product/waterproofing/Terrace & Tanks Products/SmartCare Tile Coat.png",
+                "description":"2 Years Waterproofing Warranty,Clear Coating for Terrace Tiles"
+        }
+    ],
+            "Cracks & Joints Products":[
+                {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                }
+            ],
+            "Bathroom Products":[
+                {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                }
+            ],
+             "Tiling Products":[
+                {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                },
+                  {
+                    "name":"",
+                    "img":"",
+                    "description":""
+                }
+            ]
+    
+            }
+            
          ]
       
 }
