@@ -36,7 +36,7 @@ export const Areas = () => {
                     <p className="mx-auto fontmobile text-gray-400  md:text-lg   text-center md:mb-16 mb-3">One stop solution for all you need to keep your living space intact.</p>
                 </div>
             <div className="flex justify-center flex-col gap-6 md:justify-between items-center  px-0 lg:px-4 ">
-                 <div className="grid grid-cols-2 lg:grid-cols-4  gap-5 items-center">
+                 <div className="grid grid-cols-2 lg:grid-cols-3  gap-5 items-center">
                     {area.map((area) => (
                    
                       <div className="flex justify-center relative hover:-translate-y-4 duration-500 delay-200 mb-2 ">
