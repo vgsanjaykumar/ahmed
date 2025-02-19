@@ -5,7 +5,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 .top-container-1 {
     @apply px-8 md:px-16 xl:px-24 xl:mb-32 max-md:mt-8 max-md:text-base

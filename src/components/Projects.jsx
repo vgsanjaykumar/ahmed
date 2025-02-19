@@ -61,7 +61,7 @@ export const Product = () => {
 
                         <div
                             key={index}
-                            className="flex flex-col items-center bg-slate-100   rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 group transform hover:-translate-y-2"
+                            className="flex bg-slate-100  px-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 group transform hover:-translate-y-2"
                         >
 
                             <div className="   w-50 h-25 md:h-60 lg:h-100   flex object-fill items-center justify-center rounded-full mb-1 transition-all duration-300">

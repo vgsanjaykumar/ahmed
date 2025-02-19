@@ -28,7 +28,7 @@ const WhatsApp = () => {
     };
 
     return (
-        <section className="top-container-1 " id="whatapp">
+        <section className="top-container-1 mt-20 " id="whatapp">
             <h2 className="text-center  title-text  md:text-2xl font-bold  text-gray-700 md:mb-5 mb-0   ">Get An Expert Advice</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-6">
                 <div className="flex justify-center ">

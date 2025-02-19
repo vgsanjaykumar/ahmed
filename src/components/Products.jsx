@@ -58,16 +58,16 @@ const ProductSection = () => {
                     </div>
                     <motion.div
                         id="product-scroll-container"
-                        className="mt-4 md:mt-6 max-w-6xl mx-auto h-[16rem] sm:h-[26rem] own-bg overflow-y-auto bg-white p-4 rounded-lg border-y-2"
+                        className="mt-4 md:mt-6 max-w-7xl mx-auto h-[16rem] sm:h-[26rem] own-bg overflow-y-auto bg-white p-4 rounded-lg border-y-2"
                         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
                     >
                         <div className="flex justify-start flex-wrap md:mx-6 mx-2 md:gap-4 gap-2">
                             {categorySubCategories[selectedMainCategory].map((subCat) => (
                                 <button
                                     key={subCat}
-                                    className={`fontmobile rounded-sm px-1 bg-black bg-opacity-60 md:text-lg text-left ${selectedSubCategory === subCat
-                                            ? "text-white underline"
-                                            : "text-yellow-300"
+                                    className={`fontmobile rounded-lg px-1 md:px-3 md:py-1 md:my-3 md:mb-5  md:text-lg text-left ${selectedSubCategory === subCat
+                                            ? "text-yellow-100 bg-black bg-opacity-60 "
+                                            : "text-[#000000] bg-yellow-100 bg-opacity-80"
                                         }`}
                                     onClick={() => handleSubCategoryBtn(subCat)}
                                 >
@@ -75,22 +75,23 @@ const ProductSection = () => {
                                 </button>
                             ))}
                         </div>
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 mx-3 md:mx-5 my-5">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-7 mx-3 md:mx-5 my-5">
                             {getProductList().map((product) => (
                                 <div
                                     key={product.id}
-                                    className="flex items-center my-box bg-gray-50 p-1 md:p-3 rounded-lg shadow-sm hover:shadow-md transition cursor-pointer"
+                                    className="flex items-center h-auto max-md:h-10 my-box bg-gray-50 p-1 md:p-3 hover:translate-y-[-2px] rounded-lg shadow-sm  transition cursor-pointer"
                                     onClick={() => setSelectedProduct(product)}
                                 >
                                     <img
                                         src={product.img}
                                         alt={product.name}
-                                        className="w-10 h-10 sm:w-10 sm:h-10 object-cover rounded-lg shadow-md border border-gray-300"
+                                        className="w-7 h-7 sm:w-10 sm:h-10 object-cover rounded-lg shadow-md border border-gray-300"
                                     />
                                     <div className="ml-4">
-                                        <h4 className="fontmobile sm:text-md font-semibold text-gray-800">
+                                        <h4 className=" text-[8px] leading-3 md:text-[14px] font-semibold text-gray-800">
                                             {product.name}
                                         </h4>
+                                        <p className="text-[6px] leading-none mt-1 md:mt-2 md:text-[10px] text-gray-600">{product.description}</p>
                                     </div>
                                 </div>
                             ))}
@@ -114,8 +115,7 @@ const ProductSection = () => {
                                 </h1>
                                 <div className="fontmobile sm:text-md">
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Perspiciatis magni molestias.
+                                    {selectedProduct.description}
                                     </p>
                                 </div>
                                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
