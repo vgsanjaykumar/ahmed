@@ -1,5 +1,5 @@
 {
-    "Interior": [
+    "Interior": 
         {
         "royal":[ 
             
@@ -121,8 +121,8 @@
             
        
       }  
-        ],
-         "Exterior":[
+    ,
+         "Exterior":
             {
                 "ultima":[
         {
@@ -225,8 +225,8 @@
     ]
             }
             
-         ],
-          "Waterproofing":[
+        ,
+          "Waterproofing":
             {
                 "Exterior":[
        
@@ -505,8 +505,8 @@
     
             }
             
-         ],
-         "Wood-Paint":[
+        ,
+         "Wood-Paint":
             {
               "Gloss":[
                 {
@@ -675,7 +675,7 @@
                 
               ]       
             }
-         ],
+        ,
          "UnderCoat":[
             {
                 "Exterior primer":[

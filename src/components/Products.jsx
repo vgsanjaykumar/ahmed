@@ -6,13 +6,13 @@ import products from "./Product.json";
 const ProductSection = () => {
     const [selectedProduct, setSelectedProduct] = useState(null);
     const [selectedMainCategory, setSelectedMainCategory] = useState("Interior");
-    const [selectedSubCategory, setSelectedSubCategory] = useState(Interior[category[0]]);
+    const [selectedSubCategory, setSelectedSubCategory] = useState("royal");
 
     const categorySubCategories = {
         Interior: ["royal", "Apcolite", "Economy"],
         Exterior: ["ultima", "Apex", "Ace"],
         Waterproofing: ["Exterior", "Interior", "Terrace & Tanks Products", "Cracks & Joints Products", "Bathroom Products", "Tiling Products"],
-        wood: ["R1", "R2", "R3"]
+        wood: ["Gloss", "Matt", "High gloss","Satin"]
     };
 
     const handleMainCategoryBtn = (category) => {
@@ -54,7 +54,7 @@ const ProductSection = () => {
                                     ? "Exterior"
                                     : cat === "Waterproofing"
                                         ? "Waterproof"
-                                        : cat === "wood"
+                                        : cat === "Wood-Paint"
                                             ? "Wood Paint"
                                             : cat}
                             </button>
