@@ -11,8 +11,10 @@ const ProductSection = () => {
     const categorySubCategories = {
         Interior: ["royal", "Apcolite", "Economy"],
         Exterior: ["ultima", "Apex", "Ace"],
-        Waterproofing: ["Exterior", "Interior", "Terrace & Tanks Products", "Cracks & Joints Products", "Bathroom Products", "Tiling Products"],
-        WoodPaint : ["Gloss", "Matt", "High gloss","Satin"]
+        WaterProofing: ["Exterior", "Interior", "Terrace & Tanks Products", "Cracks & Joints Products", "Bathroom Products", "Tiling Products"],
+        WoodPaint : ["Gloss", "Matt", "High gloss","Satin"],
+        UnderCoat :["Exterior primer","Interior primer","Putty"],
+        Birla : ["White-cement","Wall-care",]
     };
 
     const handleMainCategoryBtn = (category) => {
@@ -50,19 +52,13 @@ const ProductSection = () => {
                                     }`}
                                 onClick={() => handleMainCategoryBtn(cat)}
                             >
-                                {cat === "Exterior"
-                                    ? "Exterior"
-                                    : cat === "Waterproofing"
-                                        ? "Waterproof"
-                                        : cat === "WoodPaint"
-                                            ? "Wood Paint"
-                                            : cat}
+                                {cat}
                             </button>
                         ))}
                     </div>
                     <motion.div
                         id="product-scroll-container"
-                        className="mt-4 md:mt-6 max-w-5xl mx-auto h-[16rem] sm:h-[26rem] own-bg overflow-y-auto bg-white p-4 rounded-lg border-y-2"
+                        className="mt-4 md:mt-6 max-w-6xl mx-auto h-[16rem] sm:h-[26rem] own-bg overflow-y-auto bg-white p-4 rounded-lg border-y-2"
                         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
                     >
                         <div className="flex justify-start flex-wrap md:mx-6 mx-2 md:gap-4 gap-2">
