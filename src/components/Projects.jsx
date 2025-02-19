@@ -47,7 +47,7 @@ export const Product = () => {
         ]
     };
     return (
-        <section className="  top-container-1  ">
+        <section className=" top-container-1 ">
             <div className="   ">
 
                 <div className="   ">
