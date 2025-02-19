@@ -424,91 +424,366 @@
             ],
             "Bathroom Products":[
                 {
-                    "name":"",
-                    "img":"",
-                    "description":""
+                    "name":"SmartCare Bathroom Waterproofing Membrane",
+                    "img":"/product/waterproofing/Bathroom Products/SmartCare Bathroom Waterproofing Membrane.png",
+                    "description":"Ultimate Performance,10 Years Warranty,Superior Technology"
                 },
                   {
-                    "name":"",
-                    "img":"",
-                    "description":""
+                    "name":"SmartCare Damp Block 2K",
+                    "img":"/product/waterproofing/Bathroom Products/SmartCare Damp Block 2K.png",
+                    "description":"3 years Warranty,Anti-Efflorescence,Anti-carbonation,Elongation"
                 },
                   {
-                    "name":"",
-                    "img":"",
-                    "description":""
+                    "name":"SmartCare Tile Grout - Epoxy",
+                    "img":"/product/waterproofing/Bathroom Products/SmartCare Tile Grout - Epoxy.png",
+                    "description":"Water Resistant,Chemical Resistant,Range of shades"
                 },
                   {
-                    "name":"",
-                    "img":"",
-                    "description":""
+                    "name":"SmartCare Vitalia Neo",
+                    "img":"/product/waterproofing/Bathroom Products/SmartCare Vitalia Neo.png",
+                    "description":"Water Impermeability,Compressive Strength,Workability"
                 },
                   {
-                    "name":"",
-                    "img":"",
-                    "description":""
+                    "name":"SmartCare White Multipurpose Tile Adhesive",
+                    "img":"/product/waterproofing/Bathroom Products/SmartCare White Multipurpose Tile Adhesive.png",
+                    "description":"Easy Application,Excellent Adhesion,Ready-to-Use"
                 },
                   {
-                    "name":"",
-                    "img":"",
-                    "description":""
-                },
-                  {
-                    "name":"",
-                    "img":"",
-                    "description":""
-                },
-                  {
-                    "name":"",
-                    "img":"",
-                    "description":""
+                    "name":"Ultra Block 2k.",
+                    "img":"/product/waterproofing/Bathroom Products/Ultra Block 2k.png",
+                    "description":"3 years Warranty,Anti-Efflorescence,Anti-carbonation,Elongation"
                 }
+                 
             ],
              "Tiling Products":[
                 {
-                    "name":"",
-                    "img":"",
-                    "description":""
+                    "name":"SmartCare Tile Grout - Epoxy",
+                    "img":"/product/waterproofing/Tiling Products/SmartCare Tile Grout - Epoxy Based 3K.png",
+                    "description":"Water Resistant,Chemical Resistant,Range of shades"
                 },
                   {
-                    "name":"",
-                    "img":"",
-                    "description":""
+                    "name":"SmartCare Tile Grout - Cement Based",
+                    "img":"/product/waterproofing/Tiling Products/SmartCare Tile Grout - Cement Based.png",
+                    "description":"Economical,Easy-to-apply,Water Resistance"
                 },
                   {
-                    "name":"",
-                    "img":"",
-                    "description":""
+                    "name":"SmartCare Block Joining Mortar",
+                    "img":"/product/waterproofing/Tiling Products/SmartCare Block Joining Mortar.png",
+                    "description":"SELF CURING,EXCELLENT ADHESION,FLEXIBLE"
                 },
                   {
-                    "name":"",
-                    "img":"",
-                    "description":""
+                    "name":"SmartCare Ezy White Tile Adhesive",
+                    "img":"/product/waterproofing/Tiling Products/SmartCare Ezy White Tile Adhesive.png",
+                    "description":"Easy application,Excellent adhesion,Economical"
                 },
                   {
-                    "name":"",
-                    "img":"",
-                    "description":""
+                    "name":"SmartCare Tile Adhesive",
+                    "img":"/product/waterproofing/Tiling Products/SmartCare Tile Adhesive.png",
+                     "description":"Easy Application,Excellent Adhesion,Ready-to-Use"
                 },
                   {
-                    "name":"",
-                    "img":"",
-                    "description":""
+                    "name":"SmartCare Tile Cleaner",
+                    "img":"/product/waterproofing/Tiling Products/SmartCare Tile Cleaner.png",
+                    "description":"Easy to remove stains,Long lasting beauty of tiles"
                 },
                   {
-                    "name":"",
-                    "img":"",
-                    "description":""
+                    "name":"SmartCare White Multipurpose Tile Adhesive",
+                    "img":"/product/waterproofing/Tiling Products/SmartCare White Multipurpose Tile Adhesive.png",
+                    "description":"Easy Application,Excellent Adhesion,Ready-to-Use"
                 },
                   {
-                    "name":"",
-                    "img":"",
-                    "description":""
+                    "name":"Tile Adhesive for Normal Application",
+                    "img":"/product/waterproofing/Tiling Products/Tile Adhesive for Normal Application.png",
+                    "description":"Easy Application,Excellent Adhesion,Economical"
+                },
+                 {
+                    "name":"Tile Adhesive for Tile-on-Tile Application",
+                    "img":"/product/waterproofing/Tiling Products/Tile Adhesive for Tile-on-Tile Application.png",
+                    "description":"Easy application,Excellent Adhesion,Ready to use"
                 }
             ]
     
             }
             
+         ],
+         "Wood-Paint":[
+            {
+              "Gloss":[
+                {
+                    "name":"WoodTech Aquadur PU Exterior Gloss",
+                    "img":"/product/Wood-Paints/Gloss/WoodTech Aquadur PU Exterior Gloss.png",
+                    "description":"A low smell and healthsafe (low VOC) water based polyurethane clear coating, which offers smooth finish and good hardness."
+                },
+                 {
+                    "name":"WoodTech Aquadur PU Interior Gloss",
+                    "img":"/product/Wood-Paints/Gloss/WoodTech Aquadur PU Interior Gloss.png",
+                    "description":"A low smell and healthsafe (low VOC) water based polyurethane clear coating, which offers smooth finish and good hardness."
+                },
+                 {
+                    "name":"WoodTech Melamyne",
+                    "img":"/product/Wood-Paints/Gloss/WoodTech Melamyne.png",
+                    "description":"A solvent based acid cure clear coating, which offers excellent smooth finish and good hardness."
+                },
+                 {
+                    "name":"WoodTech Emporio PU Black",
+                    "img":"/product/Wood-Paints/Gloss/WoodTech Emporio PU Black.png",
+                    "description":"An acrylic based opaque coating, which offers excellent stain resistance, better hardness and long-lasting durability."
+                },
+                 {
+                    "name":"WoodTech PU Luxury Wood Finish for Exterior",
+                    "img":"/product/Wood-Paints/Gloss/WoodTech PU Luxury Wood Finish for Exterior.png",
+                    "description":"An acrylic based clear coating, which offers excellent weather resistance, light-fastness and UV protection."
+                },
+                 {
+                    "name":"WoodTech PU Luxury Wood Finish for Interior",
+                    "img":"/product/Wood-Paints/Gloss/WoodTech PU Luxury Wood Finish for Interior.png",
+                    "description":"An acrylic based clear coating, which offers excellent stain resistance, better hardness and long-lasting durability."
+                },
+                 {
+                    "name":"WoodTech PU Palette Metallic",
+                    "img":"/product/Wood-Paints/Gloss/WoodTech PU Palette Metallic.png",
+                    "description":"An acrylic based opaque coating, which offers excellent stain resistance, better hardness and long-lasting durability."
+                },
+                  {
+                    "name":"WoodTech Touchwood 1KPU Interior Shades",
+                    "img":"/product/Wood-Paints/Gloss/WoodTech Touchwood 1KPU Interior Shades.png",
+                    "description":"Single component Polyurethane modified clear coating, which offers good smooth finish in different shades"
+                },
+                 {
+                    "name":"WoodTech Touchwood Interior & Exterior 1KPU",
+                    "img":"/product/Wood-Paints/Gloss/WoodTech Touchwood Interior & Exterior 1KPU.png",
+                    "description":"Single component Polyurethane modified clear coating, which offers good smooth finish for both Interior & Exterior wooden surface."
+                }
+              ],
+               "Matt":[
+                {
+                    "name":"Trucare Wood Primer",
+                    "img":"/product/Wood-Paints/matt/Trucare Wood Primer.png",
+                    "description":"Tackles wood's natural porosity to provide a pristine, workable surface"
+                },
+                 {
+                    "name":"WoodTech Aquadur 2k PU Parquet",
+                    "img":"/product/Wood-Paints/matt/WoodTech Aquadur 2k PU Parquet.png",
+                    "description":"A low smell and healthsafe (low VOC) water based Polyurethane clear coating for interior flooring, which offers smooth finish, hardness and excellent abrasion resistance"
+                },
+               
+                 {
+                    "name":"WoodTech Emporio Acrylic PU",
+                    "img":"/product/Wood-Paints/matt/WoodTech Emporio Acrylic PU.png",
+                    "description":"An acrylic based clear coating, which offers best in class, long lasting non-yellowing water white clear film."
+                },
+                 {
+                    "name":"WoodTech Emporio Gold PU Clear",
+                    "img":"/product/Wood-Paints/matt/WoodTech Emporio Gold PU Clear.png",
+                    "description":"A two-pack polyurethane clear coating, which offers excellent weather resistance, fungal resistance and UV protection"
+                },
+                 {
+                    "name":"WoodTech Emporio PU Palette",
+                    "img":"/product/Wood-Paints/matt/WoodTech Emporio PU Palette.png",
+                    "description":"An acrylic based opaque coating, which offers excellent stain resistance, better hardness and long-lasting durability."
+                },
+                 {
+                    "name":"WoodTech Emporio Regal PU Clear",
+                    "img":"/product/Wood-Paints/matt/WoodTech Emporio Regal PU Clear.png",
+                    "description":"An acrylic based clear coating, which offers excellent weather resistance, light-fastness and UV protection"
+                },
+                 {
+                    "name":"WoodTech Emporio Regal PU White",
+                    "img":"/product/Wood-Paints/matt/WoodTech Emporio Regal PU White.png",
+                    "description":"An acrylic based clear coating, which offers excellent weather resistance, light-fastness and UV protection"
+                },
+                 {
+                    "name":"WoodTech Insignia",
+                    "img":"/product/Wood-Paints/matt/WoodTech Insignia.png",
+                    "description":"A polyurethane based texture coating, which offers excellent aesthetic and smooth finish for interior décor."
+                },
+                 {
+                    "name":"WoodTech Polyester Gold",
+                    "img":"/product/Wood-Paints/matt/WoodTech Polyester Gold.png",
+                    "description":"A paraffined based clear coating, which offers best in class Gloss, excellent hardness and long lasting finish to wooden furniture"
+                },
+                 {
+                    "name":"WoodTech PU Palette Interior",
+                    "img":"/product/Wood-Paints/matt/WoodTech PU Palette Interior.png",
+                    "description":"An acrylic based opaque coating, which offers excellent stain resistance, better hardness and long-lasting durability."
+                },
+                 {
+                    "name":"WoodTech PU Palette Exterior",
+                    "img":"/product/Wood-Paints/matt/WoodTech PU Palette Exterior.png",
+                    "description":"An acrylic based clear coating, which offers excellent weather resistance, light-fastness and UV protection."
+                },
+                 {
+                    "name":"WoodTech PU Palette Metallic",
+                    "img":"/product/Wood-Paints/matt/WoodTech PU Palette Metallic.png",
+                    "description":"An acrylic based opaque coating, which offers excellent stain resistance, better hardness and long-lasting durability."
+                }
+              ],
+               "High gloss":[
+                {
+                    "name":"WoodTech Emporio Acrylic PU",
+                    "img":"/product/Wood-Paints/high gloss/WoodTech Emporio Acrylic PU.png",
+                    "description":"An acrylic based clear coating, which offers best in class, long lasting non-yellowing water white clear film."
+                },
+                 {
+                    "name":"WoodTech Emporio Gold PU Clear",
+                    "img":"/product/Wood-Paints/high gloss/WoodTech Emporio Gold PU Clear.png",
+                    "description":"A two-pack polyurethane clear coating, which offers excellent weather resistance, fungal resistance and UV protection"
+                },
+                 {
+                    "name":"WoodTech Emporio Gold PU White",
+                    "img":"/product/Wood-Paints/high gloss/WoodTech Emporio Gold PU White.png",
+                    "description":"A two-pack polyurethane clear coating, which offers excellent weather resistance, fungal resistance and UV protection"
+                },
+                 {
+                    "name":"WoodTech Emporio PU Black",
+                    "img":"/product/Wood-Paints/high gloss/WoodTech Emporio PU Black.png",
+                    "description":"An acrylic based opaque coating, which offers excellent stain resistance, better hardness and long-lasting durability."
+                },
+                 {
+                    "name":"WoodTech Emporio PU Clear",
+                    "img":"/product/Wood-Paints/high gloss/WoodTech Emporio PU Clear.png",
+                    "description":"An acrylic based clear coating, which offers excellent weather resistance, light-fastness and UV protection."
+                },
+                 {
+                    "name":"WoodTech Emporio PU Palette",
+                    "img":"/product/Wood-Paints/high gloss/WoodTech Emporio PU Palette.png",
+                    "description":"An acrylic based opaque coating, which offers excellent stain resistance, better hardness and long-lasting durability."
+                },
+                 {
+                    "name":"WoodTech Emporio Regal PU Clear",
+                    "img":"/product/Wood-Paints/high gloss/WoodTech Emporio Regal PU Clear.png",
+                    "description":"An acrylic based clear coating, which offers excellent weather resistance, light-fastness and UV protection"
+                },
+                 {
+                    "name":"WoodTech Emporio Regal PU White",
+                    "img":"/product/Wood-Paints/high gloss/WoodTech Emporio Regal PU White.png",
+                    "description":"An acrylic based clear coating, which offers excellent weather resistance, light-fastness and UV protection"
+                },
+                {
+                    "name":"WoodTech Polyester Gold",
+                    "img":"/product/Wood-Paints/high gloss/WoodTech Polyester Gold.png",
+                    "description":"A paraffined based clear coating, which offers best in class Gloss, excellent hardness and long lasting finish to wooden furniture"
+                }
+              ],
+               "Satin":[
+            
+                 {
+                    "name":"WoodTech PU Palette Interior",
+                    "img":"/product/Wood-Paints/satin/WoodTech PU Palette Interior.png",
+                    "description":"An acrylic based opaque coating, which offers excellent stain resistance, better hardness and long-lasting durability."
+                }
+                
+              ]       
+            }
+         ],
+         "UnderCoat":[
+            {
+                "Exterior primer":[
+                    {
+                        "name":"Smartcare Primero",
+                        "img":"/product/Undercoat/exterior primer/Smartcare Primero.png",
+                        "description":"Make your paint job last with our water-based primer that adds extra durability and moisture resistance to your exterior walls."
+                    },
+                    {
+                        "name":"SmartCare Terrace Tile Primer",
+                        "img":"/product/Undercoat/exterior primer/SmartCare Terrace Tile Primer.png",
+                        "description":"Lock in durability with our eco-friendly primer that waterproofs terrace tiles and keeps them strong for the long haul."
+                    },
+                    {
+                        "name":"Trucare Exterior Wall Primer Advanced",
+                        "img":"/product/Undercoat/exterior primer/Trucare Exterior Wall Primer Advanced.png",
+                        "description":"The perfect balance between whiteness, surface adhesion and topcoat finish to enusre all round satistaction with the surface finish"
+                    },
+                    {
+                        "name":"Trucare Exterior Wall Primer",
+                        "img":"/product/Undercoat/exterior primer/Trucare Exterior Wall Primer.png",
+                        "description":"Prime your walls the right way with our water-based primer that locks in paint better and gives your exterior walls a smooth, even base."
+                    },
+                    {
+                        "name":"Trucare Sparc Exterior Primer",
+                        "img":"/product/Undercoat/exterior primer/Trucare Sparc Exterior Primer.png",
+                        "description":"Provides good whiteness, a smooth surface and great adhesion to the topcoat for smooth exterior walls"
+                    },
+                    {
+                        "name":"Trucare Sparc Ultraa Exterior Primer",
+                        "img":"/product/Undercoat/exterior primer/Trucare Sparc Ultraa Exterior Primer.png",
+                        "description":"Upgraded performance with great whiteness and topcoat adhesion for a wonderful wall with a superior finish"
+                    }
+                ],
+                "Interior primer":[
+                    {
+                        "name":"Royale Wall Base Coat",
+                        "img":"/product/Undercoat/interior primer/Royale Wall Base Coat.png",
+                        "description":"Create the perfect base coat that primes for a smooth finish, better paint adhesion, and added moisture protection."
+                    },
+                    {
+                        "name":"Trucare Interior Wall Primer - Solvent Thinnable",
+                        "img":"/product/Undercoat/interior primer/Trucare Interior Wall Primer - Solvent Thinnable.png",
+                        "description":"Let your walls stand out! All you need for an everlasting paint is aprimer with good sealing properties."
+                    },
+                    {
+                        "name":"Trucare Interior Wall Primer - Water Thinnable",
+                        "img":"/product/Undercoat/interior primer/Trucare Interior Wall Primer - Water Thinnable.png",
+                        "description":"A true hero product when it comes to water-based wall finishes. It proves to be an effective primer for luxury finishes of top coats."
+                    },
+                    {
+                        "name":"Trucare Sparc Ultraa Interior Primer- Water Thinnable",
+                        "img":"/product/Undercoat/interior primer/Trucare Sparc Ultraa Interior Primer- Water Thinnable.png",
+                        "description":"Upgraded performance with great whiteness and topcoat adhesion for a wonderful wall with a superior finish"
+                    }
+                    
+                ],
+                "Putty":[
+                      {
+                        "name":"Trucare Wall Putty",
+                        "img":"/product/Undercoat/Putty/Trucare Wall Putty.png",
+                        "description":"Perfect the art of smooth walls, with our putty which will fill cracks and gaps, ensuring a perfect surface inside and out."
+                    },
+                    {
+                        "name":"Acrylic Wall Putty",
+                        "img":"/product/Undercoat/Putty/Acrylic Wall Putty.png",
+                        "description":"Perfect your finish with our water-based putty that fills imperfections and leaves a smooth, white base for your topcoat."
+                    },
+                    {
+                        "name":"Trucare Filling Putty",
+                        "img":"/product/Undercoat/Putty/Trucare Filling Putty.png",
+                        "description":"Smooth out every bump with our white cement-based putty giving your walls a flawless base coat for painting."
+                    },
+                    {
+                        "name":"Trucare Knifing Paste Filler",
+                        "img":"/product/Undercoat/Putty/Trucare Knifing Paste Filler.png",
+                        "description":"Create beautiful walls with this filler that smooths out cracks and dents, leaving you with a perfect wall finish."
+                    }
+                ]
+            }
+         ],
+         "Birla":[
+            {
+                "White-cement":[
+                    {
+                        "name":"Whitecement",
+                        "img":"/product/Birla/whitecement.webp",
+                        "description":"Birla White Cement is basically White Portland Cement that is made by using advanced technology and state-of-the-art manufacturing process, which gives superior fineness and whiteness."
+                    },
+                     {
+                        "name":"EVER-WHITE CEMENT WASH",
+                        "img":"/product/Birla/EVER-WHITE CEMENT WASH.webp",
+                        "description":"Birla White Ever White Cement Wash is a first-of-its-kind cement wash that is exceptionally durable, superbly lustrous, and gives an economical wall finish."
+                    }
+                ],
+                "Wall-care":[
+                     {
+                        "name":"WALLCARE PUTTY",
+                        "img":"/product/Birla/WALLCARE PUTTY.webp",
+                        "description":"Birla White WallCare Putty is known to be India’s Asli Aur Sabse Safed Putty. It is a white cement-based, water-resistant, white wall putty that ensures a strong binding with building surfaces, a smooth finish, extensive coverage, superior refractive index, and paint-friendliness."
+                    },
+                     {
+                        "name":"WALLSEAL WATERPROOF PUTTY",
+                        "img":"/product/Birla/WALLSEAL WATERPROOF PUTTY.webp",
+                        "description":"Birla White WallSeal Waterproof Putty is a white cement-based putty with 2x water resistance and Active German Silicon Polymers which provides a strong base on a plaster/concrete and mortar wall surface before application of topcoat paint or distemper and protects your walls from water."
+                    }
+                ]
+            }
          ]
       
 }
