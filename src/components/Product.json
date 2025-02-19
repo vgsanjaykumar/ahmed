@@ -298,7 +298,7 @@
         {
                 "name":"SmartCare Crack Seal",
                 "img":"/product/waterproofing/Interior Wall Products/SmartCare Crack Seal.png",
-                "description":"50+ Shades,2 years Warranty*,Super Adhesion"
+                "description":"Crack Filing,High Flexibility,Mechanical Strength"
         },
         {
                 "name":"SmartCare Damp Block 2K",
@@ -376,44 +376,50 @@
     ],
             "Cracks & Joints Products":[
                 {
-                    "name":"",
-                    "img":"",
-                    "description":""
+                "name":"Crack Nil",
+                "img":"/product/waterproofing/Exterior Walls Products/Crack Nil.png",
+                "description":"Crack filling,Waterpoofing,Adhesion"
+                },
+
+                  {
+                    "name":"SmartCare AkrylMax",
+                    "img":"/product/waterproofing/Cracks & Joints Products/SmartCare AkrylMax.png",
+                    "description":"Paintable,Odourless,Water Resistant,Non Corrosive"
                 },
                   {
                     "name":"",
-                    "img":"",
-                    "description":""
+                    "img":"/product/waterproofing/Cracks & Joints Products/SmartCare Crack Seal.png",
+                    "description":"Crack Filing,High Flexibility,Mechanical Strength"
                 },
                   {
-                    "name":"",
-                    "img":"",
-                    "description":""
+                    "name":"SmartCare Hybrid PU Sealant",
+                    "img":"/product/waterproofing/Cracks & Joints Products/SmartCare Hybrid PU Sealant.png",
+                    "description":"Excellent Adhesion,Paintable,Water Resistant"
                 },
                   {
-                    "name":"",
-                    "img":"",
-                    "description":""
+                    "name":"SmartCare Instant Leak Stop",
+                    "img":"/product/waterproofing/Cracks & Joints Products/SmartCare Instant Leak Stop.png",
+                    "description":"Crack Sealing,Quick Setting,Excellent Adhesion"
                 },
                   {
-                    "name":"",
-                    "img":"",
-                    "description":""
+                    "name":"SmartCare Textured Crack Filler",
+                    "img":"/product/waterproofing/Cracks & Joints Products/SmartCare Textured Crack Filler.png",
+                    "description":"Grainy Texture,Ease of use,Excellent Paintability"
+                },
+                {
+                    "name":"SmartCare Tile Grout - Cement Based",
+                    "img":"/product/waterproofing/Cracks & Joints Products/SmartCare Tile Grout - Cement Based.png",
+                    "description":"Economical,Easy-to-apply,Water Resistance"
                 },
                   {
-                    "name":"",
-                    "img":"",
-                    "description":""
+                    "name":"SmartCare Tile Grout - Epoxy",
+                    "img":"/product/waterproofing/Cracks & Joints Products/SmartCare Tile Grout - Epoxy.png",
+                    "description":"Water Resistant,Chemical Resistant,Range of shades"
                 },
                   {
-                    "name":"",
-                    "img":"",
-                    "description":""
-                },
-                  {
-                    "name":"",
-                    "img":"",
-                    "description":""
+                    "name":"Unyverseal GP",
+                    "img":"/product/waterproofing/Cracks & Joints Products/Unyverseal GP.png",
+                    "description":"High flexibility,UV Resistant,Waterproof"
                 }
             ],
             "Bathroom Products":[
