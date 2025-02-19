@@ -12,7 +12,7 @@ const ProductSection = () => {
         Interior: ["royal", "Apcolite", "Economy"],
         Exterior: ["ultima", "Apex", "Ace"],
         Waterproofing: ["Exterior", "Interior", "Terrace & Tanks Products", "Cracks & Joints Products", "Bathroom Products", "Tiling Products"],
-        wood: ["Gloss", "Matt", "High gloss","Satin"]
+        WoodPaint : ["Gloss", "Matt", "High gloss","Satin"]
     };
 
     const handleMainCategoryBtn = (category) => {
@@ -54,7 +54,7 @@ const ProductSection = () => {
                                     ? "Exterior"
                                     : cat === "Waterproofing"
                                         ? "Waterproof"
-                                        : cat === "Wood-Paint"
+                                        : cat === "WoodPaint"
                                             ? "Wood Paint"
                                             : cat}
                             </button>
@@ -65,13 +65,13 @@ const ProductSection = () => {
                         className="mt-4 md:mt-6 max-w-5xl mx-auto h-[16rem] sm:h-[26rem] own-bg overflow-y-auto bg-white p-4 rounded-lg border-y-2"
                         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
                     >
-                        <div className="flex justify-start mx-6 md:gap-4 gap-2">
+                        <div className="flex justify-start flex-wrap md:mx-6 mx-2 md:gap-4 gap-2">
                             {categorySubCategories[selectedMainCategory].map((subCat) => (
                                 <button
                                     key={subCat}
-                                    className={`fontmobile md:text-lg ${selectedSubCategory === subCat
+                                    className={`fontmobile rounded-sm px-1 bg-black bg-opacity-60 md:text-lg text-left ${selectedSubCategory === subCat
                                             ? "text-white underline"
-                                            : "text-white"
+                                            : "text-yellow-300"
                                         }`}
                                     onClick={() => handleSubCategoryBtn(subCat)}
                                 >
