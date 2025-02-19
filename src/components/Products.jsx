@@ -42,11 +42,11 @@ const ProductSection = () => {
                             One stop solution for all you need to keep your living space intact.
                         </p>
                     </div>
-                    <div className="flex justify-center md:gap-4 gap-2 mb-2">
+                    <div className="grid grid-cols-4 md:flex justify-center md:gap-4 gap-2 mb-2">
                         {Object.keys(categorySubCategories).map((cat) => (
                             <button
                                 key={cat}
-                                className={`fontmobile md:text-lg button-all ${selectedMainCategory === cat
+                                className={`fontmobile md:text-lg  button-all overflow-hidden  ${selectedMainCategory === cat
                                         ? "bg-[#0A3981] text-white"
                                         : "bg-[#0A3981] text-gray-700 bg-opacity-5"
                                     }`}
