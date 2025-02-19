@@ -1,17 +1,17 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { BsWhatsapp } from "react-icons/bs";
-import products from "./Constants/Products.json";
+import products from "./Product.json";
 
 const ProductSection = () => {
     const [selectedProduct, setSelectedProduct] = useState(null);
     const [selectedMainCategory, setSelectedMainCategory] = useState("Interior");
-    const [selectedSubCategory, setSelectedSubCategory] = useState("R1");
+    const [selectedSubCategory, setSelectedSubCategory] = useState(Interior[category[0]]);
 
     const categorySubCategories = {
-        Interior: ["R1", "R2", "R3"],
-        c2: ["R1", "R2", "R3", "R4", "R5"],
-        c3: ["R1", "R2", "R3"],
+        Interior: ["royal", "Apcolite", "Economy"],
+        Exterior: ["ultima", "Apex", "Ace"],
+        Waterproofing: ["Exterior", "Interior", "Terrace & Tanks Products", "Cracks & Joints Products", "Bathroom Products", "Tiling Products"],
         wood: ["R1", "R2", "R3"]
     };
 
@@ -50,9 +50,9 @@ const ProductSection = () => {
                                     }`}
                                 onClick={() => handleMainCategoryBtn(cat)}
                             >
-                                {cat === "c2"
+                                {cat === "Exterior"
                                     ? "Exterior"
-                                    : cat === "c3"
+                                    : cat === "Waterproofing"
                                         ? "Waterproof"
                                         : cat === "wood"
                                             ? "Wood Paint"
