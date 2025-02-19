@@ -30,7 +30,7 @@ export const About = () => {
                     <h2 className="md:text-lg lg:text-2xl text-sm font-bold text-gray-800 mb-2 ">Ahmed Paint Traders</h2>
 
                         <div className=" text-gray-400 md:text-sm fontmobile flex md:font-semibold mb-2  " >
-                            <FaBuilding className=" md:h-5 md:w-4 h-4 w-3  " /> <h1 className="ml-2">Year of Establishment 1990</h1>
+                            <FaBuilding className=" md:h-5 md:w-4 h-4 w-3  " /> <h1 className="ml-2">Year of Establishment 2000</h1>
                     </div>
                         
                         <p className="text-gray-400 leading-relaxed md:text-sm fontmobile md:truncated ">

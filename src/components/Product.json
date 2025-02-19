@@ -1,0 +1,230 @@
+{
+    "Interior": [
+        {
+        "royal":[ 
+            
+        {
+            "name": "Royale Advanced ", 
+            "img": "/product/Interior/Royale Interior/Royale Advanced.png",
+            "description": "Advanced Sheen ,Best in class smoothness, Unmatched stain radiance"
+        },
+        {
+            "name":"Royale Aspira",
+            "img":"/product/Interior/Royale Interior/Royale Aspira.png",
+            "description":"Water beading technology,Luxury with Teflon™"
+        },
+         {
+            "name":"Royale Glitz Reserv",
+            "img":"/product/Interior/Royale Interior/Royale Glitz Reserv.png",
+            "description":"Perfect Crème finish,Luxury with Teflon™,Stain repellent"
+        },
+         {
+            "name":"Royale Glitz Ultra Matt",
+            "img":"/product/Interior/Royale Interior/Royale Glitz Ultra Matt.png",
+            "description":"Ultra Matt,Luxury with Teflon™,Stain repellent"
+        },
+         {
+            "name":"Royale Glitz",
+            "img":"/product/Interior/Royale Interior/Royale Glitz",
+            "description":"Perfect Crème Finish,Luxury with Teflon™,Stain repellen"
+        },
+         {
+            "name":"Royale Luxury Emulsion",
+            "img":"/product/Interior/Royale Interior/Royale Luxury Emulsion.png",
+            "description":"Teflon Surface Protection,Best in Class Durability,Soft Sheen Finish"
+        },
+         {
+            "name":"Royale Matt",
+            "img":"/product/Interior/Royale Interior/Royale Matt.png",
+            "description":"Smoothest matt finish,Teflon surface protection,Highly durable paint"
+        },
+         {
+            "name":"Royale Shyne Luxury Emulsion",
+            "img":"/product/Interior/Royale Interior/Royale Shyne Luxury Emulsion.png",
+            "description":"Luxurious high sheen,Best in class washability,Long lasting paint"
+        }         
+    ],
+    "Apcolite":[
+        {
+                "name":"Apcolite Advanced Premium Emulsion",
+                "img":"/product/Interior/Apcolite Interior/Apcolite Advanced Premium Emulsion.png",
+                "description":"Advance Stain Guard,Superior Washability"
+        },
+        {
+                "name":"Apcolite Advanced Shyne Premium Emulsion",
+                "img":"/product/Interior/Apcolite Interior/Apcolite Advanced Shyne Premium Emulsion.png",
+                "description":"Advance Stain Guard,Superior Washability"
+        },
+        {
+                "name":"Apcolite All Protek Matt",
+                "img":"/product/Interior/Apcolite Interior/Apcolite All Protek Matt.png",
+                "description":"Lotus Effect Technology,Fire retardancy,Fragrance"
+        },
+        {
+                "name":"Apcolite All Protek Shyne",
+                "img":"/product/Interior/Apcolite Interior/Apcolite All Protek Shyne.png",
+                "description":"Lotus Effect Technology,Fire retardancy,Fragrance"
+        },
+        {
+                "name":"Apcolite Premium Emulsion",
+                "img":"/product/Interior/Apcolite Interior/Apcolite Premium Emulsion.png",
+                "description":"Washability,Stain Guard"
+        },
+        {
+                "name":"Apcolite Premium Satin Emulsion",
+                "img":"/product/Interior/Apcolite Interior/Apcolite Premium Satin Emulsion.png",
+                "description":"Washability,Stain Guard"
+        }
+    ],
+    "Economy":[
+        {
+                "name":"Asian Paints Tractor Emulsion",
+                "img":"/product/Interior/Economy Interior/Asian Paints Tractor Emulsion.png",
+                "description":"Best in Class Washability,No Shade Fading,Superior Smooth Finish"
+        },
+        {
+                "name":"NeoBharat Latex Interior Paint",
+                "img":"/product/Interior/Economy Interior/NeoBharat Latex Interior Paint.png",
+                "description":"Smooth finish,High coverage,1000+ Shades"
+        },
+        {
+                "name":"Tractor Aqualock",
+                "img":"/product/Interior/Economy Interior/Tractor Aqualock.png",
+                "description":"Affordable Branded Distemper,Better Finish then Regular Distemper"
+        },
+        {
+                "name":"Tractor Emulsion Advanced",
+                "img":"/product/Interior/Economy Interior/Tractor Emulsion Advanced.png",
+                "description":"Best in Class Washability,Anti Fungal Shield,Superior Smooth Finish"
+        },
+        {
+                "name":"Tractor Emulsion Shyne",
+                "img":"/product/Interior/Economy Interior/Tractor Emulsion Shyne.png",
+                "description":"Best in Class Washability,Green Pro Certification,Soft Sheen Finish"
+        },
+        {
+                "name":"Tractor Sparc Advanced",
+                "img":"/product/Interior/Economy Interior/Tractor Sparc Advanced.png",
+                "description":"1.5x coverage than Distemper,Smooth Finish,Improved Whiteness"
+        },
+        {
+                "name":"Tractor Sparc",
+                "img":"/product/Interior/Economy Interior/Tractor Sparc.png",
+                "description":"1.5x coverage than Distemper,Smooth Finish,Better Whiteness"
+        },
+        {
+                "name":"Tractor Uno",
+                "img":"/product/Interior/Economy Interior/Tractor Uno.png",
+                "description":"Affordable Branded Distemper"
+        }
+    ]
+            
+       
+      }  
+        ],
+         "Exterior":[
+            {
+                "ultima":[
+        {
+                "name":"Apex Ultima Protek Duralife",
+                "img":"/product/Exterior/Ultima Exterior/Apex Ultima Protek Duralife.png",
+                "description":"WALLS of S.T.E.E.L,15 years warranty*,Advanced PUD Formula"
+        },
+        {
+                "name":"Apex Ultima Protek",
+                "img":"/product/Exterior/Ultima Exterior/Apex Ultima Protek.png",
+                "description":"Home Lamination powered by Graphene,12 years Warranty*,Elastomeric Armour"
+        },
+        {
+                "name":"Apex Ultima Stretch",
+                "img":"/product/Exterior/Ultima Exterior/Apex Ultima Stretch.png",
+                "description":"Crack Bridging Ability powered by PU Serum,8 years Warranty*,Dust Proof UV Protect"
+        },
+        {
+                "name":"Apex Ultima",
+                "img":"/product/Exterior/Ultima Exterior/Apex Ultima.png",
+                "description":"Powered by PU Serum,8 years Warranty*,Colour Stay Pro"
+        }
+        
+    ],
+
+          "Apex":[
+        {
+                "name":"Apex Advanced Dust Proof",
+                "img":"/product/Exterior/Apex Exterior/Apex Advanced Dust Proof.png",
+                "description":"Anti-algal Properties,High Washability,Dust Proof Technology"
+        },
+        {
+                "name":"Apex Dust Proof Emulsion",
+                "img":"/product/Exterior/Apex Exterior/Apex Dust Proof Emulsion.png",
+                "description":"High Washability,6-years Warranty*,Dust Proof Technology"
+        },
+        {
+                "name":"Apex Floor Guard",
+                "img":"/product/Exterior/Apex Exterior/Apex Floor Guard.png",
+                "description":"50+ Shades,2 years Warranty*,Super Adhesion"
+        },
+        {
+                "name":"Apex Shyne Paint",
+                "img":"/product/Exterior/Apex Exterior/Apex Shyne Paint.png",
+                "description":"Anti-algal Properties,High Sheen,Dust Proof Technology"
+        },
+        {
+                "name":"Apex Tile Guard Clear Matt",
+                "img":"/product/Exterior/Apex Exterior/Apex Tile Guard Clear Matt.png",
+                "description":"Strong Water Repellance,Long lasting,Adhesion"
+        },
+        {
+                "name":"Apex Tile Guard",
+                "img":"/product/Exterior/Apex Exterior/Apex Tile Guard.png",
+                "description":"Strong Water Repellance,Long lasting,Superior Adhesion"
+        }
+       
+    ],
+    "Ace":[
+        {
+                "name":"Ace Advanced",
+                "img":"/product/Exterior/Ace Exterior/Ace Advanced.png",
+                "description":"Water Resistance,3 years Warranty*,1600+ available shades"
+        },
+        {
+                "name":"Ace Exterior Emulsion",
+                "img":"public/product/Exterior/Ace Exterior/Ace Exterior Emulsion.png",
+                "description":"Water Resistance,3 years Warranty*,1600+ available shades"
+        },
+        {
+                "name":"Ace Power+",
+                "img":"/product/Exterior/Ace Exterior/Ace Power+.png",
+                "description":"Advanced anti-fade technology,Weather guard,Matt finish"
+        },
+        {
+                "name":"Ace Shyne",
+                "img":"/product/Exterior/Ace Exterior/Ace Shyne.png",
+                "description":"High Sheen Finish,3 years Warranty*,Water Resistance"
+        },
+        {
+                "name":"Ace Sparc Advanced",
+                "img":"/product/Exterior/Ace Exterior/Ace Sparc Advanced.png",
+                "description":"Value for money,2 years Warranty*,Wide shade range"
+        },
+        {
+                "name":"Ace Sparc Colours",
+                "img":"/product/Exterior/Ace Exterior/Ace Sparc Colours.png",
+                "description":"Value for money,2 years Warranty*,Wide shade range"
+        },
+        {
+                "name":"Ace Sparc",
+                "img":"/product/Exterior/Ace Exterior/Ace Sparc.png",
+                "description":"Value for money,2 years Warranty*,Wide shade range"
+        },
+           {
+                "name":"NeoBharat Latex Exterior Paint",
+                "img":"/product/Exterior/Ace Exterior/NeoBharat Latex Exterior Paint.png",
+                "description":"Weather Resistant,1000+ shades with 3X Durability,Affordable Price"
+        }
+    ]
+            }
+            
+         ]
+      
+}
