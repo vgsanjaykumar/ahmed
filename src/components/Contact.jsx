@@ -45,7 +45,7 @@ export const Contact = () => {
                   <h2 className="md:text-lg lg:text-xl fontmobile  text-gray-500  mb-4">33AAEPH3394N1ZH</h2>
                 </div>
                 <div className="flex  md:justify-start justify-center md:ml-1  text-[#0A3981] ">
-                  <a href="https://wa.me/919751944100?text=hello how can help you" target="2_blank"><FaWhatsapp className=" md:text-lg lg:text-2xl text-xl mr-3 hover:text-4xl duration-700 delay-400" /></a>
+                  <a href="https://wa.me/919751944100?text=hello " target="2_blank"><FaWhatsapp className=" md:text-lg lg:text-2xl text-xl mr-3 hover:text-4xl duration-700 delay-400" /></a>
                   <a href="mailto:ahmedpaints@gmail.com" target="2_blank">  <FaEnvelope className="md:text-lg lg:text-2xl text-xl mr-3 hover:text-4xl duration-700 delay-400" /></a>
                   <a href="" target="2_blank"> <FaInstagram className="md:text-lg lg:text-2xl text-xl mr-3 hover:text-4xl duration-700 delay-400" /></a>
                   <a href="https://www.facebook.com/ahmedpaintskkdi/" target="2_blank"> <FaFacebook className="md:text-lg lg:text-2xl text-xl mr-3 hover:text-4xl duration-700 delay-400" /></a>
