@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaEnvelope, FaFacebook, FaInstagram, FaUser, FaWhatsapp } from "react-icons/fa";
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
-import { GoVerified } from "react-icons/go";
 import { MdVerifiedUser } from "react-icons/md";
 
 export const Contact = () => {
@@ -12,19 +11,19 @@ export const Contact = () => {
         <motion.div
           className=""
           initial={{ scale: 1, opacity: 0 }}
-          whileInView={{ scale: 1.1, opacity: 1 }}
+          whileInView={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
           viewport={{ once: false, amount: 0.3 }}
         >
           <div className="md:mb-0 mb-4 mt-8 ">
             <h2 className="title-text">Contact us</h2>
           </div>
-          <div className="flex justify-between md:justify-between items-center    lg:px-16 mb-10 ">
+          <div className="">
 
             <div className="grid grid-cols-1 md:grid-cols-2     ">
 
-              <div className=" justify-center flex flex-col md:pl-5 pl-0  w-full">
-                <div className="flex uppercase w-full">
+              <div className=" justify-center flex flex-col md:pl-6 pl-0 ml-5  w-full items-start">
+                <div className="flex uppercase w-full ">
                   <FaUser className="text-[#0A3981] md:text-lg lg:text-xl fontmobile mr-3" />
                   <h2 className="md:text-lg lg:text-xl fontmobile  text-gray-500 mb-4">Ahmed Irfan</h2>
                 </div>
@@ -34,7 +33,7 @@ export const Contact = () => {
                 </div>
                 <div className="flex uppercase">
                   <FaPhone className="text-[#0A3981] md:text-lg lg:text-2xl fontmobile mr-3" />
-                  <h2 className="md:text-lg lg:text-xl fontmobile  text-gray-500  mb-4">91+9874561230</h2>
+                  <a href="tel:91+9751944100"><h2 className="md:text-lg lg:text-xl fontmobile  text-gray-500  mb-4">91+ 9751944100</h2></a>
                 </div>
                 <div className="flex">
                   <MdVerifiedUser className="text-[#0A3981] md:text-lg lg:text-2xl fontmobile mr-3" />
@@ -55,7 +54,7 @@ export const Contact = () => {
                 <img
                   src="/contact us.png"
                   alt="About Us"
-                  className="w-full  rounded-lg  delay-400 object-center lg:ml-40 md:ml-8 ml-3 mb-4 "
+                  className="w-full  rounded-lg  delay-400 object-center  mb-4 "
                 />
 
 
