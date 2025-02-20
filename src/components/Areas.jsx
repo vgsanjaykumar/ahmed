@@ -42,7 +42,8 @@ export const Areas = () => {
                       <div className="flex justify-center relative hover:-translate-y-4 duration-500 delay-200 mb-2 ">
                         <img
                             src={area.img}
-                            alt="About Us"
+                            alt="Ahmed paints Traders"
+                            title="Ahmed Paint Karaikudi"
                             className="w-full max-h-max max-w-md rounded-lg shadow-lg object-center  "
                         />
                         <p className="absolute top-[70%] md:top-[80%] lg:top-[80%] left-5 right-0  text-white semi-font-bold  md:text-2xl text-[10px]">{area.Name}</p>

@@ -19,7 +19,8 @@ export const Whatsnew = () => {
           >
             <img
               src="/new product.png"
-              alt="New Product"
+              alt="Ahmed paint traders"
+              title="Ahmed paint traders"
               className="w-full max-w-xl rounded-lg shadow-lg"
             />
           </motion.div>

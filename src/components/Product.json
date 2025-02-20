@@ -1,6 +1,6 @@
 {
     "Interior": {
-        "royal": [
+        "Luxury": [
             {
                 "name": "Royale Advanced ",
                 "img": "/product/Interior/Royale Interior/Royale Advanced.png",
@@ -42,7 +42,7 @@
                 "description": "Luxurious high sheen,Best in class washability,Long lasting paint"
             }
         ],
-        "Apcolite": [
+        "Premium": [
             {
                 "name": "Apcolite Advanced Premium Emulsion",
                 "img": "/product/Interior/Apcolite Interior/Apcolite Advanced Premium Emulsion.png",
@@ -118,7 +118,7 @@
         ]
     },
     "Exterior": {
-        "ultima": [
+        "Luxury": [
             {
                 "name": "Apex Ultima Protek Duralife",
                 "img": "/product/Exterior/Ultima Exterior/Apex Ultima Protek Duralife.png",
@@ -140,7 +140,7 @@
                 "description": "Powered by PU Serum,8 years Warranty*,Colour Stay Pro"
             }
         ],
-        "Apex": [
+        "Premium": [
             {
                 "name": "Apex Advanced Dust Proof",
                 "img": "/product/Exterior/Apex Exterior/Apex Advanced Dust Proof.png",
@@ -172,7 +172,7 @@
                 "description": "Strong Water Repellance,Long lasting,Superior Adhesion"
             }
         ],
-        "Ace": [
+        "Economy": [
             {
                 "name": "Ace Advanced",
                 "img": "/product/Exterior/Ace Exterior/Ace Advanced.png",
@@ -229,7 +229,7 @@
             },
             {
                 "name": "SmartCare Damp Proof",
-                "img": "//product/waterproofing/Exterior Walls Products/SmartCare Damp Proof.png",
+                "img": "/product/waterproofing/Exterior Walls Products/SmartCare Damp Proof.png",
                 "description": "Upto 10 years Warranty,Surface Heat Reduction,Crack Bridging"
             },
             {
@@ -369,7 +369,7 @@
                 "description": "Paintable,Odourless,Water Resistant,Non Corrosive"
             },
             {
-                "name": "",
+                "name": "SmartCare Crack Seal",
                 "img": "/product/waterproofing/Cracks & Joints Products/SmartCare Crack Seal.png",
                 "description": "Crack Filing,High Flexibility,Mechanical Strength"
             },

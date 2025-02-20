@@ -6,11 +6,11 @@ import products from "./Product.json";
 const ProductSection = () => {
     const [selectedProduct, setSelectedProduct] = useState(null);
     const [selectedMainCategory, setSelectedMainCategory] = useState("Interior");
-    const [selectedSubCategory, setSelectedSubCategory] = useState("royal");
+    const [selectedSubCategory, setSelectedSubCategory] = useState("Luxury");
 
     const categorySubCategories = {
-        Interior: ["royal", "Apcolite", "Economy"],
-        Exterior: ["ultima", "Apex", "Ace"],
+        Interior: ["Luxury", "Premium", "Economy"],
+        Exterior: ["Luxury", "Premium", "Economy"],
         WaterProofing: ["Exterior", "Interior", "Terrace & Tanks Products", "Cracks & Joints Products", "Bathroom Products", "Tiling Products"],
         WoodPaint : ["Gloss", "Matt", "High gloss","Satin"],
         UnderCoat :["Exterior primer","Interior primer","Putty"],
@@ -85,6 +85,7 @@ const ProductSection = () => {
                                     <img
                                         src={product.img}
                                         alt={product.name}
+                                        title="ahmed paint traders"
                                         className="w-7 h-7 sm:w-10 sm:h-10 object-cover rounded-lg shadow-md border border-gray-300"
                                     />
                                     <div className="ml-4">

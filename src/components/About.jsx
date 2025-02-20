@@ -25,8 +25,9 @@ export const About = () => {
                        
                             <img
                                 src="/ahmed outside.jpg"
-                                alt="About Us"
+                                alt="Ahmed Paint karaikudi"
                                 className=" h-full w-full rounded-lg shadow-xl "
+                                title="Ahmed Paint traders karaikudi"
                             />
                        
                     </div>

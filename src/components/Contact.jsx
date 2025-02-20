@@ -23,28 +23,28 @@ export const Contact = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2     ">
 
-              <div className=" justify-center flex flex-col md:pl-6 pl-0 ml-5  w-full items-start">
+              <div className=" justify-center flex flex-col md:pl-6 pl-0   w-full items-start">
                 <div className="flex uppercase w-full ">
-                  <FaUser className="text-[#0A3981] md:text-lg lg:text-xl fontmobile mr-3" />
+                  <FaUser className="text-[#0A3981] md:text-lg lg:text-xl fontmobile mr-3 h-5" />
                   <h2 className="md:text-lg lg:text-xl fontmobile  text-gray-500 mb-4">Ahmed Irfan</h2>
                 </div>
                 <div className="flex uppercase">
-                  <FaLocationDot className="text-[#0A3981] md:text-lg lg:text-2xl text-sm mr-3" />
+                  <FaLocationDot className="text-[#0A3981] md:text-lg lg:text-2xl text-sm mr-2 h-4" />
                   <h2 className="md:text-lg lg:text-xl fontmobile  text-gray-500  mb-4">Sekkalai Road,<br/>near FIVE LAMPS,Karaikudi,<br/>Tamil Nadu 630001</h2>
                 </div>
                 <div className="flex uppercase">
-                  <BiPhoneIncoming className="text-[#0A3981] md:text-lg lg:text-2xl fontmobile mr-3" />
+                  <BiPhoneIncoming className="text-[#0A3981] md:text-lg lg:text-2xl fontmobile mr-3 h-5" />
                   <a href="tel:919751944100"><h2 className="md:text-lg lg:text-xl fontmobile  text-gray-500  mb-4">91+ 9751944100</h2></a>
                 </div>
                 <div className="flex uppercase">
-                  <BiPhoneCall className="text-[#0A3981] md:text-lg lg:text-2xl fontmobile mr-3" />
+                  <BiPhoneCall className="text-[#0A3981] md:text-lg lg:text-2xl fontmobile mr-3 h-5" />
                   <a href="tel:04565-238474"><h2 className="md:text-lg lg:text-xl fontmobile  text-gray-500  mb-4">04565-238474</h2></a>
                 </div>
                 <div className="flex">
-                  <MdVerifiedUser className="text-[#0A3981] md:text-lg lg:text-2xl fontmobile mr-3" />
+                  <MdVerifiedUser className="text-[#0A3981] md:text-lg lg:text-2xl fontmobile mr-3 h-5" />
                   <h2 className="md:text-lg lg:text-xl fontmobile  text-gray-500  mb-4">33AAEPH3394N1ZH</h2>
                 </div>
-                <div className="flex md:mt-4 md:justify-start justify-center text-[#0A3981] ">
+                <div className="flex  md:justify-start justify-center md:ml-1  text-[#0A3981] ">
                   <a href="https://wa.me/919751944100?text=hello how can help you" target="2_blank"><FaWhatsapp className=" md:text-lg lg:text-2xl text-xl mr-3 hover:text-4xl duration-700 delay-400" /></a>
                   <a href="mailto:ahmedpaints@gmail.com" target="2_blank">  <FaEnvelope className="md:text-lg lg:text-2xl text-xl mr-3 hover:text-4xl duration-700 delay-400" /></a>
                   <a href="" target="2_blank"> <FaInstagram className="md:text-lg lg:text-2xl text-xl mr-3 hover:text-4xl duration-700 delay-400" /></a>
@@ -54,7 +54,7 @@ export const Contact = () => {
 
 
               </div>
-              <div className=" items-center md:h-full h-[80%] w-[80%] ">
+              <div className=" items-center md:h-full h-[60%] w-[80%] ml-5 md:ml-0 ">
 
                 <img
                   src="/contact us.png"
