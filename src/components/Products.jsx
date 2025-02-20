@@ -42,7 +42,7 @@ const ProductSection = () => {
                             One stop solution for all you need to keep your living space intact.
                         </p>
                     </div>
-                    <div className="grid grid-cols-4 md:flex justify-center md:gap-4 gap-2 mb-2">
+                    <div className="grid grid-cols-3 md:flex justify-center  md:gap-4 gap-2 mb-2">
                         {Object.keys(categorySubCategories).map((cat) => (
                             <button
                                 key={cat}
@@ -91,7 +91,7 @@ const ProductSection = () => {
                                         <h4 className=" text-[8px] leading-3 md:text-[14px] font-semibold text-gray-800">
                                             {product.name}
                                         </h4>
-                                        <p className="text-[6px] leading-none mt-1 md:mt-2 md:text-[10px] text-gray-600">{product.description}</p>
+                                        {/* <p className="text-[6px] leading-none mt-1 md:mt-2 md:text-[10px] text-gray-600">{product.description}</p> */}
                                     </div>
                                 </div>
                             ))}
@@ -113,23 +113,23 @@ const ProductSection = () => {
                                 <h1 className="lg:text-4xl text-lg font-bold">
                                     {selectedProduct.name}
                                 </h1>
-                                <div className="fontmobile sm:text-md">
+                                <div className="fontmobile md:text-lg">
                                     <p>
                                     {selectedProduct.description}
                                     </p>
                                 </div>
-                                <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
-                                    <button className="bg-green-500 text-white py-2 px-4 sm:px-6 rounded-full hover:bg-green-600 transition items-center">
+                                <div className="flex flex-row   gap-4  max-md:w-[90%]">
+                                    <button className="bg-green-500 text-white md:py-2 md:px-4 px-1 py-1  rounded-lg md:rounded-full hover:bg-green-600 transition items-center">
                                         <a
                                             href={`https://wa.me/91+9600417117?text=hello ${selectedProduct.name}`}
                                             target="2_blank"
                                             className="flex"
                                         >
-                                            <BsWhatsapp className="mr-2 h-6" /> Buy
+                                            <BsWhatsapp className="mr-2  h-6" /> Buy
                                         </a>
                                     </button>
                                     <button
-                                        className="bg-blue-500 text-white py-2 px-4 sm:px-6 rounded-full hover:bg-blue-600 transition"
+                                            className="bg-blue-500 text-white md:py-2 md:px-4 px-1 rounded-lg md:rounded-full  hover:bg-blue-600 transition"
                                         onClick={() => setSelectedProduct(null)}
                                     >
                                         Back to Products
