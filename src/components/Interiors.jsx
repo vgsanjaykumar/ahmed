@@ -41,7 +41,7 @@ export const Interiors = () => {
                                     <div className="absolute top-0 left-0 right-0 bottom-0  rounded-lg  text-white    hover:bg-[#000000a1] opacity-0 hover:opacity-[100%] duration-500 delay-150 ">
                                         <p className="absolute top-[68%] lg:top-[75%] md:top-[75%]  left-2 right-0 md:text-2xl text-[10px]">{inte.Name}</p>
                                         <div className="absolute  top-[76%] lg:top-[76%] md:top-[78%] md:left-[85%]  left-[85%] right-0 text-white font-bold md:text-2xl text-[10px]">
-                                            <a href="#whatapp">    <BsArrowRight /> </a>
+                                            <a href="#products">    <BsArrowRight /> </a>
                                         </div>
                                     </div>
                                 </div>

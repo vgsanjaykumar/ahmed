@@ -8,7 +8,7 @@ export const About = () => {
             <motion.div
                 className="h-full "
                 initial={{ scale: 1, opacity: 0 }}
-                whileInView={{ scale: 1.2, opacity: 1 }}
+                whileInView={{ scale: 1, opacity: 1 }}
                 transition={{ duration: 1.4, ease: "easeOut" }}
                 viewport={{ once: false, amount: 0.3 }}
             >
