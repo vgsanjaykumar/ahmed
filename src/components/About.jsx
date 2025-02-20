@@ -36,7 +36,7 @@ export const About = () => {
                             <FaBuilding className=" md:h-5 md:w-4 h-4 w-3  " /> <h1 className="ml-2">Year of Establishment 2000</h1>
                     </div>
                         
-                        <p className="text-gray-400 leading-relaxed md:text-sm fontmobile md:truncated ">
+                        <p className="text-gray-400 leading-relaxed md:text-base fontmobile md:truncated ">
                             Ahmed Paint Traders is a trusted Asian Paints Dealer in Karaikudi, Tamil Nadu,
                             offering a wide range of premium paints, coatings and related products.
                             They specialize in interior and exterior paints,wood finishes, waterproofing
