@@ -46,7 +46,7 @@ const ProductSection = () => {
                         {Object.keys(categorySubCategories).map((cat) => (
                             <button
                                 key={cat}
-                                className={`fontmobile md:text-lg  button-all overflow-hidden  ${selectedMainCategory === cat
+                                className={`fontmobile md:text-lg  button-all overflow-hidden duration-700  ${selectedMainCategory === cat
                                         ? "bg-[#0A3981] text-white"
                                         : "bg-[#0A3981] text-gray-700 bg-opacity-5"
                                     }`}
@@ -65,9 +65,9 @@ const ProductSection = () => {
                             {categorySubCategories[selectedMainCategory].map((subCat) => (
                                 <button
                                     key={subCat}
-                                    className={`fontmobile rounded-lg px-1 md:px-3 md:py-1 md:my-3 md:mb-5  md:text-lg text-left ${selectedSubCategory === subCat
-                                            ? "text-yellow-100 bg-black bg-opacity-60 "
-                                            : "text-[#000000] bg-yellow-100 bg-opacity-80"
+                                    className={`fontmobile rounded-lg px-1 md:px-3 md:py-1 md:my-3 md:mb-5 uppercase  md:text-lg text-left ${selectedSubCategory === subCat
+                                            ? "text-white bg-blue-500 bg-opacity-70 "
+                                            : "text-[white] bg-[#193580] bg-opacity-80 duration-700"
                                         }`}
                                     onClick={() => handleSubCategoryBtn(subCat)}
                                 >
