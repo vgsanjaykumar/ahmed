@@ -19,18 +19,18 @@ export const Contact = () => {
           <div className="md:mb-0 mb-4 mt-8 ">
             <h2 className="title-text">Contact us</h2>
           </div>
-          <div className="flex justify-center md:justify-between items-center   lg:px-16 ">
+          <div className="flex justify-between md:justify-between items-center    lg:px-16 mb-10 ">
 
-            <div className="grid grid-cols-1 md:grid-cols-2 items-center place-items-center   ">
+            <div className="grid grid-cols-1 md:grid-cols-2     ">
 
-              <div className=" justify-center flex flex-col md:pl-20 pl-0  w-full">
-                <div className="flex uppercase">
+              <div className=" justify-center flex flex-col md:pl-5 pl-0  w-full">
+                <div className="flex uppercase w-full">
                   <FaUser className="text-[#0A3981] md:text-lg lg:text-xl fontmobile mr-3" />
-                  <h2 className="md:text-lg lg:text-xl fontmobile  text-gray-500 mb-4">Ahamed Irfan</h2>
+                  <h2 className="md:text-lg lg:text-xl fontmobile  text-gray-500 mb-4">Ahmed Irfan</h2>
                 </div>
                 <div className="flex uppercase">
                   <FaLocationDot className="text-[#0A3981] md:text-lg lg:text-2xl text-sm mr-3" />
-                  <h2 className="md:text-lg lg:text-xl fontmobile  text-gray-500  mb-4">Sekkalai Rd, near FIVE LAMPS, Karaikudi, Tamil Nadu 630001</h2>
+                  <h2 className="md:text-lg lg:text-xl fontmobile  text-gray-500  mb-4">Sekkalai Road,<br/>near FIVE LAMPS,Karaikudi,<br/>Tamil Nadu 630001</h2>
                 </div>
                 <div className="flex uppercase">
                   <FaPhone className="text-[#0A3981] md:text-lg lg:text-2xl fontmobile mr-3" />
@@ -50,12 +50,12 @@ export const Contact = () => {
 
 
               </div>
-              <div className="flex justify-center md:h-full h-[80%] w-[80%]">
+              <div className=" items-center md:h-full h-[80%] w-[80%] ">
 
                 <img
                   src="/contact us.png"
                   alt="About Us"
-                  className="w-full  rounded-lg  delay-400 object-center  "
+                  className="w-full  rounded-lg  delay-400 object-center lg:ml-40 md:ml-8 ml-3 mb-4 "
                 />
 
 
