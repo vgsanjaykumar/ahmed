@@ -27,7 +27,7 @@ export const Why = () => {
     ]
     return (
         <section id="about" className=" px-5 bg-gray-100   ">
-            <div className="pt-[1px]">
+            <div className="pt-[1px] ">
                 <div className="mb-2">
                     <h2 className="title-text mt-4">Why choose us?</h2>
                 </div>
