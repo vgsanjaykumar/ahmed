@@ -1,4 +1,5 @@
 import { FaInstagram, FaLinkedinIn, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { GoMail } from "react-icons/go";
 
 const Footer = () => {
 
@@ -29,17 +30,17 @@ const Footer = () => {
                     <div className="flex gap-5 justify-between items-start pb-1 md:px-[40%] px-[20%] ">
                              <a 
                                 className="text-white hover:text-yellow-500 transform hover:scale-150
-                            transition-all duration-150 ease-in-out text-2xl" href="https://wa.me/6385217117?text=hello how can help you" target="_blank">
+                            transition-all duration-150 ease-in-out text-2xl" href="https://wa.me/91+9751944100?text=hello how can help you ?" target="_blank">
                                 <FaWhatsapp />
                             </a>
                             <a
                                 className="text-white hover:text-yellow-500 transform hover:scale-150
-                            transition-all duration-150 ease-in-out text-2xl" href="https://wa.me/91+9600417117?text=hello how can help you" target="_blank">
-                                <FaLinkedinIn />
+                            transition-all duration-150 ease-in-out text-2xl" href="mailto:ahmedpaints@gmail.com" target="_blank">
+                                <GoMail />
                             </a>
                             <a
                                 className="text-white hover:text-yellow-500 transform hover:scale-150
-                            transition-all duration-150 ease-in-out text-2xl" href="https://wa.me/91+9842611032?text=hello how can help you" target="_blank">
+                            transition-all duration-150 ease-in-out text-2xl" href="" target="_blank">
                                 <FaTwitter />
                             </a>
                             <a
