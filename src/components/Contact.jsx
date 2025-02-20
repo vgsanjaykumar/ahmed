@@ -1,8 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaEnvelope, FaFacebook, FaInstagram, FaUser, FaWhatsapp } from "react-icons/fa";
-import { FaLocationDot, FaPhone } from "react-icons/fa6";
+import { FaEnvelope, FaFacebook, FaInstagram, FaPhoneAlt, FaPhoneSquare, FaPhoneVolume, FaUser, FaWhatsapp } from "react-icons/fa";
+import { FaLocationDot, FaPhone, FaPhoneFlip } from "react-icons/fa6";
 import { MdVerifiedUser } from "react-icons/md";
+import { BiPhoneCall, BiPhoneIncoming } from "react-icons/bi";
 
 export const Contact = () => {
   return (
@@ -32,8 +33,12 @@ export const Contact = () => {
                   <h2 className="md:text-lg lg:text-xl fontmobile  text-gray-500  mb-4">Sekkalai Road,<br/>near FIVE LAMPS,Karaikudi,<br/>Tamil Nadu 630001</h2>
                 </div>
                 <div className="flex uppercase">
-                  <FaPhone className="text-[#0A3981] md:text-lg lg:text-2xl fontmobile mr-3" />
+                  <BiPhoneIncoming className="text-[#0A3981] md:text-lg lg:text-2xl fontmobile mr-3" />
                   <a href="tel:91+9751944100"><h2 className="md:text-lg lg:text-xl fontmobile  text-gray-500  mb-4">91+ 9751944100</h2></a>
+                </div>
+                <div className="flex uppercase">
+                  <BiPhoneCall className="text-[#0A3981] md:text-lg lg:text-2xl fontmobile mr-3" />
+                  <a href="tel:04565-238474"><h2 className="md:text-lg lg:text-xl fontmobile  text-gray-500  mb-4">04565-238474</h2></a>
                 </div>
                 <div className="flex">
                   <MdVerifiedUser className="text-[#0A3981] md:text-lg lg:text-2xl fontmobile mr-3" />
