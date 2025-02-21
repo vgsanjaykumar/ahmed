@@ -3,7 +3,7 @@ import { BsWhatsapp } from "react-icons/bs";
 
 const Hero = () => {
     return (
-        <div className=" bg-[#080808ac]  ">
+        <div  className=" bg-[#080808ac]  ">
             <div className=" h-[400px] md:h-[600px] lg:h-[800px] flex justify-center items-center ">
                 <div className="gap-4  bg-[#00000028] rounded-2xl w-full h-50  ">
                     <div className="text-white  text-center mt-7 ">

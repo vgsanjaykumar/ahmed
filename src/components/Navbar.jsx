@@ -24,11 +24,13 @@ const Navbar = () => {
             >
                 <div className={` h-10 xl:h-12  px ${isScrolled ? "text-[white]" : "text-white"}  hidden  md:block`}>
                     <ul className=" flex gap-10 justify-center py-2 font-bold text-lg xl:text-2xl  ">
-                        <li><a href="" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Home</a></li>
+                        <li><a href="/" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Home</a></li>
                         <li><a href="#WN" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Whats New</a></li>
                         <li><a href="#about" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>About</a></li>
                         <li><a href="#explore" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Explore</a></li>
                         <li><a href="#products" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Products</a></li>
+                        <li><a href="#inquiry" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Inquiry</a></li>
+                        <li><a href="#projects" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Projects</a></li>
                         <li><a href="#contact" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Contacts</a></li>
                     </ul>
                 </div>
@@ -47,10 +49,12 @@ const Navbar = () => {
                         <div className="flex flex-col gap-8 py-12 relative">
                             <ul className="flex flex-col text- gap-4 pl-2 py-4">
                                 <li><a href="/" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">Home</a></li>
-                                <li><a href="#about" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">whats New </a></li>
-                                <li><a href="#Products" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">About</a></li>
-                                <li><a href="#Products" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">Products</a></li>
-                                <li><a href="#Dealership" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">Explore</a></li>
+                                <li><a href="#WN" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">whats New </a></li>
+                                <li><a href="#about" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">About</a></li>
+                                <li><a href="#explore" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">Explore</a></li>
+                                <li><a href="#products" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">Products</a></li>
+                                <li><a href="#inquiry" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">Inquiry</a></li>
+                                <li><a href="#projects" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">Projects</a></li>
                                 <li><a href="#contact" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">Contacts</a></li>
                             </ul>
 
