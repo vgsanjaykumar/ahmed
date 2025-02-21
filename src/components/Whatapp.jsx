@@ -20,7 +20,7 @@ const WhatsApp = () => {
             return;
         }
 
-        const url = `https://wa.me/919600417117?text=${encodeURIComponent(
+        const url = `https://wa.me/919751944100?text=${encodeURIComponent(
             `Name of Customer: ${name}\nMobile Number: ${number}\nEmail: ${email}\nMessage: ${message}`
         )}`;
 

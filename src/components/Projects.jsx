@@ -65,7 +65,7 @@ export const Product = () => {
                         >
 
                             <div className="   w-50 h-25 md:h-60 lg:h-100   flex object-fill items-center justify-center rounded-full mb-1 transition-all duration-300">
-                                <img src={d.icon} className=" h-40 w-80" />
+                                <img src={d.icon} className=" h-40 w-80"  alt={d.name} title="ahmed paint traders"/>
                             </div>
 
                             <div className="text-center ">

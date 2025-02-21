@@ -6,11 +6,11 @@ import products from "./Product.json";
 const ProductSection = () => {
     const [selectedProduct, setSelectedProduct] = useState(null);
     const [selectedMainCategory, setSelectedMainCategory] = useState("Interior");
-    const [selectedSubCategory, setSelectedSubCategory] = useState("royal");
+    const [selectedSubCategory, setSelectedSubCategory] = useState("Luxury");
 
     const categorySubCategories = {
-        Interior: ["royal", "Apcolite", "Economy"],
-        Exterior: ["ultima", "Apex", "Ace"],
+        Interior: ["Luxury", "Premium", "Economy"],
+        Exterior: ["Luxury", "Premium", "Economy"],
         WaterProofing: ["Exterior", "Interior", "Terrace & Tanks Products", "Cracks & Joints Products", "Bathroom Products", "Tiling Products"],
         WoodPaint : ["Gloss", "Matt", "High gloss","Satin"],
         UnderCoat :["Exterior primer","Interior primer","Putty"],
@@ -46,7 +46,7 @@ const ProductSection = () => {
                         {Object.keys(categorySubCategories).map((cat) => (
                             <button
                                 key={cat}
-                                className={`fontmobile md:text-lg  button-all overflow-hidden  ${selectedMainCategory === cat
+                                className={`fontmobile md:text-lg  button-all overflow-hidden duration-700  ${selectedMainCategory === cat
                                         ? "bg-[#0A3981] text-white"
                                         : "bg-[#0A3981] text-gray-700 bg-opacity-5"
                                     }`}
@@ -65,9 +65,9 @@ const ProductSection = () => {
                             {categorySubCategories[selectedMainCategory].map((subCat) => (
                                 <button
                                     key={subCat}
-                                    className={`fontmobile rounded-lg px-1 md:px-3 md:py-1 md:my-3 md:mb-5  md:text-lg text-left ${selectedSubCategory === subCat
-                                            ? "text-yellow-100 bg-black bg-opacity-60 "
-                                            : "text-[#000000] bg-yellow-100 bg-opacity-80"
+                                    className={`fontmobile rounded-lg px-1 md:px-3 md:py-1 md:my-3 md:mb-5 uppercase  md:text-lg text-left ${selectedSubCategory === subCat
+                                            ? "text-white bg-blue-500 bg-opacity-70 "
+                                            : "text-[white] bg-[#193580] bg-opacity-80 duration-700"
                                         }`}
                                     onClick={() => handleSubCategoryBtn(subCat)}
                                 >
@@ -85,6 +85,7 @@ const ProductSection = () => {
                                     <img
                                         src={product.img}
                                         alt={product.name}
+                                        title="ahmed paint traders"
                                         className="w-7 h-7 sm:w-10 sm:h-10 object-cover rounded-lg shadow-md border border-gray-300"
                                     />
                                     <div className="ml-4">

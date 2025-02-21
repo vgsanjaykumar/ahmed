@@ -25,8 +25,9 @@ export const About = () => {
                        
                             <img
                                 src="/ahmed outside.jpg"
-                                alt="About Us"
+                                alt="Ahmed Paint karaikudi"
                                 className=" h-full w-full rounded-lg shadow-xl "
+                                title="Ahmed Paint traders karaikudi"
                             />
                        
                     </div>
@@ -38,7 +39,7 @@ export const About = () => {
                         
                         <p className="text-gray-400 leading-relaxed md:text-base fontmobile md:truncated ">
                             Ahmed Paint Traders is a trusted Asian Paints Dealer in Karaikudi, Tamil Nadu,
-                            offering a wide range of premium paints, coatings and related products.
+                            offering a wide range of paints, coatings and related products.
                             They specialize in interior and exterior paints,wood finishes, waterproofing
                             solutions and painting accessories from leading brands,with a focus on Asian Paints products.
                             <br/>

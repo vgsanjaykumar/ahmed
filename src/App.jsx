@@ -20,8 +20,8 @@ function App() {
     <>
       <div >
         <div className="h-[400px] md:h-[600px] lg:h-[800px] relative">
-          <div  className="bg-black\">
-            <img src="/ahmed hero 1.jpg " alt="bg"
+          <div className="bg-black\">
+            <img src="/ahmed hero 1.jpg " alt="Ahmed Paint Karaikudi" title="ahmed paint traders"
               className="absolute right-0 top-0 h-[400px] md:h-[600px] lg:h-[800px] w-full    opacity-50 z-[-1]"
             /></div>
           <Navbar />

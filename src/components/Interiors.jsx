@@ -35,7 +35,8 @@ export const Interiors = () => {
                                 <div className="flex justify-center relative hover:-translate-y-4 duration-500 delay-200  h-[80%]  ">
                                     <img
                                         src={inte.img}
-                                        alt="About Us"
+                                        alt="Ahmed paint traders"
+                                        title="Ahmed paint traders"
                                         className="w-full  max-w-md rounded-lg shadow-lg object-center relative  "
                                     />
                                     <div className="absolute top-0 left-0 right-0 bottom-0  rounded-lg  text-white    hover:bg-[#000000a1] opacity-0 hover:opacity-[100%] duration-500 delay-150 ">
