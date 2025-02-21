@@ -29,8 +29,6 @@ const Navbar = () => {
                         <li><a href="#about" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>About</a></li>
                         <li><a href="#explore" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Explore</a></li>
                         <li><a href="#products" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Products</a></li>
-                        <li><a href="#inquiry" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Inquiry</a></li>
-                        <li><a href="#projects" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Projects</a></li>
                         <li><a href="#contact" className={` ${isScrolled ? "hover:text-[#009990]" : "hover:text-[#009990]"} our-font `}>Contacts</a></li>
                     </ul>
                 </div>
@@ -53,8 +51,6 @@ const Navbar = () => {
                                 <li><a href="#about" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">About</a></li>
                                 <li><a href="#explore" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">Explore</a></li>
                                 <li><a href="#products" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">Products</a></li>
-                                <li><a href="#inquiry" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">Inquiry</a></li>
-                                <li><a href="#projects" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">Projects</a></li>
                                 <li><a href="#contact" onClick={() => setShowMenu(!showMenu)} className="text-white hover:text-gray-800 our-font">Contacts</a></li>
                             </ul>
 
