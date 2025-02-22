@@ -12,9 +12,9 @@ const ProductSection = () => {
         Interior: ["Luxury", "Premium", "Economy"],
         Exterior: ["Luxury", "Premium", "Economy"],
         WaterProofing: ["Exterior", "Interior", "Terrace & Tanks Products", "Cracks & Joints Products", "Bathroom Products", "Tiling Products"],
-        WoodPaint : ["Gloss", "Matt", "High gloss","Satin"],
-        UnderCoat :["Exterior primer","Interior primer","Putty"],
-        Birla : ["White-cement","Wall-care",]
+        WoodPaint: ["Gloss", "Matt", "High gloss", "Satin"],
+        UnderCoat: ["Exterior primer", "Interior primer", "Putty"],
+        Birla: ["White-cement", "Wall-care",]
     };
 
     const handleMainCategoryBtn = (category) => {
@@ -47,8 +47,8 @@ const ProductSection = () => {
                             <button
                                 key={cat}
                                 className={`fontmobile md:text-lg  button-all overflow-hidden duration-700  ${selectedMainCategory === cat
-                                        ? "bg-[#0A3981] text-white"
-                                        : "bg-[#0A3981] text-gray-700 bg-opacity-5"
+                                    ? "bg-[#0A3981] text-white"
+                                    : "bg-[#0A3981] text-gray-700 bg-opacity-5"
                                     }`}
                                 onClick={() => handleMainCategoryBtn(cat)}
                             >
@@ -66,8 +66,8 @@ const ProductSection = () => {
                                 <button
                                     key={subCat}
                                     className={`fontmobile rounded-lg px-1 md:px-3 md:py-1 md:my-3 md:mb-5 uppercase  md:text-lg text-left ${selectedSubCategory === subCat
-                                            ? "text-white bg-blue-500 bg-opacity-70 "
-                                            : "text-[white] bg-[#193580] bg-opacity-80 duration-700"
+                                        ? "text-white bg-blue-500 bg-opacity-70 "
+                                        : "text-[white] bg-[#193580] bg-opacity-80 duration-700"
                                         }`}
                                     onClick={() => handleSubCategoryBtn(subCat)}
                                 >
@@ -92,7 +92,7 @@ const ProductSection = () => {
                                         <h4 className=" text-[8px] leading-3 md:text-[14px] font-semibold text-gray-800">
                                             {product.name}
                                         </h4>
-                                        {/* <p className="text-[6px] leading-none mt-1 md:mt-2 md:text-[10px] text-gray-600">{product.description}</p> */}
+
                                     </div>
                                 </div>
                             ))}
@@ -116,13 +116,13 @@ const ProductSection = () => {
                                 </h1>
                                 <div className="fontmobile md:text-lg">
                                     <p>
-                                    {selectedProduct.description}
+                                        {selectedProduct.description}
                                     </p>
                                 </div>
                                 <div className="flex flex-row   gap-4  max-md:w-[90%]">
                                     <button className="bg-green-500 text-white md:py-2 md:px-4 px-1 py-1  rounded-lg md:rounded-full hover:bg-green-600 transition items-center">
                                         <a
-                                            href={`https://wa.me/91+9600417117?text=hello ${selectedProduct.name}`}
+                                                href={`https://wa.me/919751944100?text=What about ${selectedProduct.name}`}
                                             target="2_blank"
                                             className="flex"
                                         >
@@ -130,7 +130,7 @@ const ProductSection = () => {
                                         </a>
                                     </button>
                                     <button
-                                            className="bg-blue-500 text-white md:py-2 md:px-4 px-1 rounded-lg md:rounded-full  hover:bg-blue-600 transition"
+                                        className="bg-blue-500 text-white md:py-2 md:px-4 px-1 rounded-lg md:rounded-full  hover:bg-blue-600 transition"
                                         onClick={() => setSelectedProduct(null)}
                                     >
                                         Back to Products
